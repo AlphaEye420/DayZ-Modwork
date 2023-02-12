@@ -1,0 +1,29 @@
+[h1]Shabby Wolf[/h1]
+
+The mod adds a new wolf to the game. Suitable for all servers and locations, from the usual forest to dungeons.
+
+____
+
+[b]Mod includes:[/b]
+* Wolf - (FC_Animal_WolfShabby);
+* Severed Wolf Head - (FC_Skin_WolfShabby_Head);
+* Wolf Skin - (FC_Skin_WolfShabby_Pelt);
+* Config File - (FC_Zmb_Options);
+
+There is a prompt to cut meat from the head and paw. No voids, pinched points, etc.
+Item have animations for holding in hands. Also, the wolf has custom attack and aggro sounds.
+
+In [b]FC_Zmb_Options[/b] you can adjust the wolf's health, damage and butchering.
+
+____
+
+[b]PERMISSIONS[/b]
+* You are [b]NOT allowed[/b] to unpack or edit this mod, except [b]FC_Zmb_Options[/b].
+* You are [b]NOT allowed[/b] to post this mod under another account. The only account that can post this mod is https://steamcommunity.com/id/Kan135/.
+* You are ALLOWED to add this mod to your server.
+
+____
+
+[b]CONTACTS[/b]
+More of my work can be found on my Discord - https://discord.gg/6WWxf4eFD8.
+For any questions, you can also contact Discord - https://discord.gg/6WWxf4eFD8.
