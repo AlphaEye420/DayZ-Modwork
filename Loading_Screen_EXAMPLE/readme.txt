@@ -1,0 +1,17 @@
+CUSTOM LOADING SCREEN PICTURE CAROSEL + ONE CUSTOM THEME MUSIC SONG
+
+To use the example follow all of these steps - match exactly correct or it will not work:
+
+1. Open 3 code files provided in this folder in an editor 
+2. Put all of your pictures and music in a folder called 'data'
+3. Remove the text "_example" from the 3 filenames (config_example.cpp becomes config.cpp & same for the 3_Game and 5_mission script .c files)
+4. In the 2 .c files and config.cpp, change the text of YourModName to the name of your mod on steam 
+!! DO this in ALL 3 files mentioned above !!
+5. In the config.cpp, change the text of YourSONGName to your ogg file name in the data folder
+6. In the LoadingScreen.c file in 3_Game, change the text of 'Your_PIC_#' to your edds file names in the data folder
+!! DEFAULT IS 21 PIC CAROSEL, ADJUST TO YOUR NUMBER OF PICS BY ADDING OR DELETING LINES AND ADJUSTING THE RANDOMIZER'S MIN/MAX IN ALL 3 SECTIONS OF THE FILE !!
+7. Pack mod
+
+if you do not need music you can remove the parts that pertain to music and 5_Mission (also delete the last 2 functions in config.cpp)
+if you do not need pic carosel and one pic only, set the variable i to "int i= 0;" and only leave the "if (i==0)" line and your file.
+if you do not need the pics at all, you can remove the parts that pertain to 3_Game
