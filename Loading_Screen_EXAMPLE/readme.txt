@@ -1,4 +1,4 @@
-CUSTOM LOADING SCREEN PICTURE CAROSEL + ONE CUSTOM THEME MUSIC SONG
+CUSTOM LOADING SCREEN PICTURE CAROSEL + ONE CUSTOM MUSIC THEME SONG
 
 To use the example follow all of these steps - match exactly correct or it will not work:
 
