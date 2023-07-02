@@ -22,12 +22,12 @@ class CfgMods
 	class DZ_YourModName_LoadingScreen
 	{
 	    dir = "YourModName";
-		picture = "";
+	    picture = "";
 	    action = "";
 	    hideName = 1;
 	    hidePicture = 1;
-		name = "";
-		credits = "";
+	    name = "";
+	    credits = "";
 	    author = "";
 	    authorID = "";
 	    version = "1.0";
