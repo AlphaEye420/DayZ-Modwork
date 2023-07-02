@@ -1,0 +1,164 @@
+{
+    "m_Version": 12,
+    "DisplayName": "TACTICAL FLAVA MUZZLES",
+    "Icon": "Sun",
+    "Color": "c5cdd5",
+    "IsExchange": 0,
+    "InitStockPercent": 68.0,
+    "Items": [
+        {
+            "ClassName": "TF_SCAR_Suppressor_Black",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_MakarovPB_Suppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_OTs_14_Groza_Suppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_MAR10_Suppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_M4_SOCOMSuppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_PBS1Suppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AEK999_Suppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_PKM_6ch43Compensator",
+            "MaxPriceThreshold": 225,
+            "MinPriceThreshold": 175,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_PKM_6ch63Compensator",
+            "MaxPriceThreshold": 225,
+            "MinPriceThreshold": 175,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_PKM_6ch76Compensator",
+            "MaxPriceThreshold": 225,
+            "MinPriceThreshold": 175,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_6p20Compensator",
+            "MaxPriceThreshold": 225,
+            "MinPriceThreshold": 175,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_ZenitDTK1Compensator",
+            "MaxPriceThreshold": 225,
+            "MinPriceThreshold": 175,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_PKM_SAICompensator",
+            "MaxPriceThreshold": 225,
+            "MinPriceThreshold": 175,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_Rotor43Suppressor",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 340,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

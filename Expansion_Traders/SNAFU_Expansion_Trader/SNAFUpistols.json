@@ -1,0 +1,131 @@
+{
+    "m_Version": 12,
+    "DisplayName": "SNAFU GUNS- PISTOLS",
+    "Icon": "Human Skull",
+    "Color": "cbd0d4",
+    "IsExchange": 0,
+    "InitStockPercent": 25.0,
+    "Items": [
+        {
+            "ClassName": "SNAFU_PL14HQP",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUMagnum500",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 1000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 50,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUSWM629",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUChiappaRhino",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SN_Glock19",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SN_M9",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SN_Mp443",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SN_Springfield",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SN_USP",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUAPS",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_Fort12_GUN",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1550,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

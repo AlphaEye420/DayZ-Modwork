@@ -1,0 +1,130 @@
+{
+    "m_Version": 12,
+    "DisplayName": "TACTICAL FLAVA VESTS",
+    "Icon": "Sun",
+    "Color": "c5cdd5",
+    "IsExchange": 0,
+    "InitStockPercent": 88.0,
+    "Items": [
+        {
+            "ClassName": "TF_PlateCarrierVest_EMR",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_PlateCarrierVest_Coyote"
+            ]
+        },
+        {
+            "ClassName": "TF_6sh112_Syrian",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_6sh112_EMR"
+            ]
+        },
+        {
+            "ClassName": "TF_6B23_112Vest_EMR_Syrian",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_6B23_112Vest_GFlora_Syrian",
+                "TF_6B23_112Vest_GFlora",
+                "TF_6B23_112Vest_EMR"
+            ]
+        },
+        {
+            "ClassName": "TF_6B23Vest_GFlora",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_6B23Vest_EMR"
+            ]
+        },
+        {
+            "ClassName": "TF_6B43Vest_Syrian",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_6B43Vest_6sh112_EMR",
+                "TF_6B43Vest_6sh112_EMR_Syrian",
+                "TF_6B43Vest_6sh112_Syrian",
+                "TF_6B43Vest_6sh112_Syrian_EMR"
+            ]
+        },
+        {
+            "ClassName": "TF_IMTVVest_Khaki",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_IMTVVest"
+            ]
+        },
+        {
+            "ClassName": "TF_AVSVest_Tagilla",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_AVSVest_Coyote"
+            ]
+        },
+        {
+            "ClassName": "TF_JPCVest_Coyote",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_JPCVest_MC"
+            ]
+        },
+        {
+            "ClassName": "TF_LVMBAVVest_KH",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 360,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

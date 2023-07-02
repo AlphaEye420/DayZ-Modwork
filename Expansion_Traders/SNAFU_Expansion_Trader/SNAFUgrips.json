@@ -1,0 +1,104 @@
+{
+    "m_Version": 12,
+    "DisplayName": "SNAFU GRIPS",
+    "Icon": "Human Skull",
+    "Color": "cbd0d4",
+    "IsExchange": 0,
+    "InitStockPercent": 20.0,
+    "Items": [
+        {
+            "ClassName": "SNAFUScar_AFG_BK",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "SNAFUScar_AFG_Tan",
+                "SNAFUAR15_AFG"
+            ]
+        },
+        {
+            "ClassName": "SNAFU_AFG_02_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "SNAFU_AFG_02_OD",
+                "SNAFU_AFG_02_Tan"
+            ]
+        },
+        {
+            "ClassName": "SNAFUMPX_Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SA58_FGrip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_FGKAC_Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_FGCR_Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_SR3Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFU_M249Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

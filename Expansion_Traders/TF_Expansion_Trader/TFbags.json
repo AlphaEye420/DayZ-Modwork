@@ -1,0 +1,52 @@
+{
+    "m_Version": 12,
+    "DisplayName": "TACTICAL FLAVA BAGS",
+    "Icon": "Sun",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "TF_CamelBakBag_OD",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 65,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_CamelBakBag_Black",
+                "TF_CamelBakBag_Brown",
+                "TF_CamelBakBag_EMR",
+                "TF_CamelBakBag_Tan"
+            ]
+        },
+        {
+            "ClassName": "TF_AVSBag_Coyote",
+            "MaxPriceThreshold": 210,
+            "MinPriceThreshold": 185,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_AVSBag_Khaki"
+            ]
+        },
+        {
+            "ClassName": "TF_MAPBag_Coyote",
+            "MaxPriceThreshold": 310,
+            "MinPriceThreshold": 225,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_MAPBag_Khaki"
+            ]
+        }
+	]
+}

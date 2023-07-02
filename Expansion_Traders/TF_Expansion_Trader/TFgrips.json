@@ -1,0 +1,191 @@
+{
+    "m_Version": 12,
+    "DisplayName": "TACTICAL FLAVA GRIPS",
+    "Icon": "Sun",
+    "Color": "c5cdd5",
+    "IsExchange": 0,
+    "InitStockPercent": 42.0,
+    "Items": [
+        {
+            "ClassName": "TF_OTs_14_Groza_Barrel_Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_ZenitRK1B25U_RIS_Grip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_ZenitRK3PistolGrip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_KGBMG47PistolGrip_FDE",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_AK_MOEPistolGrip_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_M4_TDSPistolGrip",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_M4_MIADPistolGrip_FDE",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_M4_MOEPistolGrip_FDE",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_M4_MOEPistolGrip_Black"
+            ]
+        },
+        {
+            "ClassName": "TF_M4_OMRGPistolGrip_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_M4_OMRGPistolGrip_FDE"
+            ]
+        },
+        {
+            "ClassName": "TF_AK_TAPCOPistolGrip_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_AK_TAPCOPistolGrip_FDE"
+            ]
+        },
+        {
+            "ClassName": "TF_SAW_RIS_Grip_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_SAW_RIS_Grip_FDE"
+            ]
+        },
+        {
+            "ClassName": "TF_AFG_RIS_Grip_FDE",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_AFG_RIS_Grip_Black"
+            ]
+        },
+        {
+            "ClassName": "TF_AFG_MLOCK_Grip_FDE",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_AFG_MLOCK_Grip_Black"
+            ]
+        },
+        {
+            "ClassName": "TF_BCM_MLOCK_Grip_FDE",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_BCM_MLOCK_Grip_Black"
+            ]
+        },
+        {
+            "ClassName": "TF_RVG_RIS_Grip_Black",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "TF_RVG_RIS_Grip_FDE"
+            ]
+        }
+    ]
+}

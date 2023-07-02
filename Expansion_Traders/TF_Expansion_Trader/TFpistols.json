@@ -1,0 +1,43 @@
+{
+    "m_Version": 12,
+    "DisplayName": "TACTICAL FLAVA PISTOLS",
+    "Icon": "Sun",
+    "Color": "c5cdd5",
+    "IsExchange": 0,
+    "InitStockPercent": 70.0,
+    "Items": [
+        {
+            "ClassName": "TF_MP443",
+            "MaxPriceThreshold": 1820,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": 10.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_MakarovPB",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 1250,
+            "SellPricePercent": 10.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "TF_FiveSeven",
+            "MaxPriceThreshold": 1900,
+            "MinPriceThreshold": 1700,
+            "SellPricePercent": 80.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}
