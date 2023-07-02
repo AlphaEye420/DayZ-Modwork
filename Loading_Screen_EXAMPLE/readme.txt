@@ -13,5 +13,5 @@ To use the example follow all of these steps - match exactly correct or it will 
 7. Pack mod
 
 if you do not need music you can remove the parts that pertain to music and 5_Mission (also delete the last 2 functions in config.cpp)
-if you do not need pic carosel and one pic only, set the variable i to "int i= 0;" and only leave the "if (i==0)" line and your file.
+if you do not need pic carosel and one pic only, set the variable i to "int i= 0;" and only leave the "if (i==0)" lines in the 3 sections of the file.
 if you do not need the pics at all, you can remove the parts that pertain edds files and 3_Game
