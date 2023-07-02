@@ -7,7 +7,7 @@ To use the example follow all of these steps - match exactly correct or it will 
 3. Remove the text "_example" from the 3 filenames (config_example.cpp becomes config.cpp & same for the 3_Game and 5_mission script .c files)
 4. In the 2 .c files and config.cpp, change the text of YourModName to the name of your mod on steam 
 !! DO this in ALL 3 files mentioned above !!
-5. In the config.cpp, change the text of YourSONGName to your ogg file name in the data folder
+5. In the config.cpp, change the text of YourSONGName to your ogg file name in the data folder, and fill in the "" for your steam name and ID.
 6. In the LoadingScreen.c file in 3_Game, change the text of 'Your_PIC_#' to your edds file names in the data folder
 !! DEFAULT IS 21 PIC CAROSEL, ADJUST TO YOUR NUMBER OF PICS BY ADDING OR DELETING LINES AND ADJUSTING THE RANDOMIZER'S MIN/MAX IN ALL 3 SECTIONS OF THE FILE !!
 7. Pack mod
