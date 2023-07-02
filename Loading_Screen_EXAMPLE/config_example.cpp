@@ -12,9 +12,7 @@ class CfgPatches
 			"DZ_Vehicles_Wheeled",
 			"DZ_Structures_Residential",
 			"DZ_Sounds_Effects",
-			"DZ_Sounds_Weapons",
-			"DayZExpansion_Scripts",
-            "DayZExpansion_Worlds_IntroScenes"
+			"DZ_Sounds_Weapons"
 		};
 	};
 };
