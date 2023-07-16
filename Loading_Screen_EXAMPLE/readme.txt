@@ -24,7 +24,7 @@ To use the example follow all of these steps - match exactly correct or it will 
 
 8. In the \scripts\5_Mission\MainMenu_EXAMPLE.c be sure to change the IP and connection port, then edit the links below that happen on icon click
 
-9. In the \gui\main_menu_EXAMPLE.layout look for "//***********" in the line to see where you need to edit to match your graphics with font and location on main menu
+9. In the \gui\main_menu_EXAMPLE.layout look for "//***********" in the line to see where you need to edit to match your graphics with your sizes and choose font and screen location on main menu
 !! It is helpful to match the sizes of your photos to your widget dimensions, though you may experiment with stretching by using different values !!
 
 10. Pack mod
