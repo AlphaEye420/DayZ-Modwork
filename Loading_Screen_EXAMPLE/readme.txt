@@ -17,7 +17,7 @@ To use the example follow all of these steps - match exactly correct or it will 
 5. In the 3 .c scripts AND config.cpp, change the text of "YourModName" to the name of your mod on steam !! DO this in ALL 4 files !!
 
 6. In the config.cpp, change the text of YourSONGName to your ogg file name in the data folder, and fill in the "" for your steam name and ID, 
-	 then, change the name of the map in the last function to match your server's map name
+	 then, change the name of the map in the last function to match your server's map name & choose your location x,z,y and time yyyy,mo,d,hh,mm (position y value needs to be near 1)
 
 7. In the LoadingScreen.c file in 3_Game, change the text of 'Your_PIC_#' to your edds file names in the data folder
 !! DEFAULT IS 21 PIC CAROSEL, ADJUST TO YOUR NUMBER OF PICS BY ADDING OR DELETING LINES AND ADJUSTING THE RANDOMIZER'S MIN/MAX IN ALL 3 SECTIONS OF THE FILE !!
