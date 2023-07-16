@@ -85,3 +85,21 @@ class CfgSoundSets
 		spatial=0;
 	};
 };
+
+class cfgCharacterScenes
+{
+    class deerisle // your map name
+    {
+        class loc1
+        {
+            target[]={11199.7,3800,10.3684};
+            position[]={11199.7,3794.74.042,1.118};
+            fov=0.69;
+            date[]={2033,5,4,1,30};
+            overcast=0;
+            rain=0;
+            fog=0;
+            wind=0.236;
+        };
+    };
+};
