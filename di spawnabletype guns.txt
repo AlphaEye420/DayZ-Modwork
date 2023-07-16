@@ -1,0 +1,39 @@
+	<type name="jmc_SnowOwl">
+		<attachments chance="0.80">
+			<item name="jmc_SnowOwl_Mag" chance="1" />
+			<item name="jmc_SnowOwl_Optic" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="jmc_Prototype_Red">
+		<attachments chance="0.80">
+			<item name="jmc_Prototype_Mag" chance="1" />
+			<item name="jmc_Prototype_Optic_Red" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="jmc_Prototype_White">
+		<attachments chance="0.80">
+			<item name="jmc_Prototype_Mag" chance="1" />
+			<item name="jmc_Prototype_Optic_White" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="jmc_Prototype_Blue">
+		<attachments chance="0.80">
+			<item name="jmc_Prototype_Mag" chance="1" />
+			<item name="jmc_Prototype_Optic_Blue" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttr700">
+		<attachments chance="0.80">
+			<item name="ttr700mag" chance="1" />
+		</attachments>
+	</type>
+	<type name="ttrpd">
+		<attachments chance="0.80">
+			<item name="ttrpdmag" chance="1" />
+		</attachments>
+	</type>
+	<type name="ttp90">
+		<attachments chance="0.80">
+			<item name="ttp90mag" chance="1" />
+		</attachments>
+	</type>
