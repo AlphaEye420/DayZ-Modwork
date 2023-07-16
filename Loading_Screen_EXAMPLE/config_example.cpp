@@ -92,10 +92,10 @@ class cfgCharacterScenes
     {
         class loc1
         {
-            target[]={11199.7,3800,10.3684};
-            position[]={11199.7,3794.74.042,1.118};
+            target[]={11199.7,3800,10.3684}; // main menu character location xzy
+            position[]={11199.7,3794.74.042,1.118}; // position of camera xz (last value near 1)
             fov=0.69;
-            date[]={2033,5,4,1,30};
+            date[]={2033,5,4,1,30}; //yyyy,mo,d,hh,mm - use mili time
             overcast=0;
             rain=0;
             fog=0;
