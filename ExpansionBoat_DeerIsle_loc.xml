@@ -1,5 +1,5 @@
 	<!-- this is not a dayz file... these are modifications for your cfgeventspawns.xml -->
-	<!-- EXPANSION BOATS -->
+	<!-- EXPANSION BOATS @ Deer Isle v5.1 locations-->
 	<event name="VehicleUtilityBoat">
 		<pos x="10011.94" z="10538.68" a="0" />
 		<pos x="11590.6" z="9875.61" a="0.0" />
@@ -17,6 +17,9 @@
 		<pos x="3240.35" z="13472.3" a="0.01" />
 		<pos x="1022" z="1385.35" a="0.01" />
 		<pos x="1046" z="1465.43" a="0.01" />
+		<pos x="9342.54" z="14479.4" a="0.01" />
+		<pos x="2444.26" z="14769.2" a="0.01" />
+		<pos x="1754.23" z="14984" a="0.01" />
 	</event>
 	<event name="VehicleZodiacBoat">
 		<pos x="7102.51" z="6290.54" a="0.0" />
@@ -44,4 +47,7 @@
 		<pos x="3244.32" z="13465.4" a="0.01" />
 		<pos x="1022" z="1385.35" a="0.01" />
 		<pos x="1046" z="1465.43" a="0.01" />
+		<pos x="9704.37" z="15897.6" a="0.01" />
+		<pos x="10689.6" z="14571.6" a="0.01" />
+		<pos x="15491" z="10298.7" a="0.01" />
 	</event>
