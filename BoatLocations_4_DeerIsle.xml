@@ -1,4 +1,4 @@
-	<!-- this is not a dayz file... these are modifications for your cfgeventspawns.xml -->
+	<!-- this is not a dayz file... these are modifications for your cfgeventspawns.xml collected from a few different shares -->
 	<!-- EXPANSION BOATS @ Deer Isle v5.1 locations-->
 	<event name="VehicleUtilityBoat">
 		<pos x="10011.94" z="10538.68" a="0" />
@@ -51,7 +51,7 @@
 		<pos x="10689.6" z="14571.6" a="0.01" />
 		<pos x="15491" z="10298.7" a="0.01" />
 	</event>
-	<!-- RFWC MOD -->
+	<!-- RFWC MOD @ Deer Isle v5.1 locations -->
 	<event name="VehicleRFWC1">
 		<pos x="3075.4" z="5454.83" a="0.01" />
 		<pos x="2439.54" z="7960.32" a="0.01" />
@@ -86,4 +86,36 @@
 		<pos x="9260.38" z="8114.86" a="0.01" />
 		<pos x="8056.29" z="8322.9" a="0.01" />
 		<pos x="8030.74" z="7197.03" a="0.01" />
+	</event>
+	<event name="VehicleRFWC_Watercraft">
+	        <pos x="10878.00" z="4350.89" a="-1" />
+	        <pos x="10561.50" z="4599.35" a="-1" />
+	        <pos x="10516.00" z="5729.77" a="-1" />
+	        <pos x="6877.50" z="6237.91" a="-1" />
+	        <pos x="7055.00" z="6971.93" a="-1" />
+	        <pos x="8022.00" z="7208.84" a="-1" />
+	        <pos x="9580.50" z="6836.45" a="-1" />
+	        <pos x="8279.00" z="8308.31" a="-1" />
+	        <pos x="2212.00" z="7003.42" a="-1" />
+	        <pos x="4111.50" z="4501.94" a="-1" />
+	        <pos x="7634.00" z="8551.67" a="-1" />
+	        <pos x="8844.00" z="8529.59" a="-1" />
+	        <pos x="7438.00" z="5719.63" a="-1" />
+	        <pos x="8225.83" z="2795.05" a="-1" />
+	        <pos x="6876.00" z="1479.11" a="-1" />
+	        <pos x="6664.00" z="7095.01" a="-1" />
+	        <pos x="6664.00" z="7095.01" a="-1" />
+	        <pos x="15792.00" z="5334.23" a="-1" />
+	        <pos x="12784.00" z="7903.37" a="-1" />
+	        <pos x="1368.00" z="9119.91" a="-1" />
+	        <pos x="960.00" z="1340.82" a="-1" />
+	        <pos x="12864.00" z="997.86" a="-1" />
+	        <pos x="13072.50" z="1050.38" a="-1" />
+	        <pos x="373.00" z="14955.91" a="-1" />
+	        <pos x="251.50" z="14987.42" a="-1" />
+	        <pos x="33.50" z="15942.95" a="-1" />
+	        <pos x="4190.50" z="15670.93" a="-1" />
+	        <pos x="5711.00" z="14687.88" a="-1" />
+	        <pos x="5724.50" z="14620.85" a="-1" />
+	        <pos x="9274.52" z="14505.37" a="-1" />
 	</event>
