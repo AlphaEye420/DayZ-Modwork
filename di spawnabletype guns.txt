@@ -163,7 +163,7 @@
 		<attachments chance="0.8">
 			<item name="HuntingOptic" chance="1" />
 			<item name="AK_Suppressor" chance="0.6" />
-		</attachments>sssss
+		</attachments>
 	</type>
 	<type name="marlin">
 		<attachments chance="0.8">
@@ -184,7 +184,7 @@
 			<item name="HuntingOptic" chance="0.5" />
 			<item name="M4_Suppressor" chance="0.3" />
 			<item name="UniversalLight" chance="0.2" />
-		</attachments>sssss
+		</attachments>
 	</type>
 	<type name="ESP_M110">
 		<attachments chance="0.8">
@@ -192,7 +192,7 @@
 			<item name="HuntingOptic" chance="0.6" />
 			<item name="M4_Suppressor" chance="0.4" />
 			<item name="UniversalLight" chance="0.2" />
-		</attachments>sssss
+		</attachments>
 	</type>
 	<type name="ESP_M110_Green">
 		<attachments chance="0.8">
@@ -200,15 +200,15 @@
 			<item name="HuntingOptic" chance="0.8" />
 			<item name="M4_Suppressor" chance="0.6" />
 			<item name="UniversalLight" chance="0.4" />
-		</attachments>sssss
+		</attachments>
 	</type>
 	<type name="ESP_M14">
 		<attachments chance="0.9">
 			<item name="Mag_FAL_20Rnd" chance="1" />
-		</attachments>sssss
+		</attachments>
 	</type>
 	<type name="ESP_M14_Black">
 		<attachments chance="0.9">
 			<item name="Mag_FAL_20Rnd" chance="1" />
-		</attachments>sssss
+		</attachments>
 	</type>
