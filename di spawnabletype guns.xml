@@ -1,3 +1,5 @@
+	<!-- this is not a dayz file... these are modifications for your cfgspawnabletypes.xml -->
+	<!-- GUNS from Deer Isle v5.1 -->
 	<type name="jmc_SnowOwl">
 		<attachments chance="0.80">
 			<item name="jmc_SnowOwl_Mag" chance="1" />
