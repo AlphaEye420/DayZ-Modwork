@@ -8,4 +8,4 @@ I WORK WITH DEER ISLE MAP.
 The latest versions at time of most recent dump: 
 DayZ v1.21
 DeerIsle 5.1
-DayZ Expansion v8.21
+DayZ Expansion v1.8.21
