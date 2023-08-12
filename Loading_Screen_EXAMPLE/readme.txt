@@ -1,5 +1,5 @@
 CUSTOM LOADING SCREEN PICTURE CAROSEL + MENU MUSIC + CHARACTER MAIN MENU SCENE + BASIC MAIN MENU LAYOUT
-THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.1 / DAYZ 1.21
+THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.1 / DAYZ 1.21 - Not compatible with DayZ Expansion loading screen
 
 To use the example follow all of these steps - match exactly correct or it will not work:
 
