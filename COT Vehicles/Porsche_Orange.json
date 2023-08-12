@@ -1,0 +1,19 @@
+{
+  "VehicleName": "Porsche_911RWB_Orange",
+  "DisplayName": "Porsche 911 Orange",
+  "Parts": [
+    "Porsche_911RWB_Driver_Door_Orange",
+    "Porsche_911RWB_CoDriver_Door_Orange",
+    "Porsche_911RWB_Hood_Orange",
+    "Porsche_911RWB_Trunk_Orange",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+    "carBattery"
+  ]
+}

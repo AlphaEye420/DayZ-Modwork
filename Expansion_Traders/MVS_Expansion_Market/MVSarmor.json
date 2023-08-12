@@ -1,0 +1,249 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MVS Armor",
+    "Icon": "Fox",
+    "Color": "f5fbff",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MVS_Helmet_01_OD",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Helmet_01_Tan",
+                "MVS_Helmet_01_Black",
+                "MVS_Helmet_01_ERDL",
+                "MVS_Helmet_01_Multicam",
+                "MVS_Helmet_01_Multicam_Tropic",
+                "MVS_Helmet_01_Multicam_Black",
+                "MVS_Helmet_01_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Helmet_02_OD",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Helmet_02_Tan",
+                "MVS_Helmet_02_Black",
+                "MVS_Helmet_02_ERDL",
+                "MVS_Helmet_02_Multicam",
+                "MVS_Helmet_02_Multicam_Tropic",
+                "MVS_Helmet_02_Multicam_Black",
+                "MVS_Helmet_02_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_6B47_Helmet_OD",
+            "MaxPriceThreshold": 270,
+            "MinPriceThreshold": 185,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_6B47_Helmet_Tan",
+                "MVS_6B47_Helmet_Black"
+            ]
+        },
+        {
+            "ClassName": "MVS_Altyn_Visor_OD",
+            "MaxPriceThreshold": 170,
+            "MinPriceThreshold": 85,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Altyn_Visor_Tan",
+                "MVS_Altyn_Visor_Black"
+            ]
+        },
+        {
+            "ClassName": "MVS_Altyn_OD",
+            "MaxPriceThreshold": 310,
+            "MinPriceThreshold": 205,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Altyn_Tan",
+                "MVS_Altyn_Black"
+            ]
+        },
+        {
+            "ClassName": "MVS_ArmoredHelmet_OD",
+            "MaxPriceThreshold": 300,
+            "MinPriceThreshold": 288,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_WarriorHelmet_Tan",
+                "MVS_ArmoredHelmet_Black",
+                "MVS_ArmoredHelmet_ERDL",
+                "MVS_ArmoredHelmet_Multicam_Black",
+                "MVS_ArmoredHelmet_Multicam",
+                "MVS_ArmoredHelmet_Multicam_Tropic",
+                "MVS_ArmoredHelmet_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_WarriorHelmet_OD",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_WarriorHelmet_Tan",
+                "MVS_WarriorHelmet_Black",
+                "MVS_WarriorHelmet_ERDL",
+                "MVS_WarriorHelmet_Multicam_Black",
+                "MVS_WarriorHelmet_Multicam",
+                "MVS_WarriorHelmet_Multicam_Tropic",
+                "MVS_WarriorHelmet_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_ChestRig_OD",
+            "MaxPriceThreshold": 2350,
+            "MinPriceThreshold": 1175,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_ChestRig_Tan",
+                "MVS_ChestRig_Black",
+                "MVS_ChestRig_ERDL",
+                "MVS_ChestRig_Multicam_Black",
+                "MVS_ChestRig_Multicam",
+                "MVS_ChestRig_Multicam_Tropic",
+                "MVS_ChestRig_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Combat_Vest_OD",
+            "MaxPriceThreshold": 1100,
+            "MinPriceThreshold": 850,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Combat_Vest_Tan",
+                "MVS_Combat_Vest_Black",
+                "MVS_Combat_Vest_ERDL",
+                "MVS_Combat_Vest_Multicam_Tropic",
+                "MVS_Combat_Vest_Multicam_Black",
+                "MVS_Combat_Vest_Multicam",
+                "MVS_Combat_Vest_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_PMK2Respirator_OD",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 950,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_PMK2Respirator_Tan",
+                "MVS_PMK2Respirator_Black",
+                "MVS_PMK2Respirator_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_S10Respirator_OD",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 950,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_S10Respirator_Tan",
+                "MVS_S10Respirator_Black",
+                "MVS_S10Respirator_Snow",
+                "MVS_S10Respirator_FS"
+            ]
+        },
+        {
+            "ClassName": "MVS_M50Respirator_OD",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 950,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_M50Respirator_Tan",
+                "MVS_M50Respirator_Black",
+                "MVS_M50Respirator_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Combat_Vest_Heavy_OD",
+            "MaxPriceThreshold": 1350,
+            "MinPriceThreshold": 1175,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Combat_Vest_Heavy_Tan",
+                "MVS_Combat_Vest_Heavy_Black",
+                "MVS_Combat_Vest_Heavy_ERDL",
+                "MVS_Combat_Vest_Heavy_Multicam_Black",
+                "MVS_Combat_Vest_Heavy_Multicam",
+                "MVS_Combat_Vest_Heavy_Multicam_Tropic",
+                "MVS_Combat_Vest_Heavy_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_OpsCore_OD",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 325,
+            "SellPricePercent": 50.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_OpsCore_Black",
+                "MVS_OpsCore_ERDL",
+                "MVS_OpsCore_Multicam",
+                "MVS_OpsCore_Multicam_Tropic",
+                "MVS_OpsCore_Multicam_Black",
+                "MVS_OpsCore_Snow"
+            ]
+        }
+    ]
+}

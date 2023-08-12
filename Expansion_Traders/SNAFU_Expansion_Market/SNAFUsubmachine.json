@@ -1,14 +1,14 @@
 {
     "m_Version": 12,
-    "DisplayName": "SNAFU GUNS- SHOTGUNS & RIFLES",
+    "DisplayName": "SNAFU GUNS- ASSUALT",
     "Icon": "Human Skull",
     "Color": "cbd0d4",
     "IsExchange": 0,
     "InitStockPercent": 25.0,
     "Items": [
         {
-            "ClassName": "SNAFU_TP82S",
-            "MaxPriceThreshold": 2500,
+            "ClassName": "GCGN_MP7",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -18,8 +18,8 @@
             "Variants": []
         },
         {
-            "ClassName": "Spas12_Gun",
-            "MaxPriceThreshold": 2500,
+            "ClassName": "SNAFU_Agram_GUN",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -29,8 +29,8 @@
             "Variants": []
         },
         {
-            "ClassName": "SNAFU_Trenchgun",
-            "MaxPriceThreshold": 2500,
+            "ClassName": "SNAFU_MP9_GUN",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -40,8 +40,8 @@
             "Variants": []
         },
         {
-            "ClassName": "GCGN_BenelliM4",
-            "MaxPriceThreshold": 2500,
+            "ClassName": "SNAFU_MPX_GUN",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -51,52 +51,8 @@
             "Variants": []
         },
         {
-            "ClassName": "SN_M870",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 1500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "VR80_Gun",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 1500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "GCGN_M1Garand",
-            "MaxPriceThreshold": 2500,
-            "MinPriceThreshold": 1500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFU_M14",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 750,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFU_CALI_GUN",
-            "MaxPriceThreshold": 3000,
+            "ClassName": "SNAFU_PDW_45ACP",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 2000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -106,8 +62,19 @@
             "Variants": []
         },
         {
-            "ClassName": "SNAFU_M1918A2",
-            "MaxPriceThreshold": 2500,
+            "ClassName": "SNAFU_PDW_9mm",
+            "MaxPriceThreshold": 4200,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUUzi",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -117,8 +84,30 @@
             "Variants": []
         },
         {
-            "ClassName": "SNAFUMarlin1895",
-            "MaxPriceThreshold": 2500,
+            "ClassName": "SNAFUVECTOR_45acp_GUN",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUVECTOR_9mm_GUN",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "GCGN_Vityaz",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -128,63 +117,8 @@
             "Variants": []
         },
         {
-            "ClassName": "SNAFURPD",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFUPPSh",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 2500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFU_M48",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 1000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFU_SKS",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 750,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFUVSSK",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 2500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "GCGN_M700",
-            "MaxPriceThreshold": 2000,
+            "ClassName": "Tec9_Gun",
+            "MaxPriceThreshold": 4200,
             "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
@@ -194,9 +128,9 @@
             "Variants": []
         },
         {
-            "ClassName": "SNAFU_M76",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1250,
+            "ClassName": "SNAFUP90",
+            "MaxPriceThreshold": 4200,
+            "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
@@ -205,9 +139,20 @@
             "Variants": []
         },
         {
-            "ClassName": "GCGN_VEPR",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1250,
+            "ClassName": "SNAFUThompsonMk2",
+            "MaxPriceThreshold": 4200,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 5,
+            "MinStockThreshold": 0,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "SNAFUSten",
+            "MaxPriceThreshold": 4200,
+            "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,

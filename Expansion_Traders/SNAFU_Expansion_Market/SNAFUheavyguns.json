@@ -18,20 +18,6 @@
             "Variants": []
         },
         {
-            "ClassName": "GCGN_M110_Black",
-            "MaxPriceThreshold": 16000,
-            "MinPriceThreshold": 14000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "GCGN_M110_Tan",
-                "GCGN_M110_Green"
-            ]
-        },
-        {
             "ClassName": "GCGN_M200_Tan",
             "MaxPriceThreshold": 15000,
             "MinPriceThreshold": 14000,
@@ -115,39 +101,6 @@
             "Variants": []
         },
         {
-            "ClassName": "Snafu_pkp_Black_GUN",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Snafu_pkp_NBlack_GUN",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFU_SR25_Gun",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 4000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "SNAFUAlligator",
             "MaxPriceThreshold": 100000,
             "MinPriceThreshold": 70000,
@@ -162,28 +115,6 @@
             "ClassName": "SNAFUAX50_GUN",
             "MaxPriceThreshold": 59000,
             "MinPriceThreshold": 36000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "AA12_Gun",
-            "MaxPriceThreshold": 9500,
-            "MinPriceThreshold": 8500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SN_Auto_Shotgun",
-            "MaxPriceThreshold": 12500,
-            "MinPriceThreshold": 11500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,
@@ -226,19 +157,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
-        },
-        {
-            "ClassName": "SNAFUHoneyBadger_Tan",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "SNAFUHoneyBadger_Black"
-            ]
         },
         {
             "ClassName": "SNAFUKivaari_Grey_GUN",
@@ -337,17 +255,6 @@
             "ClassName": "SNAFUTac21",
             "MaxPriceThreshold": 5000,
             "MinPriceThreshold": 4000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 5,
-            "MinStockThreshold": 0,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "SNAFUPPSKN",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 5000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 5,
             "MinStockThreshold": 0,

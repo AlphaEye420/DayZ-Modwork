@@ -1,0 +1,11 @@
+{
+  "VehicleName": "dbo_bicycle",
+  "DisplayName": "Bicycle",
+  "Parts": [
+    "bikeWheelD",
+    "bikeWheelD",
+    "bike_frontdisc",
+    "battery_bike",
+    "bike_reargear"
+  ]
+}

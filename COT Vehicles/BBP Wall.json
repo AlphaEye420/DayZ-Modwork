@@ -1,0 +1,31 @@
+{
+  "Name": "BBP Wall",
+  "ContainerClassName": "SeaChest",
+  "Items": [
+    {
+      "ItemName": "BBP_Wall_Kit",
+      "NumberOfStacks": 1,
+      "StackSize": 1
+    },
+    {
+      "ItemName": "WoodenPlank",
+      "NumberOfStacks": 1,
+      "StackSize": 5
+    },
+    {
+      "ItemName": "WoodenLog",
+      "NumberOfStacks": 1,
+      "StackSize": 1
+    },
+    {
+      "ItemName": "WoodenLog",
+      "NumberOfStacks": 1,
+      "StackSize": 1
+    },
+    {
+      "ItemName": "Nail",
+      "NumberOfStacks": 1,
+      "StackSize": 20
+    }
+  ]
+}

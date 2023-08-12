@@ -1,0 +1,22 @@
+{
+  "VehicleName": "CZLCivilianSedan_Police",
+  "DisplayName": "",
+  "Parts": [
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CZLPoliceLightBar",
+    "HeadlightH7",
+    "HeadlightH7",
+    "CZLCivSedanHood_Police",
+    "CZLCivSedanTrunk_Police",
+    "CZLCivSedanDoors_Driver_Police",
+    "CZLCivSedanDoors_CoDriver_Police",
+    "CZLCivSedanDoors_BackLeft_Police",
+    "CZLCivSedanDoors_BackRight_Police",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

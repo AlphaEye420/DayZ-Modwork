@@ -1,0 +1,181 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MVS Pouches",
+    "Icon": "Fox",
+    "Color": "f5fbff",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "MVS_Molle_Panel_OD",
+            "MaxPriceThreshold": 90,
+            "MinPriceThreshold": 75,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Molle_Panel_Tan",
+                "MVS_Molle_Panel_Black",
+                "MVS_Molle_Panel_ERDL",
+                "MVS_Molle_Panel_Multicam",
+                "MVS_Molle_Panel_Multicam_Tropic",
+                "MVS_Molle_Panel_Multicam_Black",
+                "MVS_Molle_Panel_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Magazine_Pouch_OD",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 850,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Magazine_Pouch_Tan",
+                "MVS_Magazine_Pouch_Black",
+                "MVS_Magazine_Pouch_ERDL",
+                "MVS_Magazine_Pouch_Multicam_Tropic",
+                "MVS_Magazine_Pouch_Multicam_Black",
+                "MVS_Magazine_Pouch_Multicam",
+                "MVS_Magazine_Pouch_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Admin_Pouch_OD",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 440,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Admin_Pouch_Tan",
+                "MVS_Admin_Pouch_Black",
+                "MVS_Admin_Pouch_ERDL",
+                "MVS_Admin_Pouch_Multicam_Tropic",
+                "MVS_Admin_Pouch_Multicam_Black",
+                "MVS_Admin_Pouch_Multicam",
+                "MVS_Admin_Pouch_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Utility_Pouch_OD",
+            "MaxPriceThreshold": 10,
+            "MinPriceThreshold": 5,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Utility_Pouch_Tan",
+                "MVS_Utility_Pouch_Black",
+                "MVS_Utility_Pouch_ERDL",
+                "MVS_Utility_Pouch_Multicam_Tropic",
+                "MVS_Utility_Pouch_Multicam_Black",
+                "MVS_Utility_Pouch_Multicam",
+                "MVS_Utility_Pouch_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Medical_Pouch_OD",
+            "MaxPriceThreshold": 150,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Medical_Pouch_Tan",
+                "MVS_Medical_Pouch_Black",
+                "MVS_Medical_Pouch_ERDL",
+                "MVS_Medical_Pouch_Multicam",
+                "MVS_Medical_Pouch_Multicam_Tropic",
+                "MVS_Medical_Pouch_Multicam_Black",
+                "MVS_Medical_Pouch_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Holster_OD",
+            "MaxPriceThreshold": 166,
+            "MinPriceThreshold": 95,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Holster_Tan",
+                "MVS_Holster_Black",
+                "MVS_Holster_ERDL",
+                "MVS_Holster_Multicam",
+                "MVS_Holster_Multicam_Tropic",
+                "MVS_Holster_Multicam_Black",
+                "MVS_Holster_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Sheath_OD",
+            "MaxPriceThreshold": 77,
+            "MinPriceThreshold": 55,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Sheath_Tan",
+                "MVS_Sheath_Black",
+                "MVS_Sheath_ERDL",
+                "MVS_Sheath_Multicam",
+                "MVS_Sheath_Multicam_Tropic",
+                "MVS_Sheath_Multicam_Black",
+                "MVS_Sheath_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Heavy_Pouch_OD",
+            "MaxPriceThreshold": 1125,
+            "MinPriceThreshold": 675,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Heavy_Pouch_Tan",
+                "MVS_Heavy_Pouch_Black",
+                "MVS_Heavy_Pouch_ERDL",
+                "MVS_Heavy_Pouch_Multicam",
+                "MVS_Heavy_Pouch_Multicam_Black",
+                "MVS_Heavy_Pouch_Multicam_Tropic",
+                "MVS_Heavy_Pouch_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Taco_Pouch_OD",
+            "MaxPriceThreshold": 175,
+            "MinPriceThreshold": 150,
+            "SellPricePercent": 75.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Taco_Pouch_Tan",
+                "MVS_Taco_Pouch_Black",
+                "MVS_Taco_Pouch_ERDL",
+                "MVS_Taco_Pouch_Multicam",
+                "MVS_Taco_Pouch_Multicam_Tropic",
+                "MVS_Taco_Pouch_Multicam_Black",
+                "MVS_Taco_Pouch_Snow"
+            ]
+        }
+    ]
+}

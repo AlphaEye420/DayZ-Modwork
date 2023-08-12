@@ -1,0 +1,14 @@
+{
+  "VehicleName": "dbo_yamXtb",
+  "DisplayName": "Yamaha XTb",
+  "Parts": [
+    "bike_shoe",
+    "bike_shoe",
+    "bike_shoe",
+    "bike_shoe",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+	"Bike_Battery"
+  ]
+}

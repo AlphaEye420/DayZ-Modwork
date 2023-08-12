@@ -1,0 +1,23 @@
+{
+  "VehicleName": "CrSk_BMW_525i_E34_red",
+  "DisplayName": "BMW 525i E34 Red",
+  "Parts": [
+	"BMWE34_dver_1_1_red",
+	"BMWE34_dver_2_1_red",
+	"BMWE34_dver_1_2_red",
+	"BMWE34_dver_2_2_red",
+	"carbattery",
+	"carradiator",
+	"sparkplug",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"headlighth7",
+	"headlighth7",
+	"canistergasoline",
+	"BMWE34_kapot_red",
+	"BMWE34_bagazhnik_red"
+  ]
+}

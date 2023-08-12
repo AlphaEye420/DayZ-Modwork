@@ -1,0 +1,26 @@
+{
+  "Name": "BBP HalfWall",
+  "ContainerClassName": "SeaChest",
+  "Items": [
+    {
+      "ItemName": "BBP_Half_Wall_Kit",
+      "NumberOfStacks": 1,
+      "StackSize": 1
+    },
+    {
+      "ItemName": "WoodenPlank",
+      "NumberOfStacks": 1,
+      "StackSize": 2
+    },
+    {
+      "ItemName": "WoodenLog",
+      "NumberOfStacks": 1,
+      "StackSize": 1
+    },
+    {
+      "ItemName": "Nail",
+      "NumberOfStacks": 1,
+      "StackSize": 10
+    }
+  ]
+}

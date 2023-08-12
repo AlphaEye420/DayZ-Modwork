@@ -1,0 +1,22 @@
+{
+  "VehicleName": "CZLSedan_02_Police",
+  "DisplayName": "",
+  "Parts": [
+    "Sedan_02_Wheel",
+    "Sedan_02_Wheel",
+    "Sedan_02_Wheel",
+    "Sedan_02_Wheel",
+    "CZLPoliceLightBar",
+    "HeadlightH7",
+    "HeadlightH7",
+    "CZLSedan_02_Hood_Police",
+    "CZLSedan_02_Trunk_Police",
+    "CZLSedan_02_Door_1_1_Police",
+    "CZLSedan_02_Door_2_1_Police",
+    "CZLSedan_02_Door_1_2_Police",
+    "CZLSedan_02_Door_2_2_Police",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

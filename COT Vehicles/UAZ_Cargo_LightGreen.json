@@ -1,0 +1,20 @@
+{
+  "VehicleName": "ExpansionUAZCargo_LightGreen",
+  "DisplayName": "",
+  "Parts": [
+    "ExpansionUAZWheel",
+    "ExpansionUAZWheel",
+    "ExpansionUAZWheel",
+    "ExpansionUAZWheel",
+    "HeadlightH7",
+    "HeadlightH7",
+    "ExpansionUAZDoorHood_LightGreen",
+    "ExpansionUAZDoorDriver_LightGreen",
+    "ExpansionUAZDoorCoDriver_LightGreen",
+    "ExpansionUAZDoorCargo1_LightGreen",
+    "ExpansionUAZDoorCargo2_LightGreen",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

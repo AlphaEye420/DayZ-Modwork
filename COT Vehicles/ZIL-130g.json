@@ -1,0 +1,19 @@
+{
+  "VehicleName": "Gerph_Zil130_Green",
+  "DisplayName": "Zil-130 Green",
+  "Parts": [
+    "Zil130_Hood_Green",
+    "Zil130_Tailgate",
+    "Zil130Doors_Driver_Green",
+    "Zil130Doors_CoDriver_Green",
+    "Zil130Wheel",
+    "Zil130Wheel",
+    "Zil130WheelRear",
+    "Zil130WheelRear",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+	"truckBattery"
+  ]
+}

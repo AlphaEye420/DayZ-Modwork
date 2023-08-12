@@ -1,0 +1,222 @@
+{
+    "m_Version": 12,
+    "DisplayName": "MVS Clothing",
+    "Icon": "Fox",
+    "Color": "f5fbff",
+    "IsExchange": 0,
+    "InitStockPercent": 25.0,
+    "Items": [
+        {
+            "ClassName": "MVS_Facemask_OD",
+            "MaxPriceThreshold": 110,
+            "MinPriceThreshold": 75,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Facemask_Tan",
+                "MVS_Facemask_Black",
+                "MVS_Facemask_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_Cap_OD",
+            "MaxPriceThreshold": 55,
+            "MinPriceThreshold": 45,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Cap_Tan",
+                "MVS_Cap_Black",
+                "MVS_Cap_ERDL",
+                "MVS_Cap_Multicam",
+                "MVS_Cap_Multicam_Tropic",
+                "MVS_Cap_Multicam_Black",
+                "MVS_Cap_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_CombatShirt_OD",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_CombatShirt_Tan",
+                "MVS_CombatShirt_Black",
+                "MVS_CombatShirt_ERDL",
+                "MVS_CombatShirt_Multicam",
+                "MVS_CombatShirt_Multicam_Tropic",
+                "MVS_CombatShirt_Multicam_Black",
+                "MVS_CombatShirt_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_CombatPants_OD",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_CombatPants_Tan",
+                "MVS_CombatPants_Black",
+                "MVS_CombatPants_ERDL",
+                "MVS_CombatPants_Multicam",
+                "MVS_CombatPants_Multicam_Tropic",
+                "MVS_CombatPants_Multicam_Black",
+                "MVS_CombatPants_Snow"
+            ]
+        },
+        {
+            "ClassName": "MVS_FlatCap",
+            "MaxPriceThreshold": 25,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_FlatCap_Multicam_Black",
+                "MVS_FlatCap_Multicam",
+                "MVS_FlatCap_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_Shirt_BDU",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Shirt_BDU_Multicam_Black",
+                "MVS_Shirt_BDU_Multicam",
+                "MVS_Shirt_BDU_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_GorkaPants",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_GorkaPants_Multicam_Black",
+                "MVS_GorkaPants_Multicam",
+                "MVS_GorkaPants_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_GorkaJacket",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_GorkaJacket_Multicam_Black",
+                "MVS_GorkaJacket_Multicam",
+                "MVS_GorkaJacket_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_Pants_BDU",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 125,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Pants_BDU_Multicam_Black",
+                "MVS_Pants_BDU_Multicam",
+                "MVS_Pants_BDU_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_BoonieHat",
+            "MaxPriceThreshold": 50,
+            "MinPriceThreshold": 25,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_BoonieHat_Multicam_Black",
+                "MVS_BoonieHat_Multicam",
+                "MVS_BoonieHat_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_Shroud_OD",
+            "MaxPriceThreshold": 30,
+            "MinPriceThreshold": 20,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Shroud_Tan",
+                "MVS_Shroud_Black"
+            ]
+        },
+        {
+            "ClassName": "MVS_Balaclava_OD",
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 80,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Balaclava_Wraith_Comtacs",
+                "MVS_Balaclava_Wraith",
+                "MVS_Balaclava_Tan",
+                "MVS_Balaclava_Black",
+                "MVS_Balaclava_Wraith"
+            ]
+        },
+        {
+            "ClassName": "MVS_Belt_OD",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": 25.0,
+            "MaxStockThreshold": 40,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Belt_Tan",
+                "MVS_Belt_Black",
+                "MVS_Belt_ERDL",
+                "MVS_Belt_Multicam",
+                "MVS_Belt_Multicam_Black",
+                "MVS_Belt_Multicam_Tropic",
+                "MVS_Belt_Snow"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "VehicleName": "Police_Sedan",
+  "DisplayName": "",
+  "Parts": [
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "HeadlightH7",
+    "HeadlightH7",
+    "Police_sedan_Hood",
+    "Police_sedan_Trunk",
+    "Police_sedan_Driver",
+    "Police_sedan_CoDriver",
+    "Police_sedan_BackLeft",
+    "Police_sedan_BackRight",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

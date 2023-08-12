@@ -1,0 +1,21 @@
+{
+  "VehicleName": "Deputy_Sedan",
+  "DisplayName": "",
+  "Parts": [
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "HeadlightH7",
+    "HeadlightH7",
+    "Deputy_sedan_Hood",
+    "Deputy_sedan_Trunk",
+    "Deputy_sedan_Driver",
+    "Deputy_sedan_CoDriver",
+    "Deputy_sedan_BackLeft",
+    "Deputy_sedan_BackRight",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

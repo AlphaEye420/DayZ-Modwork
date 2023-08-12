@@ -1,0 +1,20 @@
+{
+  "VehicleName": "CZLOffroadHatchback_Police",
+  "DisplayName": "",
+  "Parts": [
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "CZLPoliceLightBar",
+    "HeadlightH7",
+    "HeadlightH7",
+    "CZLHatchbackHood_Police",
+    "CZLHatchbackTrunk_Police",
+    "CZLHatchbackDoors_Driver_Police",
+    "CZLHatchbackDoors_CoDriver_Police",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

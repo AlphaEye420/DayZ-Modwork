@@ -1,0 +1,18 @@
+{
+  "VehicleName": "RTrzr_OD",
+  "DisplayName": "Razor_OD",
+  "Parts": [
+	"RT_rzr_wheel_OD",
+	"RT_rzr_wheel_OD",
+	"RT_rzr_wheel_OD",
+	"RT_rzr_wheel_OD",
+	"RT_rzr_driver_door_OD",
+	"RT_rzr_codriver_door_OD",
+	"RT_rzr_hood",
+	"CarRadiator",
+	"carbattery",
+	"sparkplug",
+	"headlighth7",
+	"headlighth7"
+  ]
+}

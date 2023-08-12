@@ -1,0 +1,19 @@
+{
+  "VehicleName": "Porsche_911RWB_Pink",
+  "DisplayName": "Porsche 911 Pink",
+  "Parts": [
+    "Porsche_911RWB_Driver_Door_Pink",
+    "Porsche_911RWB_CoDriver_Door_Pink",
+    "Porsche_911RWB_Hood_Pink",
+    "Porsche_911RWB_Trunk_Pink",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+    "carBattery"
+  ]
+}

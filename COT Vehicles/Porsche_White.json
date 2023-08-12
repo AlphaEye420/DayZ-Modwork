@@ -1,0 +1,19 @@
+{
+  "VehicleName": "Porsche_911RWB_White",
+  "DisplayName": "Porsche 911 White",
+  "Parts": [
+    "Porsche_911RWB_Driver_Door",
+    "Porsche_911RWB_CoDriver_Door",
+    "Porsche_911RWB_Hood",
+    "Porsche_911RWB_Trunk",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "Porsche_911RWB_Front_Wheel",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+    "carBattery"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "VehicleName": "CrSk_Land_Rover_Defender_110_UN",
+  "DisplayName": "",
+  "Parts": [
+    "Defender110_koleso",
+    "Defender110_koleso",
+    "Defender110_koleso",
+    "Defender110_koleso",
+    "HeadlightH7",
+    "HeadlightH7",
+    "Defender110_kapot_UN",
+    "Defender110_bagazhnik_UN",
+    "Defender110_dver_1_1_UN",
+    "Defender110_dver_2_1_UN",
+    "Defender110_dver_1_2_UN",
+    "Defender110_dver_2_2_UN",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

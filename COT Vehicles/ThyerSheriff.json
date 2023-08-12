@@ -1,0 +1,21 @@
+{
+  "VehicleName": "Sheriff_Sedan",
+  "DisplayName": "",
+  "Parts": [
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "CivSedanWheel",
+    "HeadlightH7",
+    "HeadlightH7",
+    "Sheriff_sedan_Hood",
+    "Sheriff_sedan_Trunk",
+    "Sheriff_sedan_Driver",
+    "Sheriff_sedan_CoDriver",
+    "Sheriff_sedan_BackLeft",
+    "Sheriff_sedan_BackRight",
+    "CarBattery",
+    "CarRadiator",
+    "SparkPlug"
+  ]
+}

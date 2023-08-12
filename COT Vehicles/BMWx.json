@@ -1,0 +1,21 @@
+{
+  "VehicleName": "CrSk_BMW_525i_E34_Beater",
+  "DisplayName": "BMW 525i E34 Beater",
+  "Parts": [
+	"BMWE34_dver_1_1_Beater",
+	"BMWE34_dver_2_1_Beater",
+	"BMWE34_dver_1_2_Beater",
+	"BMWE34_dver_2_2_Beater",
+	"carbattery",
+	"carradiator",
+	"sparkplug",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"BMWE34_koleso_style37",
+	"headlighth7",
+	"canistergasoline",
+	"BMWE34_kapot_beater",
+	"BMWE34_bagazhnik_beater"
+  ]
+}
