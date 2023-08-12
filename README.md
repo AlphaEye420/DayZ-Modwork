@@ -5,7 +5,7 @@ PLEASE FEEL FREE TO TAKE AND USE ANYTHING. There is nothing proprietary of mine 
 
 I WORK WITH DEER ISLE MAP.  
 
-Thelatest versions at time of most recent dump: 
+The latest versions at time of most recent dump: 
 DayZ v1.21
 DeerIsle 5.1
 DayZ Expansion v8.21
