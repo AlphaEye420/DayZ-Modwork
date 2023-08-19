@@ -1,0 +1,216 @@
+	<!-- this is not a dayz file... these are modifications for your cfgspawnabletypes.xml -->
+	<!-- GUNS from Deer Isle v5.1 -->
+	<type name="jmc_SnowOwl">
+		<attachments chance="0.80">
+			<item name="jmc_SnowOwl_Mag" chance="1" />
+			<item name="jmc_SnowOwl_Optic" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="jmc_Prototype_Red">
+		<attachments chance="0.8">
+			<item name="jmc_Prototype_Mag" chance="1" />
+			<item name="jmc_Prototype_Optic_Red" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="jmc_Prototype_White">
+		<attachments chance="0.8">
+			<item name="jmc_Prototype_Mag" chance="1" />
+			<item name="jmc_Prototype_Optic_White" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="jmc_Prototype_Blue">
+		<attachments chance="0.8">
+			<item name="jmc_Prototype_Mag" chance="1" />
+			<item name="jmc_Prototype_Optic_Blue" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttak458">
+		<attachments chance="0.8">
+			<item name="Mag_AKM_Drum75Rnd" chance="1" />
+			<item name="KobraOptic" chance="0.8" />
+			<item name="AK_Bayonet" chance="0.5" />
+			<item name="AK_RailHndgrd" chance="0.5" />
+			<item name="UniversalLight" chance="0.3" />
+		</attachments>
+	</type>
+	<type name="ttak458poli">
+		<attachments chance="0.80">
+			<item name="Mag_AKM_Drum75Rnd" chance="1" />
+			<item name="KobraOptic" chance="1" />
+			<item name="AK_Bayonet" chance="0.5" />
+			<item name="AK_RailHndgrd" chance="0.5" />
+			<item name="UniversalLight" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttak458_gold">
+		<attachments chance="1">
+			<item name="Mag_AKM_Drum75Rnd" chance="1" />
+			<item name="KobraOptic" chance="1" />
+			<item name="AK_Bayonet" chance="1" />
+			<item name="AK_RailHndgrd" chance="1" />
+			<item name="UniversalLight" chance="1" />
+		</attachments>
+	</type>
+	<type name="ttar9">
+		<attachments chance="0.8">
+			<item name="Mag_MP5_30Rnd" chance="1" />
+			<item name="M4_T3RDSOptic" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttbar">
+		<attachments chance="0.8">
+			<item name="Mag_FAL_20Rnd" chance="1" />
+			<item name="HuntingOptic" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttgarand">
+		<attachments chance="0.7">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+	</type>
+	<type name="ttr700">
+		<attachments chance="0.8">
+			<item name="ttr700mag" chance="1" />
+			<item name="HuntingOptic" chance="0.7" />
+		</attachments>
+	</type>
+	<type name="ttrpd">
+		<attachments chance="0.8">
+			<item name="ttrpdmag" chance="1" />
+		</attachments>
+	</type>
+	<type name="ttscarl">
+		<attachments chance="0.8">
+			<item name="Mag_CMAG_40Rnd" chance="1" />
+			<item name="M4_T3RDSOptic" chance="0.8" />
+			<item name="UniversalLight" chance="0.3" />
+			<item name="M4_Suppressor" chance="0.3" />
+		</attachments>
+	</type>
+	<type name="ttsok94">
+		<attachments chance="0.8">
+			<item name="Mag_AKM_Drum75Rnd" chance="1" />
+			<item name="KobraOptic" chance="0.8" />
+			<item name="AK_Bayonet" chance="0.3" />
+			<item name="AK_RailHndgrd" chance="0.3" />
+			<item name="UniversalLight" chance="0.2" />
+		</attachments>
+	</type>
+	<type name="ttstg44">
+		<attachments chance="0.8">
+			<item name="Mag_AKM_Palm30Rnd" chance="1" />
+			<item name="AK_Suppressor" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="tt870">
+		<attachments chance="0.5">
+			<item name="SRP_ButtstockPouch_Linen" chance="1" />
+		</attachments>
+	</type>
+	<type name="ttagram">
+		<attachments chance="0.8">
+			<item name="Mag_MP5_30Rnd" chance="1" />
+			<item name="UniversalLight" chance="0.6" />
+			<item name="PistolSuppressor" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttp90">
+		<attachments chance="0.8">
+			<item name="ttp90mag" chance="1" />
+			<item name="M68Optic" chance="0.8" />
+			<item name="UniversalLight" chance="0.6" />
+			<item name="PistolSuppressor" chance="0.5" />
+		</attachments>
+	</type>
+	<type name="ttp38">
+		<attachments chance="1">
+			<item name="Mag_IJ70_8Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="ots71">
+		<attachments chance="0.8">
+			<item name="Mag_MP5_30Rnd" chance="1" />
+			<item name="UniversalLight" chance="0.6" />
+			<item name="AK_Suppressor" chance="0.3" />
+		</attachments>
+	</type>
+	<type name="aek">
+		<attachments chance="0.8">
+			<item name="Mag_AK101_30Rnd" chance="1" />
+			<item name="ACOGOptic_6x" chance="0.8" />
+			<item name="AK_Suppressor" chance="0.4" />
+		</attachments>
+	</type>
+	<type name="avs36">
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="1" />
+		</attachments>
+	</type>
+	<type name="higgins">
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="1" />
+			<item name="M4_Suppressor" chance="0.7" />
+		</attachments>
+	</type>
+	<type name="junkak">
+		<attachments chance="0.5">
+			<item name="Mag_AKM_Drum75Rnd" chance="0.2" />
+			<item name="KobraOptic" chance="0.2" />
+			<item name="AK_Bayonet" chance="0.2" />
+			<item name="AK_RailHndgrd" chance="0.2" />
+			<item name="UniversalLight" chance="0.2" />
+		</attachments>
+	</type>
+	<type name="kar98">
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="1" />
+			<item name="AK_Suppressor" chance="0.6" />
+		</attachments>
+	</type>
+	<type name="marlin">
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="1" />
+			<item name="M4_Suppressor" chance="0.7" />
+		</attachments>
+	</type>
+	<type name="ESP_G36C">
+		<attachments chance="0.8">
+			<item name="Mag_CMAG_40Rnd" chance="1" />
+			<item name="ACOGOptic" chance="0.8" />
+			<item name="M4_Suppressor" chance="0.7" />
+		</attachments>
+	</type>
+	<type name="ESP_M110_Tan">
+		<attachments chance="0.8">
+			<item name="Mag_FAL_20Rnd" chance="1" />
+			<item name="HuntingOptic" chance="0.5" />
+			<item name="M4_Suppressor" chance="0.3" />
+			<item name="UniversalLight" chance="0.2" />
+		</attachments>
+	</type>
+	<type name="ESP_M110">
+		<attachments chance="0.8">
+			<item name="Mag_FAL_20Rnd" chance="1" />
+			<item name="HuntingOptic" chance="0.6" />
+			<item name="M4_Suppressor" chance="0.4" />
+			<item name="UniversalLight" chance="0.2" />
+		</attachments>
+	</type>
+	<type name="ESP_M110_Green">
+		<attachments chance="0.8">
+			<item name="Mag_FAL_20Rnd" chance="1" />
+			<item name="HuntingOptic" chance="0.8" />
+			<item name="M4_Suppressor" chance="0.6" />
+			<item name="UniversalLight" chance="0.4" />
+		</attachments>
+	</type>
+	<type name="ESP_M14">
+		<attachments chance="0.9">
+			<item name="Mag_FAL_20Rnd" chance="1" />
+		</attachments>
+	</type>
+	<type name="ESP_M14_Black">
+		<attachments chance="0.9">
+			<item name="Mag_FAL_20Rnd" chance="1" />
+		</attachments>
+	</type>
