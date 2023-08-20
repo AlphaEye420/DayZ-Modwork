@@ -159,7 +159,7 @@
     <value name="Tier17"/>	
     <usage name="Military"/>
   </type>  
-  <type name="SRP_KatanaSlim_Sheath_Rallen">
+  <type name="SRP_KatanaSlim_Sheath_Railen">
     <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>14400</restock>
@@ -193,7 +193,7 @@
     <value name="Tier17"/>	
     <usage name="Military"/>
   </type>  
-  <type name="SRP_KatanaSlim_Rallen">
+  <type name="SRP_KatanaSlim_Railen">
     <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>388000</restock>
