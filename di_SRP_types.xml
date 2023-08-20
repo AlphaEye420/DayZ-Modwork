@@ -105,6 +105,162 @@
     <value name="Tier18"/>	
     <usage name="Military"/>
   </type>  
+  <type name="SRP_SRP_KatanaBamboo">
+    <nominal>10</nominal>
+    <lifetime>28800</lifetime>
+    <restock>14400</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>25</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier6"/>	
+    <value name="Tier8"/>	
+    <value name="Tier7"/>
+    <value name="Tier1"/>	
+    <value name="Tier2"/>	
+    <value name="Tier3"/>	
+    <value name="Tier4"/>
+    <value name="Tier5"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Sheath_Luci">
+    <nominal>4</nominal>
+    <lifetime>28800</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>15</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Sheath_Fred">
+    <nominal>4</nominal>
+    <lifetime>28800</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>15</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Sheath_Rallen">
+    <nominal>4</nominal>
+    <lifetime>28800</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>15</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Sheath">
+    <nominal>4</nominal>
+    <lifetime>28800</lifetime>
+    <restock>14400</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>25</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Rallen">
+    <nominal>2</nominal>
+    <lifetime>28800</lifetime>
+    <restock>388000</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>15</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Ding">
+    <nominal>2</nominal>
+    <lifetime>28800</lifetime>
+    <restock>388000</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>15</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim_Luci">
+    <nominal>2</nominal>
+    <lifetime>28800</lifetime>
+    <restock>388000</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>15</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
+  <type name="SRP_KatanaSlim">
+    <nominal>4</nominal>
+    <lifetime>28800</lifetime>
+    <restock>14400</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>25</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <value name="Tier10"/>	
+    <value name="Tier16"/>	
+    <value name="Tier18"/>	
+    <value name="Tier14"/>
+    <value name="Tier17"/>	
+    <usage name="Military"/>
+  </type>  
   <type name="SRP_BerserkSword">
     <nominal>4</nominal>
     <lifetime>28800</lifetime>
