@@ -105,7 +105,7 @@
     <value name="Tier18"/>	
     <usage name="Military"/>
   </type>  
-  <type name="SRP_SRP_KatanaBamboo">
+  <type name="SRP_KatanaBamboo">
     <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>14400</restock>
@@ -360,7 +360,7 @@
     <value name="Tier15"/>
     <usage name="Military"/>
   </type>  
-  <type name="SRP_SnakDagger_Arbiters">
+  <type name="SRP_SnakeDagger_Arbiters">
     <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>14400</restock>
@@ -391,7 +391,7 @@
     <value name="Tier9"/>	
     <usage name="Military"/>
   </type>  
-  <type name="SRP_SnakDagger">
+  <type name="SRP_SnakeDagger">
     <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>14400</restock>
