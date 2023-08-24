@@ -1,0 +1,97 @@
+DIRECTIONS FOR ADDING A LIGHTHOUSE KEEPER TO SHEEP ISLAND LIGHTHOUSE, DEERISLE
+	
+RETURNS:
+	LIGHTHOUSE KEEPER'S HOUSE w/ Loot (very much an old timer thing)
+	88.6% Chance of LIGHTHOUSE-KEEPER AI SPAWN patrolling the island
+	(suggested to use the Passive faction as they leave everyone alone and other AI leave them alone)
+	
+	
+1} YOU NEED:
+	DEERISLE 5.1
+	DAYZ EXPANSION AI
+	CFGGAMEPLAY.JSON ENABLED
+	
+2} IN THE CFGGAMEPLAY.JSON find "objectSpawnersArr":
+	ADD "KeepersHouse.json" (use , for array if you already have json's activated): 
+    "objectSpawnersArr": ["KeepersHouse.json"],
+
+3} IN THE MISSIONS FOLDER:
+	CREATE FILE: KeepersHouse.json 
+	
+4} IN KeepersHouse.json ADD:
+	{
+		"Objects": [
+			{
+				"name": "Land_House_1W10_Brown",
+				"pos": [
+					11182,
+					11.5,
+					3825.6
+				],
+				"ypr": [
+					50,
+					0,
+					0
+				],
+				"scale": 1
+			}
+		]
+	}
+	
+5} IN THE MISSIONS FOLDER mapgrouppos.xml ADD:
+	<group name="Land_House_1W10_Brown" pos="11182 11.5 3825.6" rpy="-0.000000 0.000000 50.0000" a="40.0" />
+	
+6} IN THE AIPatrolSettings.json under "Patrols":
+    {
+      "Name": "SHEEP ISLAND LIGHTHOUSE",
+      "Faction": "Passive",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "LoadoutFile": "SurvivorLoadout",
+      "NumberOfAI": 1,
+      "Behaviour": "ALTERNATE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "WALK",
+      "CanBeLooted": 1,
+      "UnlimitedReload": 0,
+      "SniperProneDistanceThreshold": 500,
+      "AccuracyMin": -1,
+      "AccuracyMax": -1,
+      "ThreatDistanceLimit": 40,
+      "DamageMultiplier": 0.6179999709129333,
+      "MinDistRadius": 25,
+      "MaxDistRadius": 200,
+      "DespawnRadius": 300,
+      "MinSpreadRadius": 1,
+      "MaxSpreadRadius": 4,
+      "Chance": 0.886,
+      "WaypointInterpolation": "",
+      "DespawnTime": 60,
+      "RespawnTime": 600,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          11210.6, 10.7891, 3800.71
+        ],
+        [
+          11185.2, 10.4891, 3786.84
+        ],
+        [
+          11159.8, 9.04433, 3813.3
+        ],
+        [
+          11185.2, 10.4891, 3786.84
+        ],
+        [
+          11209.1, 9.95968, 3817.63
+        ],
+        [
+          11185.2, 10.4891, 3786.84
+        ],
+        [
+          11175.1, 10.3404, 3797.74
+        ]
+      ]
+    }
+		
+ALT} You could use any of the above patrol coordinates to spawn animals or z's too - add to territories
