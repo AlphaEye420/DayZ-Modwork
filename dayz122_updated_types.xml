@@ -1,4 +1,7 @@
-<!-- NOT A DAYZ FILE - Contains dayz 1.22 update's types and spawnabletypes additions for deerisle -->
+
+<!-- DayZ v1.22 Update's New Loot - NOT A DAYZ FILE  - FOR DEERISLE
+- Contains dayz 1.22 update's types 
+AND at line 534 spawnabletypes additions  -->
 
 <!-- append v1.21 types.xml -->
     <type name="ArmyPouch_Beige">
