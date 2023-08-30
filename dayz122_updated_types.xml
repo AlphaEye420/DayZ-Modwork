@@ -1,0 +1,97 @@
+
+	<type name="ArmyPouch_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="ArmyPouch_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ArmyPouch_Camo">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ArmyPouch_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="CanvasBag_Olive">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasBag_Medical">
+		<cargo chance="0.6">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="IodineTincture" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="VitaminBottle" />
+		</cargo>
+	</type>
+	<type name="Slingbag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlingBag_Gray">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlingBag_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="HipPack_Black">
+		<cargo chance="0.6">
+			<item name="Zagorky" />
+		</cargo>
+		<cargo chance="0.4">
+			<item name="ChernarusMap" />
+		</cargo>
+	</type>
+	<type name="HipPack_Green">
+		<cargo chance="0.6">
+			<item name="Zagorky" />
+		</cargo>
+		<cargo chance="0.4">
+			<item name="ChernarusMap" />
+		</cargo>
+	</type>
+	<type name="HipPack_Medical">
+		<cargo chance="0.6">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.6">
+			<item name="VitaminBottle" />
+		</cargo>
+	</type>
+	<type name="HipPack_Party">
+		<cargo chance="0.02">
+			<item name="Derringer_Pink" />
+		</cargo>
+	</type>
+	<type name="DuffelBagSmall_Camo">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="DuffelBagSmall_Medical">
+		<cargo chance="0.8">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.15">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
+		<cargo chance="0.01">
+			<item name="AntiChemInjector" />
+		</cargo>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="DuffelBagSmall_Green">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
