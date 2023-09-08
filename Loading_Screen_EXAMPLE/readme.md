@@ -3,7 +3,7 @@
 
 To use the example follow all of these steps - match exactly correct or it will not work:
 
-* 0. Copy the file structure into YourModName directory
+* Copy the file structure into YourModName directory
 * 1. Remove the text "_EXAMPLE" from the 5 filenames (see checklist at bottom as well):
 	config_EXAMPLE.cpp -- NEEDED FOR ALL OF IT
 	\scripts\3_Game\LoadingScreens_EXAMPLE.c -- NEEDED FOR LOADING SCREENS
@@ -23,11 +23,12 @@ Then, change the name of the map in the last function to match your server's map
 !! It is helpful to match the sizes of your photos to your widget dimensions, though you may experiment with stretching by using different values !!
 * 10. Pack mod
 
-~ if you need only one (1) pic, set the variable i to "int i = 0;" and only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of \scripts\3_Game\loading_screen.c
-~ if you do not need music you can remove the 2 soundshaders functions in config.cpp and delete \scripts\5_Mission\MainMenuMusic.c
-~ if you do not need the loading screen pics at all, remove \data edds files and delete \scripts\3_Game\loading_screen.c
-~ if you do not need the main menu layout, delete \scripts\5_Mission\MainMenu.c and the \gui folder
-~ if you do not need the character scene location the delete the last cfg section in config.cpp
+## SHOULD YOU WANT TO REMOVE A SECTION:
+* if you need only one (1) pic, set the variable i to "int i = 0;" and only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of \scripts\3_Game\loading_screen.c
+* if you do not need music you can remove the 2 soundshaders functions in config.cpp and delete \scripts\5_Mission\MainMenuMusic.c
+* if you do not need the loading screen pics at all, remove \data edds files and delete \scripts\3_Game\loading_screen.c
+* if you do not need the main menu layout, delete \scripts\5_Mission\MainMenu.c and the \gui folder
+* if you do not need the character scene location the delete the last cfg section in config.cpp
 
 # CHECKLIST FOR TYPING CHANGES:
 config_EXAMPLE.cpp
