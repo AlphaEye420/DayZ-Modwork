@@ -4,12 +4,7 @@
 To use the example follow all of these steps - match exactly correct or it will not work:
 
 * Copy the file structure into YourModName directory
-* 1. Remove the text "_EXAMPLE" from the 5 filenames (see checklist at bottom as well):
-	config_EXAMPLE.cpp -- NEEDED FOR ALL OF IT
-	\scripts\3_Game\LoadingScreens_EXAMPLE.c -- NEEDED FOR LOADING SCREENS
-	\scripts\5_Mission\MainMenu_EXAMPLE.c -- NEEDED FOR MAIN MENU LAYOUT
-	\scripts\5_Mission\MainMenuMusic_EXAMPLE.c -- NEEDED FOR MENU MUSIC
-	\scripts\5_Mission\gui\main_menu_EXAMPLE.layout  -- NEEDED FOR MAIN MENU LAYOUT
+* 1. Remove the text "_EXAMPLE" from the 5 filenames (see checklist at bottom):
 * 2. THEN, Open into an editor the 5 files you just renamed
 * 3. Put all of your loading screen edds pictures files and ogg music file in the folder called 'data'
 * 4. Put all of your custom icons and logo files in the folder called 'gui\imagesets' - some standard issue icons provided for you already
