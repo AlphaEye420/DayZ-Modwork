@@ -10,6 +10,7 @@ To use the example follow all of these steps - match exactly correct or it will 
 	* \scripts\3_Game\LoadingScreens_EXAMPLE.c -- NEEDED FOR LOADING SCREENS
 	* \scripts\5_Mission\MainMenu_EXAMPLE.c -- NEEDED FOR MAIN MENU LAYOUT
 	* \scripts\5_Mission\MainMenuMusic_EXAMPLE.c -- NEEDED FOR MENU MUSIC
+	(THEY ARE NAMED THIS WAY BECAUSE THEY ARE THE FILES THAT YOU WILL NEED TO TYPE IN YOUR MOD'S NAME OR OTHER INFO)
 2. THEN, Open into an editor the 5 files you just renamed
 
 3. Put all of your loading screen edds pictures files and ogg music file in the folder called 'data'
@@ -38,3 +39,28 @@ Then, change the name of the map in the last function to match your server's map
 ~ if you do not need the main menu layout, delete \scripts\5_Mission\MainMenu.c and the \gui folder
 ~ if you do not need the character scene location the delete the last cfg section in config.cpp
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CHECKLIST FOR TYPING CHANGES:
+
+config_EXAMPLE.cpp
+* There are 12+ places to change information! Look for //*** 
+* (must do lines 3 5 22 24 50 59 68 70 77 81)
+* character scene editing is optional
+
+MainMenu_EXAMPLE.c
+* There are 4 places to change information
+* "YourModName" (line 8)
+* Server IP and Port (line 55)
+* Web Addresses for lower left icons (lines 76 81)
+
+main_menu_EXAMPLE.layout
+* There are 3 places to change "YourModName" (lines 350 382 619) 
+* The locations of your graphics need to match your filename and path
+* change fonts if desired
+
+MainMenuMusic_EXAMPLE.c
+* There is 1 place to change "YourModName"
+
+LoadingScreens_EXAMPLE.c
+* There are 3 places to change ""YOUR_PIC_1"-21, etc or how many pics you plan to have in shuffle
+* Make sure the "int i = Math.RandomInt(0,20);" matches the size of the array of pics you use

@@ -5,7 +5,7 @@ modded class MainMenu
 
 	override Widget Init()
 	{
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "YourModName/gui/main_menu.layout" ); //********** edit "YourModName" text to match your mod's name
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "YourModName/Scripts/5_Mission/gui/main_menu.layout" ); //********** edit "YourModName" text to match your mod's name
 		
 		m_Play						= layoutRoot.FindAnyWidget( "play" );
 		m_CustomizeCharacter		= layoutRoot.FindAnyWidget( "customize_character" );
@@ -73,12 +73,12 @@ modded class MainMenu
 			}
 			else if ( w == custom_button1 )
 			{
-				GetGame().OpenURL("https://steamcommunity.com");  //********** Lower left of screen: Right Hand Icon URL link
+				GetGame().OpenURL("https://deerisle-wiki.jimdosite.com");  //********** Lower left of screen: Right Hand Icon URL link
 				return true;
 			}
 			else if ( w == custom_button2 )
 			{
-				GetGame().OpenURL("https://discord.gg");  //********** Lower left of screen: Left Hand Icon URL link
+				GetGame().OpenURL("https://discord.gg");  //********** Lower left of screen: Left Hand Icon URL link - discord by default but steam icon provided to swap
 				return true;
 			}			
 		}

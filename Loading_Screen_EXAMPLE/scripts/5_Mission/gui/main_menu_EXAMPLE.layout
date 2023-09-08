@@ -347,7 +347,7 @@ FrameWidgetClass main_menu_root {
        vexactpos 1
        hexactsize 0
        vexactsize 0
-       image0 "YourModName/gui/imagesets/DeerIsle_Icon.edds" //********** edit "YourModName" text to match your mod's name ********** also match to your pic filename in imagesets (right hand icon)
+       image0 "YourModName/Scripts/5_Mission/gui/imagesets/DeerIsle_Icon.edds" //********** edit "YourModName" text to match your mod's name ********** also match to your pic filename in imagesets (right hand icon)
        mode blend
        "src alpha" 1
        stretch 1
@@ -379,7 +379,7 @@ FrameWidgetClass main_menu_root {
        vexactpos 1
        hexactsize 0
        vexactsize 0
-       image0 "YourModName/gui/imagesets/discord.edds" //********** edit "YourModName" text to match your mod's name ********** also match to your pic filename in imagesets (left hand icon)
+       image0 "YourModName/Scripts/5_Mission/gui/imagesets/discord.edds" //********** edit "YourModName" text to match your mod's name ********** also match to your pic filename in imagesets (left hand icon)
        mode blend
        "src alpha" 1
        stretch 1
@@ -616,7 +616,7 @@ FrameWidgetClass main_menu_root {
    hexactsize 1
    vexactsize 1
    priority 2
-   image0 "YourModName/gui/imagesets/steam.edds" //********** edit "YourModName" text to match your mod's name ********** also match to your pic filename in imagesets (upper left logo)
+   image0 "YourModName/Scripts/5_Mission/gui/imagesets/yourLOGO.edds" //********** edit "YourModName" text to match your mod's name ********** also match to yourLOGO to filename in imagesets (upper left logo)
    mode blend
    "src alpha" 1
    stretch 1

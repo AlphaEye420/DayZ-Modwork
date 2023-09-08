@@ -2,7 +2,7 @@ modded class MissionMainMenu  // this scripts loads your music
 {
 	override void PlayMusic()
 	{
-		ref SoundParams soundParams			= new SoundParams( "YourModName_Music_1_SoundSet" );
+		ref SoundParams soundParams			= new SoundParams( "YourModName_Music_1_SoundSet" ); //********** change "YourModName"
 		ref SoundObjectBuilder soundBuilder	= new SoundObjectBuilder( soundParams );
 		ref SoundObject soundObject			= soundBuilder.BuildSoundObject();
 		soundObject.SetKind( WaveKind.WAVEMUSIC );
