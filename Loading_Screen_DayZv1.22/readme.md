@@ -1,8 +1,9 @@
 ## CUSTOM LOADING SCREEN for DayZ version 1.22 
 #### Features: GAME HINTS + MENU MUSIC + MAIN MENU SCENE + BASIC MENU LAYOUT
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.1 / DAYZ 1.22
-
+~~~
 To use the example follow all of these steps - match exactly correct or it will not work:
+~~~
 
 * Copy the file structure into YourModName directory
 * 1. Open into an editor the 7 files from the checklist below
@@ -55,12 +56,15 @@ To use the example follow all of these steps - match exactly correct or it will 
 #### root/data/Hints.json
 * Create your custom loading screen hints
 
-~~~~
+~~~
 Not compatible with DayZ Expansion loading screens, so turn it off completely in their settings!
 "UseExpansionMainMenuLogo": 0,
 "UseExpansionMainMenuIcons": 0,
 "UseExpansionMainMenuIntroScene": 0,
 "InGameMenuLogoPath": "graphicsFile" <-- match to your /scripts/5_Mission/gui/main_menu.layout line 619
-~~~~
+~~~
+
+~~~
 You can contact me (AlphaEye) via my discord server general-chat channel https://discord.gg/BdkSUQENhM
 I will support this working packable mod UP THROUGH DAYZ VERSION 1.22 ONLY
+~~~
