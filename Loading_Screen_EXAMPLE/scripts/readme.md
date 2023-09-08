@@ -13,6 +13,7 @@
 #### main_menu_EXAMPLE.layout
 * There are 3 places to change "YourModName" (lines 350 382 619) 
 * The locations of your graphics need to match your filename and path
+* EXPANSION USERS: Line 619 path must match the last line of GeneralSettings.json (profiles/expansion/settings)
 * change fonts if desired
 
 #### MainMenuMusic_EXAMPLE.c
