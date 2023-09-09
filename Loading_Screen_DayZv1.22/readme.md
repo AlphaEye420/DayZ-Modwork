@@ -3,7 +3,7 @@
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.1 / DAYZ 1.22 and only supported as such
 ~~~
 There is no pbo to download.  You add your pics and music to the directory, edit text and pack your own pbo.
-To use the example follow all of these steps - match exactly correct or it will not work:
+To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
 
 * Download directory from github and copy the file structure into YourModName directory
