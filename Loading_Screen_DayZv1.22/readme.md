@@ -6,7 +6,7 @@ There is no pbo to download.  You add your pics and music to the directory, edit
 To use the example follow all of these steps - match exactly correct or it will not work:
 ~~~
 
-* Copy the file structure into YourModName directory
+* Download directory from github and copy the file structure into YourModName directory
 * 1. Open into an editor the 7 files from the checklist below
 * 2. Put all of your loading screen edds pictures files and ogg music file in the folder called 'data'
 * 3. Put all of your custom icons and logo files in the folder called 'gui\imagesets' - some standard issue icons provided for you already
