@@ -9,7 +9,7 @@ To use this template follow all of these steps - match exactly correct or it wil
 * Download the "Directory Structure.zip" from github and copy the structure into YourModName directory
 * 1. Open into an editor the 7 files from the checklist below
 * 2. Put all of your loading screen edds pictures files and ogg music file in the folder called 'data'
-* 3. Put all of your custom icons and logo files in the folder called 'gui\imagesets' - some standard issue icons provided for you already
+* 3. Put all of your custom icons and logo files in the folder called 'scripts/5_Mission/gui/imagesets' - some standard issue icons provided for you already
 * 4. In the first 5 of the 7 checklist files, change the text of "YourModName" to the name of your mod on steam !! DO this in 5 files !!
 * 5. In the config.cpp, change the text of YourSONGName to your ogg file name in the data folder, and fill in the "" for your steam name and ID. Then, change the name of the map in the last function to match your server's map name & configure character scene
 * 6. In the LoadingScreen.c file in 3_Game, change the text of 'Your_PIC_#' to your edds file names in the data folder !! DEFAULT IS 21 PIC CAROSEL, ADJUST TO YOUR NUMBER OF PICS BY ADDING OR DELETING LINES AND ADJUSTING THE RANDOMIZER'S MIN/MAX IN ALL 3 SECTIONS OF THE FILE !!
