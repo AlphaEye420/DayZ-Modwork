@@ -21,7 +21,7 @@ To use this template follow all of these steps - match exactly correct or it wil
 ### SHOULD YOU WANT TO REMOVE A SECTION:
 * if you need only one (1) pic, set the variable i to "int i = 0;" and only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of \scripts\3_Game\loading_screen.c
 * To remove music you can delete the 2 soundshaders functions in config.cpp and delete \scripts\5_Mission\MainMenuMusic.c
-* To remove the loading screen pics at all, remove \data edds files and delete \scripts\3_Game\loading_screen.c
+* To remove the loading screen pictures, remove your \data edds files and delete \scripts\3_Game\loading_screen.c
 * To remove the main menu layout, delete \scripts\5_Mission\MainMenu.c and the \gui folder
 * To remove the character scene location the delete the last cfg section in config.cpp
 * To remove the custom hints delete the hints.json in data folder +and+ within Scripts/3_Game/ delete HintPage.c, UiHintPanal.c. and 3_Game/gui folder
