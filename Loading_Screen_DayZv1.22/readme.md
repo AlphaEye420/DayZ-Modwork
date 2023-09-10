@@ -13,8 +13,8 @@ To use this template follow all of these steps - match exactly correct or it wil
 * 4. In the first 5 of the 7 checklist files, change the text of "YourModName" to the name of your mod on steam !! DO this in 5 files !!
 * 5. In the config.cpp, change the text of YourSONGName to your ogg file name in the data folder, and fill in the "" for your steam name and ID. Then, change the name of the map in the last function to match your server's map name & configure character scene
 * 6. In the LoadingScreen.c file in 3_Game, change the text of 'Your_PIC_#' to your edds file names in the data folder !! DEFAULT IS 21 PIC CAROSEL, ADJUST TO YOUR NUMBER OF PICS BY ADDING OR DELETING LINES AND ADJUSTING THE RANDOMIZER'S MIN/MAX IN ALL 3 SECTIONS OF THE FILE !!
-* 7. In the MainMenu_EXAMPLE.c be sure to change the IP and connection port, then edit the links below that happen on icon click
-* 8. In the main_menu_EXAMPLE.layout look for //*** to see where you can edit to match your graphics with your sizes, choose font and graphics locations !! It is helpful to match the sizes of your photos to your widget dimensions, though you may experiment with stretching by using different values !!
+* 7. In the MainMenu.c be sure to change the IP and connection port, then edit the links below that happen on icon click
+* 8. In the main_menu.layout look for //*** to see where you can edit to match your graphics with your sizes, choose font and graphics locations !! It is helpful to match the sizes of your photos to your widget dimensions, though you may experiment with stretching by using different values !!
 * 9. In Hints.json in data folder, customize the text of the hints ~ backing images & layout are broken but the text can be customized
 * 10. Pack mod
 
