@@ -2,7 +2,7 @@
 #### root/config.cpp
 * There are 12+ places to change information! Look for //*** 
 * (must do lines 3 5 22 24 50 59 68 70 77 81)
-* character scene editing is optional
+* character scene editing is optional for Deer Isle only
 
 #### root/scripts/5_Mission/MainMenu.c
 * There are 4 places to change information
