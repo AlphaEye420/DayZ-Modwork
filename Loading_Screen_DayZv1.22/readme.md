@@ -41,8 +41,8 @@ To use this template follow all of these steps - match exactly correct or it wil
 #### root/scripts/5_Mission/gui/main_menu.layout
 * There are 3 places to change "YourModName" (lines 350 382 619) 
 * The locations of your graphics need to match your filename and path
-* EXPANSION USERS: Line 619 path must be copied into the last line of /profiles/expansion/settings/GeneralSettings.json/"InGameMenuLogoPath"
 * change fonts if desired
+* EXPANSION USERS: Line 619 path must be copied into the last line of /profiles/expansion/settings/GeneralSettings.json/"InGameMenuLogoPath"
 
 #### root/scripts/5_Mission/MainMenuMusic.c
 * There is 1 place to change "YourModName"
