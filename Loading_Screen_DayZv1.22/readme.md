@@ -57,6 +57,7 @@ To use this template follow all of these steps - match exactly correct or it wil
 #### root/data/Hints.json
 * Create your custom loading screen hints
 
+#### Expansion Users:
 ~~~
 Not compatible with DayZ Expansion loading screens, so turn it off completely in their settings!
 "UseExpansionMainMenuLogo": 0,
