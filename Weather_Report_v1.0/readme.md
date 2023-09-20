@@ -25,6 +25,6 @@
 * Download the zip, unzip and copy the @WeatherReport folder into your server root directory next to your others.  
 * Copy the key from the @WeatherReport/keys folder into your server keys folder 
 * !! **USE _at least_ -servermod=@WeatherReport; IN YOUR START.BAT** !! (_If you were to put it after -mod= then your clients will not be able to login to the server_) ~ Note: GTX & other server hosts may have a different place for you to add `@WeatherReport;` to the server side only section of an entry form
-* **YOU MUST TURN THE WEATHER OFF** in "cfgweather.xml" inside missions folder ~ set to: `weather reset="1" enable="0"`
+* **YOU MUST TURN THE WEATHER OFF** in "cfgweather.xml" inside missions folder ~ set to: `<weather reset="1" enable="0">`
 * Start Server, it will create the weather.json file for you to edit if you want for the next restart, but editing isn't necessary
 * To ensure it is working, check the beginning of the script_.log _(in profiles folder)_ to see which condition and settings it picked
