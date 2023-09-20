@@ -1,4 +1,4 @@
-# WEATHER REPORT by JAZS
+# WEATHER REPORT by AlphaEye
 **CREDIT TO affenb3rt FOR PRESET WEATHER**
     *this mod is 100% of PresetWeather mod with added code*
 
