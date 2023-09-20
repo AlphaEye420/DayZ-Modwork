@@ -1,11 +1,10 @@
 # WEATHER REPORT by AlphaEye
-**CREDIT TO affenb3rt FOR PRESET WEATHER**
-    *this mod is 100% of PresetWeather mod with added code*
+**CREDIT TO affenb3rt FOR PRESET WEATHER** ~ *this mod is 100% of PresetWeather mod with added code*
 
 ### What does this mod do?
 * The **weather.json** file should automatically appear in your **missions folder** when you start the server after installing the mod
 * The Mod changes the weather based on an array of weather conditions you set in the json, which are randomly picked at set times
-* These parameters determine the ranges of fog, clouds, rain, wind, duration of the condition, & time it takes to fully transition to the condition
+* These parameters determine ranges for fog, clouds, rain, wind, duration of the condition, & time it takes to fully transition
 * PRINTS the name & duration *(irl minutes)* of the of a newly chosen condition in your server's global chat ingame
 * PRINTS specific details of a newly chosen condition in your server's script_.log found in profiles folder
 
@@ -14,10 +13,10 @@
 * **Fog, clouds, rain, wind range limits are 0.0 to 1.0**
 * **Storm is a 1 0 boolean on/off**
 * **Thunder_Timeout is the minimum seconds between lightning strikes** _(picks a random time >= timeout)_
-* Do weather condition editing inside weather.json in the missions folder, remember to backup your old ones in case something doesn't work
+* Edit weather.json in the missions folder to suit, just remember to backup your old ones in case something doesn't work
 * The original weather.json file is provided in the extras folder should you want to go back to or compare to its settings
 * The "name" field in the json is exactly what you see in global chat for forecast text, _caps are suggested for consistency, but not required_
-* There are several weather conditions in the provided json with the same name; This is to lower the chance of the rain conditions firing as the system picks any one of the json conditions at random
+* There are several weather conditions in the provided json with the same name; This lowers the chance of the rain conditions firing
 * To have more rain, you can delete a few of the duplicates or add rain conditions to the json
 * To have less rain, you can delete some of the rain conditions or duplicate the clear conditions in the json
 
@@ -25,7 +24,7 @@
 !! **THIS IS A SERVER SIDE ONLY MOD** !!
 * Download the zip, unzip and copy the @WeatherReport folder into your server root directory next to your others.  
 * Copy the key from the @WeatherReport/keys folder into your server keys folder 
-* !! **USE _at least_ -servermod=@WeatherReport; IN YOUR START.BAT** !! _If you were to put it after -mod= then your clients will not be able to login to the server;_ Note: GTX & other server hosts may have a different place for you to add _@WeatherReport;_ to the server side only section of an entry form
+* !! **USE _at least_ -servermod=@WeatherReport; IN YOUR START.BAT** !! (_If you were to put it after -mod= then your clients will not be able to login to the server_) ~ Note: GTX & other server hosts may have a different place for you to add _@WeatherReport;_ to the server side only section of an entry form
 * **YOU MUST TURN THE WEATHER OFF IN YOUR "cfgweather.xml" inside missions folder by setting this line to: <weather reset="1" enable="0">
 * Start Server, it should work right away by making the weather.json file for you to edit if you want for the next restart, but it isn't necessary to edit at all
 * To ensure it is working, check the beginning of the script_.log _(in profiles folder)_ to see which condition and settings it picked
