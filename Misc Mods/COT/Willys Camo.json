@@ -1,0 +1,16 @@
+{
+  "VehicleName": "zeroy_jeep_willis_camo",
+  "DisplayName": "Jeep Willy Camo",
+  "Parts": [
+    "Jeep_Willis_Windshield_camo",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+		"carBattery"
+  ]
+}
