@@ -1,5 +1,5 @@
 # DayZ-Modwork
-Drops containing .c .map .xml .json for various DayZ mods
+Drops containing .c .map .xml .json .pbo for various DayZ mods
 ### I WORK WITH DEER ISLE MAP
 
 **PLEASE FEEL FREE TO TAKE & USE ANYTHING**
