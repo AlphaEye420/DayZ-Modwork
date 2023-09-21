@@ -11,7 +11,7 @@
 **JSON NOTES:**
 * **Transition & duration values are in minutes**
 * **Fog, clouds, rain, wind range limits are 0.0 to 1.0**
-* **Storm is a 1 0 boolean on/off** ~ _on = lightning_
+* **Storm is a 1 0 boolean on/off** _(on = lightning)_
 * **Thunder_Timeout is the minimum seconds between lightning strikes** _(picks a random time >= timeout)_
 * Edit weather.json in the missions folder to suit, just remember to backup your old ones in case something doesn't work
 * The original weather.json file is provided in the extras folder should you want to go back to or compare to its settings
