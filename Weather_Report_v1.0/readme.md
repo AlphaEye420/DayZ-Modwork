@@ -31,4 +31,4 @@
 
 ### You **cannot turn off** the global chat notifications
 * If you would like these weather patterns without spamming chat, then take the weather.json file provided in extras folder an use it with:
-* [@PresetWeather in Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808)
+* [@PresetWeather in Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808) ~ *also server side only!*
