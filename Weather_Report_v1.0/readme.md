@@ -28,3 +28,7 @@
 * **YOU MUST TURN THE WEATHER OFF** in "cfgweather.xml" inside missions folder ~ set to: `<weather reset="1" enable="0">`
 * Start Server, it will create the weather.json file for you to edit if you want for the next restart, but editing isn't necessary
 * To ensure it is working, check the beginning of the script_.log _(in profiles folder)_ to see which condition and settings it picked
+
+### You **cannot turn off** the global chat notifications
+* If you would like these weather patterns without spamming chat, then take the weather.json file provided in extras folder an use it with:
+* [@PresetWeather in Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808)
