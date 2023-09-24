@@ -1,5 +1,5 @@
 # WEATHER REPORT by AlphaEye
-**CREDIT TO affenb3rt FOR PRESET WEATHER** ~ *this mod is 100% of PresetWeather mod with added code*
+**CREDIT TO affenb3rt FOR [PRESET WEATHER](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808)** ~ *this mod is 100% of PresetWeather mod with added code*
 
 ### What does this mod do?
 * The **weather.json** file should automatically appear in your **missions folder** when you start the server after installing the mod
