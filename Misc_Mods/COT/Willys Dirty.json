@@ -1,0 +1,16 @@
+{
+  "VehicleName": "zeroy_jeep_willis_dirty",
+  "DisplayName": "Jeep Willy Dirty",
+  "Parts": [
+    "Jeep_Willis_Windshield_dirty",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "HatchbackWheel",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+		"carBattery"
+  ]
+}
