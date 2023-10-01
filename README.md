@@ -11,4 +11,4 @@ I'll continue to drop items here that I find benefit the DayZ modding community
 [PATREON](https://patreon.com/AlphaEye)
 [GITHUB](https://github.com/AlphaEye420)
 [DISCORD](https://discord.gg/BdkSUQENhM)
-[YOUTUBE])https://www.youtube.com/@AlphaEye420)
+[YOUTUBE](https://www.youtube.com/@AlphaEye420)
