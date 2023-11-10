@@ -1,6 +1,6 @@
-## CUSTOM LOADING SCREEN for DayZ version 1.22 
+## CUSTOM LOADING SCREEN
 #### Features: GAME HINTS + MENU MUSIC + MAIN MENU SCENE + BASIC MENU LAYOUT
-! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.1 / DAYZ 1.22 and only supported as such
+! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.23 and only supported as such
 ~~~
 There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
 To use this template follow all of these steps - match exactly correct or it will not work:
