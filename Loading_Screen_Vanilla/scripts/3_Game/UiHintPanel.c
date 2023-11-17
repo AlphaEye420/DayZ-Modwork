@@ -6,8 +6,8 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 {	
 	// Const
 	protected int 			m_SlideShowDelay			= 25000;											// The speed of the slideshow 
-	protected string 				m_RootPath			= "YourModName/Scripts/3_Game/gui/in_game_hints.layout";	//*** Layout path - change "YourModName"
-	protected const string 			m_DataPath			= "YourModName/Data/hints.json";						//*** Json path - change "YourModName"
+	protected string 				m_RootPath			= "YourPBOName/Scripts/3_Game/gui/in_game_hints.layout";	//*** Layout path - change "YourPBOName"
+	protected const string 			m_DataPath			= "YourPBOName/Data/hints.json";						//*** Json path - change "YourPBOName"
 	// Widgets
 	protected Widget 				m_RootFrame;
 	protected Widget 				m_SpacerFrame;
@@ -279,7 +279,7 @@ modded class UiHintPanelLoading extends UiHintPanel
 {
 	override void Init(DayZGame game)
 	{
-		m_RootPath = "YourModName/Scripts/3_Game/gui/in_game_hints_load.layout";  //*** LoadLayout path - change "YourModName"
+		m_RootPath = "YourPBOName/Scripts/3_Game/gui/in_game_hints_load.layout";  //*** LoadLayout path - change "YourPBOName"
 		super.Init(game);
 	}
 }

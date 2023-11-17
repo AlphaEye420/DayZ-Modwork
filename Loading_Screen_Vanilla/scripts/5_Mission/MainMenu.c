@@ -5,7 +5,7 @@ modded class MainMenu
 
 	override Widget Init()
 	{
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "YourModName/Scripts/5_Mission/gui/main_menu.layout" ); //********** edit "YourModName" text to match your mod's name
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "YourPBOName/Scripts/5_Mission/gui/main_menu.layout" ); //********** edit "YourPBOName" text to match your mod's name
 		
 		m_Play						= layoutRoot.FindAnyWidget( "play" );
 		m_CustomizeCharacter		= layoutRoot.FindAnyWidget( "customize_character" );

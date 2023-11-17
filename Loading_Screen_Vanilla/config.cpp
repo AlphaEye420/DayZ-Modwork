@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class YourModName_LoadingScreen
+	class YourPBOName_LoadingScreen
 	{
-		units[] = {}; //*** Change "YourModName"  above 2 lines
+		units[] = {}; //*** Change "YourPBOName"  above 2 lines
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
@@ -19,9 +19,9 @@ class CfgPatches
 
 class CfgMods
 {
-	class DZ_YourModName_LoadingScreen
+	class DZ_YourPBOName_LoadingScreen
 	{
-	    dir = "YourModName"; //*** Change "YourModName" to the left AND above 2 lines
+	    dir = "YourPBOName"; //*** Change "YourPBOName" to the left AND above 2 lines
 	    picture = "";
 	    action = "";
 	    hideName = 1;
@@ -47,7 +47,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"YourModName/Scripts/3_Game"  //*** Change "YourModName" 
+					"YourPBOName/Scripts/3_Game"  //*** Change "YourPBOName" 
 				};
 			};
 			
@@ -56,7 +56,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"YourModName/Scripts/5_Mission"  //*** Change "YourModName" 
+					"YourPBOName/Scripts/5_Mission"  //*** Change "YourPBOName" 
 				};
 			};
 		};
@@ -65,20 +65,20 @@ class CfgMods
 
 class CfgSoundShaders
 {
-	class YourModName_Music_1_SoundShader
+	class YourPBOName_Music_1_SoundShader
 	{
-		samples[] = {{"YourModName\data\YourSONGName",1}};  //*** Change "YourSONGName" to match your ogg / also change "YourModName" above 2 lines
+		samples[] = {{"YourPBOName\data\YourSONGName",1}};  //*** Change "YourSONGName" to match your ogg / also change "YourPBOName" above 2 lines
 		volume=0.786;
 	};
 };
 
 class CfgSoundSets
 {	
-	class YourModName_Music_1_SoundSet
+	class YourPBOName_Music_1_SoundSet
 	{
 		soundShaders[]=
 		{
-			"YourModName_Music_1_SoundShader" //*** Change "YourModName" to the left AND above 4 lines
+			"YourPBOName_Music_1_SoundShader" //*** Change "YourPBOName" to the left AND above 4 lines
 		};
 		volumeFactor=1;
 		frequencyFactor=1;
