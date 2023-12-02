@@ -8,15 +8,15 @@ modded class HintPage
 	private string 	m_Description;		// Hint description text
 	private string 	m_ImagePath;		// Hint image, can be null  
 
-	string GetHeadlineText()
+	override string GetHeadlineText()
 	{
 		return m_Headline;
 	}
-	string GetDescriptionText()
+	override string GetDescriptionText()
 	{
 		return m_Description;
 	}
-	string GetImagePath()
+	override string GetImagePath()
 	{
 		return m_ImagePath;
 	}
