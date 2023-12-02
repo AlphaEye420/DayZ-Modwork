@@ -44,7 +44,7 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 	}
 
 	
-	void Init(DayZGame game)
+	override void Init(DayZGame game)
 	{
 		//as this class is now also being instantiated from within the DayZGame CTOR, where GetGame() does not work yet, we need a way to pass the game instance from DayZGame CTOR
 		//however for modding legacy support purposes, this was done without modifying the CTOR signature with the addition of the Init method, 
@@ -80,13 +80,13 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 	// ------------------------------------------------------
 	
 	// Load content data from json file 
-	protected void LoadContentList()
+	override protected void LoadContentList()
 	{
 		JsonFileLoader<array<ref HintPage>>.JsonLoadFile( m_DataPath, m_ContentList );
 	}	
 	
 	// Create and Build the layout 
-	protected void BuildLayout(Widget parent_widget)
+	override protected void BuildLayout(Widget parent_widget)
 	{
 		// Create the layout
 		m_RootFrame = m_Game.GetWorkspace().CreateWidgets( m_RootPath, parent_widget );
@@ -107,7 +107,7 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 	}
 	
 	// Populate the hint with content
-	protected void PopulateLayout()
+	override protected void PopulateLayout()
 	{
 		if (m_RootFrame)
 		{
@@ -120,11 +120,11 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 	
 	// -------------------------------------------
 	// Setters
-	protected void SetHintHeadline()
+	override protected void SetHintHeadline()
 	{
 		m_UiHeadlineLabel.SetText(m_ContentList.Get(m_PageIndex).GetHeadlineText());
 	}
-	protected void SetHintDescription()
+	override protected void SetHintDescription()
 	{
 		#ifdef DEVELOPER
 		//Print("showing contents for page "+m_PageIndex);
@@ -133,7 +133,7 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 		m_UiDescLabel.Update();
 		m_SpacerFrame.Update();
 	}
-	protected void SetHintImage()
+	override protected void SetHintImage()
 	{
 		string image_path = m_ContentList.Get(m_PageIndex).GetImagePath();
 		
@@ -151,20 +151,20 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 			m_UiHintImage.Show(false);
 		}
 	}
-	protected void SetHintPaging()
+	override protected void SetHintPaging()
 	{
 		if (m_UiPageingLabel)
 			m_UiPageingLabel.SetText(string.Format("%1 / %2", m_PageIndex + 1, m_ContentList.Count()));	
 	}
 	
-	void ShowRandomPage()
+	override void ShowRandomPage()
 	{
 		RandomizePageIndex();
 		PopulateLayout();
 	}
 	
 	// Set a random page index 
-	protected void RandomizePageIndex()
+	override protected void RandomizePageIndex()
 	{
 		Math.Randomize(m_Game.GetTime());
 		Math.RandomFloat01();//throw-away value, without calling this, the next random number is always the same, calling Math.Randomize(-1) makes no difference
@@ -174,7 +174,7 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 		
 	}
 	// Show next hint page by incrementing the page index. 
-	protected void ShowNextPage()
+	override protected void ShowNextPage()
 	{
 		// Update the page index
 		if ( m_PageIndex < m_ContentList.Count() - 1 )
@@ -190,7 +190,7 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 		PopulateLayout();
 	}	
 	// Show previous hint page by decreasing the page index. 
-	protected void ShowPreviousPage()
+	override protected void ShowPreviousPage()
 	{
 		// Update the page index
 		if ( m_PageIndex == 0 )
@@ -210,22 +210,22 @@ modded class UiHintPanel extends ScriptedWidgetEventHandler //модкласс
 	// Slideshow
 	
 	// Creates new slidshow thread
-	protected void StartSlideshow()
+	override protected void StartSlideshow()
 	{
 		m_Game.GetCallQueue(CALL_CATEGORY_GUI).CallLater(SlideshowThread, m_SlideShowDelay);
 	}
 	// Slidshow thread - run code
-	protected void SlideshowThread()
+	override protected void SlideshowThread()
 	{
 		ShowNextPage();
 	}
 	// Stop the slide show
-	protected void StopSlideShow()
+	override protected void StopSlideShow()
 	{
 		m_Game.GetCallQueue(CALL_CATEGORY_GUI).Remove(SlideshowThread);
 	}
 	// Restart the slide show 
-	protected void RestartSlideShow()
+	override protected void RestartSlideShow()
 	{
 		StopSlideShow();
 		StartSlideshow();
