@@ -1,7 +1,7 @@
 ## dAyZ XY mapper 
 v 0.0 - A tool for simply visualizing your DayZ mapping from xml and json files
 * For now this simply plots a collection of `<pos x y z a />` or `<x, y, z> ` coords on a map instantly, and you can mix the two ways
-* Deer Isle is used so far, and the pic overlays with a transparency set to reveal the chart behind it
+* Map's pic overlays with a transparency set to reveal the chart behind it
 * You can save as (or duplicate sheets) to create your catalog of plots for quick view.
 * There is no import export feature, yet.   You need to paste or type in the A column. 
 * You can make the table as big as you want
