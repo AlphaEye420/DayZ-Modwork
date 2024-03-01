@@ -1,0 +1,201 @@
+{
+  "loglevel": 0,
+  "BubakLocations": [
+    {
+      "name": "Shark Infest NE 1",
+      "workinghours": "0-24",
+      "triggerpos": "12832 1 11424",
+      "triggermins": "-500 -88 -500",
+      "triggermaxs": "500 88 500",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "13032 -5 11424",
+        "12632 -5 11424",
+        "12832 -5 11624",
+        "12832 -5 11224",
+        "12632 -5 11224",
+        "13032 -5 11624"
+      ],
+      "spawnradius": 100,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    },
+    {
+      "name": "Shark Infest NE 2",
+      "workinghours": "0-24",
+      "triggerpos": "14480 1 9952",
+      "triggermins": "-300 -88 -300",
+      "triggermaxs": "300 88 300",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "14580 -5 9952",
+        "14380 -5 9952",
+        "14480 -5 10052",
+        "14480 -5 9852",
+        "14580 -5 10052",
+        "14380 -5 9852"
+      ],
+      "spawnradius": 50,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    },
+    {
+      "name": "Shark Infest NE 3",
+      "workinghours": "0-24",
+      "triggerpos": "15696 1 12192",
+      "triggermins": "-88 -88 -88",
+      "triggermaxs": "88 88 -88",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "15736 -5 12192",
+        "15656 -5 12192",
+        "15696 -5 12232",
+        "15696 -5 12152",
+        "15736 -5 12232",
+        "15656 -5 12152"
+      ],
+      "spawnradius": 20,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    },
+    {
+      "name": "Shark Infest Rig 1",
+      "workinghours": "0-24",
+      "triggerpos": "1668 1 12452",
+      "triggermins": "-100 -88 -100",
+      "triggermaxs": "100 88 -100",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "1708 -5 12452",
+        "1628 -5 12452",
+        "1668 -5 12492",
+        "1668 -5 12412",
+        "1708 -5 12492",
+        "1628 -5 12412"
+      ],
+      "spawnradius": 10,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    },
+    {
+      "name": "Shark Infest Rig 2",
+      "workinghours": "0-24",
+      "triggerpos": "2112 1 14504",
+      "triggermins": "-100 -88 -100",
+      "triggermaxs": "100 88 -100",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "2152 -5 14504",
+        "2072 -5 14504",
+        "2112 -5 14544",
+        "2112 -5 14464",
+        "2152 -5 14544",
+        "2072 -5 14464"
+      ],
+      "spawnradius": 10,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    },
+    {
+      "name": "Shark Infest Rig 3",
+      "workinghours": "0-24",
+      "triggerpos": "3896 1 15568",
+      "triggermins": "-100 -88 -100",
+      "triggermaxs": "100 88 -100",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "3936 -5 15568",
+        "3856 -5 15568",
+        "3896 -5 15608",
+        "3896 -5 15528",
+        "3936 -5 15608",
+        "3856 -5 15528"
+      ],
+      "spawnradius": 10,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    },
+    {
+      "name": "Shark Infest Rig S",
+      "workinghours": "0-24",
+      "triggerpos": "1568 1 10320",
+      "triggermins": "-250 -88 -250",
+      "triggermaxs": "250 88 -250",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "1668 -5 10320",
+        "1468 -5 10320",
+        "1568 -5 10420",
+        "1568 -5 10220",
+        "1668 -5 10420",
+        "1468 -5 10220"
+      ],
+      "spawnradius": 30,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ]
+    }
+  ]
+}
