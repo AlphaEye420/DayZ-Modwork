@@ -1,0 +1,21 @@
+{
+  "VehicleName": "FordRaptor_Scorpio_Green",
+  "DisplayName": "FordRaptor Scorpio Green",
+  "Parts": [
+    "FordRaptor_Scorpio_Green_driver",
+    "FordRaptor_Scorpio_Green_codriver",
+    "FordRaptor_Scorpio_Green_hood",
+    "FordRaptor_Scorpio_Green_trunk",
+    "FordRaptor_Scorpio_Green_cargo2",
+    "FordRaptor_Scorpio_Green_cargo1",
+    "FordRaptor_Scorpio_Wheel",
+    "FordRaptor_Scorpio_Wheel",
+    "FordRaptor_Scorpio_Wheel",
+    "FordRaptor_Scorpio_Wheel",
+    "carRadiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "HeadlightH7",
+    "carBattery"
+  ]
+}

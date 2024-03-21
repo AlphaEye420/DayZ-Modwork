@@ -1,0 +1,19 @@
+{
+  "VehicleName": "vg7_scorpion",
+  "DisplayName": "Scorpion",
+  "Parts": [
+    "Jeep_Willis_Windshield",
+    "vg7_scorpion_wheel_front",
+    "vg7_scorpion_wheel_front",
+    "vg7_scorpion_wheel_rear",
+    "vg7_scorpion_wheel_rear",
+    "vg7_scorpion_radiator",
+    "sparkPlug",
+    "HeadlightH7",
+    "vg7_scorpion_plate_blackouts",
+    "vg7_scorpion_drybag",
+    "vg7_scorpion_windjammer",
+    "vg7_scorpion_L_Door",
+		"carBattery"
+  ]
+}
