@@ -5,7 +5,7 @@ FYI: this is the data folder where you put both:
 
 MUSIC FILES ARE STICKY AT TIMES, 
 FOLLOW THESE POCEEDURES TO ENSURE THE BEST POSSIBLE OUTCOME FOR MUSIC IN DAYZ:
-1. Convert your audio to MP3 first, before converting to ogg
+1. Convert your audio to MP3 first, before converting to ogg (in step 6)
 2. Right Click your file in Windows Explorer and nav to Details Tab
 3. Click "Remove Properties and Personal Information"
 4. Select "Remove the follwing properties from this file:"
