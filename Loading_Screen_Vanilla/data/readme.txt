@@ -13,5 +13,5 @@ FOLLOW THESE POCEEDURES TO ENSURE THE BEST POSSIBLE OUTCOME FOR MUSIC IN DAYZ:
 6. Drag file from folder into this website https://www.freeconvert.com/mp3-to-ogg and download the file
 7. Name it to what you have in your main menu music code
 
-Tags are usually the issue with music not playing, 
-but also converting wav to ogg file sometimes doesn't work and converting to ogg from mp3 works better.
+Tags are usually the issue with music not playing
+Also converting wav to ogg file sometimes doesn't work and converting to ogg from mp3 works better
