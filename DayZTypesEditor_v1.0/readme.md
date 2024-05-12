@@ -4,7 +4,7 @@ _Written by AlphaEye_
 
 _To install, just unzip and run the .exe_
 
-**ALWAYS MAKE BACKUPS OF YOUR FILES BEFORE EDITING!**
+**_ALWAYS MAKE BACKUPS OF YOUR FILES BEFORE EDITING!_**
 ___
 ## MENU Contents:
 + **FILE MENU:**
