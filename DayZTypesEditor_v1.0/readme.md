@@ -2,7 +2,7 @@
 
 _Written by AlphaEye_
 
-_To install, just unzip and run the .exe_
+_To install, just unzip and run the .exe ~ requires .NET 8 framework_ 
 
 **_ALWAYS MAKE BACKUPS OF YOUR FILES BEFORE EDITING!_**
 ___
