@@ -1,5 +1,5 @@
 
-  	<event name="ItemNodeCrotchMine">
+  <event name="ItemNodeCrotchMine">
         <nominal>30</nominal>
         <min>30</min>
         <max>90</max>
