@@ -1,3 +1,4 @@
+<These are mining nodes for Deer Isle Mine on Crotch Island>
 
   <event name="ItemNodeCrotchMine">
         <nominal>30</nominal>
