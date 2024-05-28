@@ -109,6 +109,12 @@ modded class MainMenu
 
 	override bool OnMouseButtonDown( Widget w, int x, int y, int button )
 	{
+		if ( w == m_CharacterRotationFrame )
+		{
+			if (m_ScenePC)
+				m_ScenePC.CharacterRotationStart();
+			return true;
+		}
 		return false;
 	}
 }
