@@ -1,3 +1,4 @@
+// BROKEN AS OF DAYZ 1.25 !!
 modded class MissionMainMenu  // this scripts loads your music
 {
 	override void PlayMusic()
