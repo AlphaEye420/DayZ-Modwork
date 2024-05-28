@@ -1,3 +1,5 @@
+
+/*
 // BROKEN AS OF DAYZ 1.25 !!
 modded class MissionMainMenu  // this scripts loads your music
 {
@@ -12,7 +14,7 @@ modded class MissionMainMenu  // this scripts loads your music
 		m_MenuMusic.Play();
 	}
 }
-
+*/
 /*
     TO HAVE A RANDOM FILE PLAY:
 	1. ADD YOUR OGG FILES TO DATA FOLDER
