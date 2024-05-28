@@ -62,7 +62,7 @@ class CfgMods
 		};
     };
 };
-
+/* // section broken at dayz 1.25
 class CfgSoundShaders
 {
 	class YourPBOName_Music_1_SoundShader
@@ -85,7 +85,7 @@ class CfgSoundSets
 		spatial=0;
 	};
 };
-
+*/
 class cfgCharacterScenes
 {
 	class deerisle
