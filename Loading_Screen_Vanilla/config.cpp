@@ -1,8 +1,9 @@
 class CfgPatches
 {
+	//*** Change "YourPBOName" where ever you see it below in this and all files
 	class YourPBOName_LoadingScreen
 	{
-		units[] = {}; //*** Change "YourPBOName"  above 2 lines
+		units[] = {}; 
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
@@ -21,7 +22,7 @@ class CfgMods
 {
 	class DZ_YourPBOName_LoadingScreen
 	{
-	    dir = "YourPBOName"; //*** Change "YourPBOName" to the left AND above 2 lines
+	    dir = "YourPBOName"; 
 	    picture = "";
 	    action = "";
 	    hideName = 1;
@@ -47,7 +48,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"YourPBOName/Scripts/3_Game"  //*** Change "YourPBOName" 
+					"YourPBOName/Scripts/3_Game" 
 				};
 			};
 			
@@ -56,18 +57,18 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"YourPBOName/Scripts/5_Mission"  //*** Change "YourPBOName" 
+					"YourPBOName/Scripts/5_Mission" 
 				};
 			};
 		};
     };
 };
-/* // section broken at dayz 1.25
+
 class CfgSoundShaders
 {
 	class YourPBOName_Music_1_SoundShader
 	{
-		samples[] = {{"YourPBOName\data\YourSONGName",1}};  //*** Change "YourSONGName" to match your ogg / also change "YourPBOName" above 2 lines
+		samples[] = {{"YourPBOName\data\YourSONGName",1}};  //*** Change "YourSONGName"
 		volume=0.786;
 	};
 };
@@ -78,14 +79,14 @@ class CfgSoundSets
 	{
 		soundShaders[]=
 		{
-			"YourPBOName_Music_1_SoundShader" //*** Change "YourPBOName" to the left AND above 4 lines
+			"YourPBOName_Music_1_SoundShader"
 		};
 		volumeFactor=1;
 		frequencyFactor=1;
 		spatial=0;
 	};
 };
-*/
+
 class cfgCharacterScenes
 {
 	class deerisle
