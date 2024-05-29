@@ -31,7 +31,7 @@ Download the directory structure [from this link](https://download-directory.git
 ### SHOULD YOU WANT TO REMOVE A SECTION:
 * if you need only one (1) pic, set the variable i to "int i = 0;" & only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of /scripts/3_Game/loading_screen.c
 * To remove ALL music: delete the soundshaders & soundset functions in config.cpp & delete /scripts/5_Mission/MainMenuMusic.c & /scripts/3_game/DynamicMusicPlayerRegistryDeerisle.c
-* To remove only the ambient music and/or the contaminated area music, refer to the [readme.md](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/Loading_Screen_Vanilla/Scripts/readme.md) in Scripts folder
+* To remove only the ambient music and/or the contaminated area music, refer to the [readme.md](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/Loading_Screen_Vanilla/Scripts/readme.md) (ambient track section) in Scripts folder
 * To remove the loading screen pictures, remove your /data edds files & delete /scripts/3_Game/loading_screen.c
 * To remove the main menu layout, delete /scripts/5_Mission/MainMenu.c & the "/scripts/5_Mission/gui" folder
 * To remove the character scene location the delete the last cfg section in config.cpp
