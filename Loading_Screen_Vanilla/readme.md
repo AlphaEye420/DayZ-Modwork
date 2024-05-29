@@ -3,7 +3,7 @@
 **ATTENTION: DAYZ 1.25 MUSIC** - Note that there are new files you need to have in order to have music work in a modded map
 
 #### Features: GAME HINTS + MENU MUSIC + MAIN MENU CHAR SCENE + BASIC MENU LAYOUT + AMBIENT TRACKS
-! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.23 and only supported as such
+! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.25 and only supported as such
 ~~~
 There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
 Note: your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
@@ -31,6 +31,6 @@ To use this template follow all of these steps - match exactly correct or it wil
 * To remove the character scene location the delete the last cfg section in config.cpp
 * To remove the custom hints delete the hints.json in data folder +and+ within /Scripts/3_Game/ delete HintPage.c, UiHintPanal.c. and delete /Scripts/3_Game/gui folder
 
-BE SURE TO CHANGE YourPBOname in all of the files!!  Use an editor and search for them all.
+BE SURE TO CHANGE YourPBOname in all of the files!!  Use an editor and search for them all. See the scripts folder readme too.
 
 You can contact me (AlphaEye) via my discord server general-chat channel https://discord.gg/BdkSUQENhM
