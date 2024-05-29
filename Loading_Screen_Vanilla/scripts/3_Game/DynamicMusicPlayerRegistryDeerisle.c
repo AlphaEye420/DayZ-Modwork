@@ -32,23 +32,11 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		//DUSK
 		//RegisterTrackTime("YourPBOName_Music_4_SoundSet", DynamicMusicPlayerTimeOfDay.DUSK);
     }
-
-    override void RegisterTracksLocationStatic()
-    {
-        m_TracksLocationStatic = new array<ref DynamicMusicTrackData>();
-        m_TracksLocationStaticPrioritized = new array<ref DynamicMusicTrackData>();
-    }
-
-    override void RegisterTracksLocationDynamic()
-    {
-        m_TracksLocationDynamic = new array<ref DynamicMusicTrackData>();
-		// Contaminated Areas Music (only needed if you want your own music to override otherwise comment out the Registers below)
-		RegisterTrackLocationDynamic("YourPBOName_Music_5_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.DAY);
-		RegisterTrackLocationDynamic("YourPBOName_Music_6_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.NIGHT);
-    }
 		
 	override protected void RegisterTracksLocationStatic()
 	{
+        m_TracksLocationStatic = new array<ref DynamicMusicTrackData>();
+        m_TracksLocationStaticPrioritized = new array<ref DynamicMusicTrackData>();
 		super.RegisterTracksLocationStatic();
 
 		//===================================================================================DEER ISLE=============================================================
@@ -432,4 +420,12 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityElectrozavodsk, DynamicMusicPlayerTimeOfDay.NIGHT);
 		*/
 	}
+
+    override void RegisterTracksLocationDynamic()
+    {
+        m_TracksLocationDynamic = new array<ref DynamicMusicTrackData>();
+		// Contaminated Areas Music (only needed if you want your own music to override otherwise comment out the Registers below)
+		RegisterTrackLocationDynamic("YourPBOName_Music_5_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.DAY);
+		RegisterTrackLocationDynamic("YourPBOName_Music_6_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.NIGHT);
+    }
 }
