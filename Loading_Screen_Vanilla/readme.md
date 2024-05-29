@@ -1,16 +1,22 @@
 ## CUSTOM LOADING SCREEN for Deer Isle
 
-**ATTENTION: DAYZ 1.25 MUSIC** - Note that there are new files you need to have in order to have music work in a modded map
-
-#### Features: GAME HINTS + MENU MUSIC + MAIN MENU CHAR SCENE + BASIC MENU LAYOUT + AMBIENT TRACKS
+### LOADING SCREENS + MAINMENU CHAR SCENE + MAINMENU LAYOUT + HINTS + MENU MUSIC + AMBIENT TRACKS
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.25 and only supported as such
+#### ATTENTION: DAYZ 1.25 MUSIC** 
+* Note that there are new files you need to have in order to have music work in a modded map
+* Also, make sure you capitalize the Data and Scripts folder
+
 ~~~
 There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
-Note: your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
-To use this template follow all of these steps - match exactly correct or it will not work:
+Note: Your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
 ~~~
+~~~
+Note: You should set your DayZ Tools Addon Builder Options (top text field) to ensure a good pack: 
+*.emat;*.edds;*.ptc;*.c;*.imageset;*.layout;*.ogg;*.png;*.paa;*.rvmat;*.wrp;*.json
+~~~
+#### To use this template follow all of these steps - match exactly correct or it will not work:
 
-* Download the files you need from github and make a copy of the structure into YourPBOName directory
+Download the files you need [from this link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAlphaEye420%2FDayZ-Modwork%2Ftree%2Fmain%2FLoading_Screen_Vanilla) and make a copy of the structure into YourPBOName directory
 * 1. Open into an editor ALL of the files you created _(files other than your ogg and edds)_
 * 2. Put all of your loading screen edds pictures files and ogg music files in the folder called 'data'
 * 3. Put all of your custom icons and logo files in the folder called '/scripts/5_Mission/gui/imagesets' - some standard issue icons provided for you already
@@ -25,7 +31,8 @@ To use this template follow all of these steps - match exactly correct or it wil
 
 ### SHOULD YOU WANT TO REMOVE A SECTION:
 * if you need only one (1) pic, set the variable i to "int i = 0;" & only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of /scripts/3_Game/loading_screen.c
-* To remove music you can delete the soundshaders & soundset functions in config.cpp & delete /scripts/5_Mission/MainMenuMusic.c & delete /scripts/3_game/DynamicMusicPlayerRegistryDeerisle.c
+* To remove ALL music: delete the soundshaders & soundset functions in config.cpp & delete /scripts/5_Mission/MainMenuMusic.c & /scripts/3_game/DynamicMusicPlayerRegistryDeerisle.c
+* To remove only the ambient music and/or the contaminated area music refer to the readme in Scripts folder
 * To remove the loading screen pictures, remove your /data edds files & delete /scripts/3_Game/loading_screen.c
 * To remove the main menu layout, delete /scripts/5_Mission/MainMenu.c & the "/scripts/5_Mission/gui" folder
 * To remove the character scene location the delete the last cfg section in config.cpp
