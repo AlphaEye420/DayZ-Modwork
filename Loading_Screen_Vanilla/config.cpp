@@ -66,9 +66,22 @@ class CfgMods
 
 class CfgSoundShaders
 {
+	// You can make Music_1 Music_2 Music_3 .. etc.. for multiple imported tracks (best practice)
 	class YourPBOName_Music_1_SoundShader
 	{
-		samples[] = {{"YourPBOName\data\YourSONGName",1}};  //*** Change "YourSONGName"
+		samples[] = {{"YourPBOName\data\YourMENUtrackName",1}};  //*** Change "YourMENUtrackName"
+		volume=0.786;
+	};
+	
+	class YourPBOName_Music_2_SoundShader
+	{
+		samples[] = {{"YourPBOName\data\YourAMBIANCEtrackName",1}};  //*** Change "YourAMBIANCEtrackName"
+		volume=0.786;
+	};
+	
+	class YourPBOName_Music_3_SoundShader
+	{
+		samples[] = {{"YourPBOName\data\YourMILITARYtrackName",1}};  //*** Change "YourMILITARYtrackName"
 		volume=0.786;
 	};
 };
@@ -80,6 +93,28 @@ class CfgSoundSets
 		soundShaders[]=
 		{
 			"YourPBOName_Music_1_SoundShader"
+		};
+		volumeFactor=1;
+		frequencyFactor=1;
+		spatial=0;
+	};
+	
+	class YourPBOName_Music_2_SoundSet
+	{
+		soundShaders[]=
+		{
+			"YourPBOName_Music_2_SoundShader"
+		};
+		volumeFactor=1;
+		frequencyFactor=1;
+		spatial=0;
+	};
+	
+	class YourPBOName_Music_3_SoundSet
+	{
+		soundShaders[]=
+		{
+			"YourPBOName_Music_3_SoundShader"
 		};
 		volumeFactor=1;
 		frequencyFactor=1;

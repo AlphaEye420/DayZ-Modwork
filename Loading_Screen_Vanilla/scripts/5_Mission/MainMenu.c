@@ -117,4 +117,11 @@ modded class MainMenu
 		}
 		return false;
 	}
+	
+	override bool OnMouseButtonUp( Widget w, int x, int y, int button )
+	{
+		if (m_ScenePC)
+			m_ScenePC.CharacterRotationStop();
+		return false;
+	}
 }
