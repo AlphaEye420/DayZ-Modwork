@@ -20,7 +20,7 @@
 #### root/scripts/3_Game/DynamicMusicPlayerRegistryDeerisle.c - needed for menu music - optional for ambient tracks
 * There are MANY places to change "YourPBOName" _(most importantly lines 16, 27)_
 * Anything you want as a sound triggered needs to match the soundset from your config.cpp _(or BI's original soundset for the situation)_
-* Should you comment all the registries of a city, no music will ever play there
+* Should you comment-out all the registries of a city, no music will ever play there
 * You can delete lines 40 -to- 421 _(to have NO deer isle location based ambient tracks used)_ 
 * You can delete lines 428 -to- 429 _(to have NO music for contaminated areas)_
 
