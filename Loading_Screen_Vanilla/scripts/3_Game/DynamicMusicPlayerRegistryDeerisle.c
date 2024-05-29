@@ -113,12 +113,12 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		array<ref TVectorArray> cityGraveyard;
 		cityGraveyard = {
 			{"9701.21 39.2017 5499.97", "9861.56 39.3532 5383.83"},
+		};
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityParis, DynamicMusicPlayerTimeOfDay.DAY);
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityParis, DynamicMusicPlayerTimeOfDay.DAY);
 		RegisterTrackLocationStaticMultiRectangle("YourPBOName_Music_3_SoundSet", cityParis, DynamicMusicPlayerTimeOfDay.NIGHT);
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityParis, DynamicMusicPlayerTimeOfDay.NIGHT);
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityParis, DynamicMusicPlayerTimeOfDay.NIGHT);
-		};
 
 		array<ref TVectorArray> cityParis;
 		cityParis = {
