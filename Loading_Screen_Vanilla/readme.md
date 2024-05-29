@@ -1,6 +1,6 @@
 ## CUSTOM LOADING SCREEN for Deer Isle
 
-**ATTENTION: DAYZ 1.25 MUSIC** - Note that there are new files you need to have in order to have music work in your custom map, as in Deer Isle which I have setup here.
+**ATTENTION: DAYZ 1.25 MUSIC** - Note that there are new files you need to have in order to have music work in a modded map
 
 #### Features: GAME HINTS + MENU MUSIC + MAIN MENU CHAR SCENE + BASIC MENU LAYOUT + AMBIENT TRACKS
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.23 and only supported as such
