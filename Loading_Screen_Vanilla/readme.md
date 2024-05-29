@@ -10,8 +10,8 @@ Note: your mod name and pbo name may or may not be the same, it is up to you.  J
 To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
 
-* Download the "Directory Structure.zip" from github and copy the structure into YourPBOName directory
-* 1. Open into an editor all of the files from the zip _(files inside and outside of the zip in github are identical)_
+* Download the files you need from github and make a copy of the structure into YourPBOName directory
+* 1. Open into an editor ALL of the files you created _(files other than your ogg and edds)_
 * 2. Put all of your loading screen edds pictures files and ogg music files in the folder called 'data'
 * 3. Put all of your custom icons and logo files in the folder called '/scripts/5_Mission/gui/imagesets' - some standard issue icons provided for you already
 * 4. In all of your open files in editor, change the text of "YourPBOName" to the name of the pbo in your mod you are going to upload to Steam _!! DO a search for YourPBOName in all files NP++ can do it in 1 click !!_
