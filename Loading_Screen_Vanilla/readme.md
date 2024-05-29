@@ -7,7 +7,8 @@
 * Also, make sure you capitalize the Data and Scripts folder
 
 ~~~
-There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo. Your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
+There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
+Your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
 
 Note: You should set your DayZ Tools Addon Builder Options (top text field) to ensure a good pack: 
 *.emat;*.edds;*.ptc;*.c;*.imageset;*.layout;*.ogg;*.png;*.paa;*.rvmat;*.wrp;*.json
