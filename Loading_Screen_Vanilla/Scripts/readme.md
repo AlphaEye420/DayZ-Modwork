@@ -21,8 +21,8 @@
 * There are MANY places to change "YourPBOName" _(most importantly lines 16, 27)_
 * Anything you want as a sound triggered needs to match the soundset from your config.cpp _(or BI's original soundset for the situation)_
 * Should you comment-out all the registries of a city, no music will ever play there
-* You can delete lines 40 -to- 421 _(to have NO deer isle location based ambient tracks used)_ 
-* You can delete lines 428 -to- 429 _(to have NO music for contaminated areas)_
+* You can delete lines 51 -to- 432 _(to have NO deer isle location based ambient tracks used)_ 
+* You can delete lines 439 -to- 450 _(to have NO music for contaminated areas)_
 
 #### root/Scripts/3_Game/LoadingScreens.c - needed for random loading screen
 * There are 3 places to change "YOUR_PIC_1"-21, etc or how many pics you plan to have in shuffle
