@@ -139,7 +139,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 	
 		array<ref TVectorArray> cityPowerplant;
 		cityPowerplant = {
-			{"3824.71 10.3697 8650.33", "4875.87 17.1748 6934.26"},
+			{"4633.06005859375 25.102500915527344 7929.02978515625", "4875.87 17.1748 6934.26"},
 		};
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityPowerplant, DynamicMusicPlayerTimeOfDay.DAY);
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityPowerplant, DynamicMusicPlayerTimeOfDay.DAY);
