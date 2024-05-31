@@ -19,7 +19,12 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
     override void RegisterTracksTime()
     {
         m_TracksTime = new array<ref DynamicMusicTrackData>();
-		
+		/* 	
+  			This section is for having music play anywhere in the map.
+     			Comment-out below any you don't want to play.
+			Leave this override in though, even if all commented-out
+  		*/
+	    
 		//DAY
 		//RegisterTrackTime("YourPBOName_Music_1_SoundSet", DynamicMusicPlayerTimeOfDay.DAY);
 		
@@ -37,7 +42,13 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 	{
         m_TracksLocationStatic = new array<ref DynamicMusicTrackData>();
         m_TracksLocationStaticPrioritized = new array<ref DynamicMusicTrackData>();
-		super.RegisterTracksLocationStatic();
+		/* 	
+  			This section is for having music play specific areas in the map.
+			Locations {} are rectangles - Upper Left, Lower Right coords
+     			Comment-out below any you don't want to play.
+			Leave this override in though, even if all commented-out
+  		*/
+		super.RegisterTracksLocationStatic();  // comment out if not using anything below
 
 		//===================================================================================DEER ISLE=============================================================
 		//
