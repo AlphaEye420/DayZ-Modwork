@@ -31,7 +31,7 @@
 #### root/Scripts/3_Game/UiHintPanel.c - needed for your hints overriding
 * There is 3 place to change "YourPBOName"  _(lines 9, 10, 282)_
 
-#### root/Scripts/5_Mission/gui/in_game_hints.layout and in_game_hints_load.layout - needed for customized hints layouts
+#### root/Scripts/3_Game/gui/in_game_hints.layout and in_game_hints_load.layout - needed for customized hints layouts
 
 #### root/Data/Hints.json - completely overrides BI's hints
 * Create your custom loading screen hints
