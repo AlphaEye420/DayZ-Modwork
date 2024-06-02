@@ -29,7 +29,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		//RegisterTrackTime("YourPBOName_Music_1_SoundSet", DynamicMusicPlayerTimeOfDay.DAY);
 		
 		//NIGHT
-		RegisterTrackTime("YourPBOName_Music_2_SoundSet", DynamicMusicPlayerTimeOfDay.NIGHT);
+		//RegisterTrackTime("YourPBOName_Music_2_SoundSet", DynamicMusicPlayerTimeOfDay.NIGHT);
 		
 		//DAWN
 		//RegisterTrackTime("YourPBOName_Music_3_SoundSet", DynamicMusicPlayerTimeOfDay.DAWN);
