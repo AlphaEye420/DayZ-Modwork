@@ -87,12 +87,12 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		};
 
 		array<ref TVectorArray> militaryCampeagle;
-		militaryAirfield = {
+		militaryCampeagle = {
 			{"8746.42 41.912 3841.97", "8896.31 42.8878 3695.24"},
 		};
 
 		array<ref TVectorArray> militaryCampbear;
-		militaryAirfield = {
+		militaryCampbear = {
 			{"8554.78 1.84933 6089.51", "9067.06 14.05766 5907.19"},
 		};
 				
@@ -101,6 +101,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		RegisterTrackLocationStaticMultiRectangle("YourPBOName_Music_4_SoundSet", militaryNorthTemple, DynamicMusicPlayerTimeOfDay.ANY, true);
 		RegisterTrackLocationStaticMultiRectangle("YourPBOName_Music_3_SoundSet", militaryKmcu, DynamicMusicPlayerTimeOfDay.ANY, true); 
 		RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_SoundSet", militaryAreafortytwo, DynamicMusicPlayerTimeOfDay.ANY, true); 
+		RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_SoundSet", militaryAirfield, DynamicMusicPlayerTimeOfDay.ANY, true); 
 		RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_SoundSet", militaryCampeagle, DynamicMusicPlayerTimeOfDay.ANY, true); 
 		RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_SoundSet", militaryCampbear, DynamicMusicPlayerTimeOfDay.ANY, true); 
 		
