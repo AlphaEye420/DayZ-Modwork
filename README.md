@@ -12,3 +12,5 @@ I'll continue to drop items here that I find benefit the DayZ modding community
 [GITHUB](https://github.com/AlphaEye420)
 [DISCORD](https://discord.gg/BdkSUQENhM)
 [YOUTUBE](https://www.youtube.com/@AlphaEye420)
+
+[APOCALYPSE ISLE SERVER WIKI](https://github.com/AlphaEye420/ApocalypseIsle/wiki)
