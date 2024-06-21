@@ -580,6 +580,35 @@
         "Animal_Shark"
       ],
       "bubakinventory": []
+    },
+    {
+      "name": "Shark W of Woodworking Ind",
+      "workinghours": "0-24",
+      "triggerdependency": [],
+      "triggerpos": "4000 1 12400",
+      "triggermins": "-200 -75 -200",
+      "triggermaxs": "200 25 200",
+      "triggerradius": 0,
+      "triggercylradius": 0,
+      "triggercylheight": 0,
+      "notification": "",
+      "notificationtime": 2,
+      "triggerdelay": 1800,
+      "spawnerpos": [
+        "4000 1 12400",
+        "3800 1 12600",
+        "3800 1 12200",
+        "4200 1 12600",
+        "4200 1 12200"
+      ],
+      "spawnradius": 100,
+      "bubaknum": 1,
+      "onlyfilluptobubaknum": 0,
+      "itemrandomdmg": 1,
+      "bubaci": [
+        "Animal_Shark"
+      ],
+      "bubakinventory": []
     }
   ]
 }
