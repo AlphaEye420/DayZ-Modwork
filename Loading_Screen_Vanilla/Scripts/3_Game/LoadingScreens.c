@@ -5,7 +5,7 @@ modded class LoadingScreen {
 		Class.CastTo(m_ImageLogoCorner, m_WidgetRoot.FindAnyWidget("ImageLogoCorner"));
 		m_ImageLogoMid.Show(false);
 		m_ImageLogoCorner.Show(false);
-		
+		//m_ModdedWarning.Show( false ); // uncomment this call to remove modded server warning
 		int i = Math.RandomInt(0,20);
 		
 		if (i == 0) {m_ImageBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_1.edds")};
