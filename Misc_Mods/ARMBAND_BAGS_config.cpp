@@ -415,8 +415,8 @@ class cfgVehicles
 	// Alpha Eye contributed:
 	class SlingBag_ColorBase: Clothing
 	{
-		displayName="$STR_cfgvehicles_SlingBag_ColorBase0";
-		descriptionShort="$STR_cfgvehicles_SlingBag_ColorBase1";
+		displayName="SlingBag";
+		descriptionShort="A small bag to sling over your shoulder.";
 		model="\dz\characters\backpacks\SlingBag_g.p3d";
 		debug_ItemCategory=9;
 		inventorySlot[]=
