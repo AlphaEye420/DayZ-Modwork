@@ -1,0 +1,78 @@
+// This is not a game file!
+
+//  Use these sections to setup the Dynamic Train Events for Deer Isle
+//  Like the ChernarusPlus map, they will dynamically spawn loot and zombies
+
+//  So far there two trains done, more will be added and this file will update then
+//  Train 1 is on the northeast side of the rail bridge NE of Sandy Bay (this is a cherno train edited to fit DeerIsle)
+//  Train 2 is in the middle of the map on the rails halfway between Sunset Cross and Westbrook (this one was made from scratch)
+
+// Copy/paste these into your files:
+
+// cfgeventspawns.xml :
+
+  <event name="StaticTrain">
+    <zone smin="1" smax="1" dmin="1" dmax="1" r="0" />
+    <pos x="4234.33" y="8.12" z="10735.1" a="335" group="Train_Abandoned_Cherno" />
+    <pos x="4706.3" y="20.5" z="6055.7" a="0" group="Train_Abandoned_DeerIsle" />-->
+  </event>
+  
+// events.xml :
+
+    <event name="StaticTrain">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>5400</lifetime>
+        <restock>300</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+	
+// mpmissions/empty.deerisle/cfgeventgroups.xml  -  create it if you don't see it in the missions folder
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventgroupdef>
+    <group name="Train_Abandoned_Cherno">
+		<child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="12.085" z="2.740" a="256.739" y="1.789"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="23.106" z="5.477" a="255.579" y="1.781"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="34.546" z="8.424" a="255.837" y="1.32"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="46.285" z="11.341" a="255.321" y="1.398"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="69.472" z="18.594" a="250.938" y="1.450"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="57.966" z="14.737" a="252.227" y="1.411"/>
+    </group>
+    <group name="Train_Abandoned_DeerIsle">
+        <child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="66" y="2.26"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="1" lootmax="3" lootmin="2" x="13.5529999999999" z="6.30000000000018" a="66" y="0.5"/>
+        <child type=" Land_Container_1Mo_DE" deloot="1" lootmax="3" lootmin="2" x="15.2200000000003" z="7" a="66" y="2.5"/>
+        <child type=" StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="1" lootmax="3" lootmin="2" x="29.1999999999998" z="13.3000000000002" a="66" y="0.5"/>
+        <child type="Land_Container_1Moh_DE" deloot="1" lootmax="3" lootmin="2" x="30.1399999999994" z="13.6999999999998" a="66" y="2.5"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="1" lootmax="3" lootmin="2" x="42.5999999999995" z="19.1999999999998" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="1" lootmax="3" lootmin="2" x="53.6499999999996" z="24.1000000000004" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="64.6499999999996" z="29.0700000000006" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="1" lootmax="3" lootmin="2" x="75.6750000000002" z="34" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="1" lootmax="3" lootmin="2" x="86.6999999999998" z="38.9499999999998" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="1" lootmax="3" lootmin="2" x="97.7399999999998" z="43.9000000000005" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="108.8" z="48.8500000000004" a="66" y="1.7"/>
+        <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="1" lootmax="3" lootmin="2" x="122.099999999999" z="54.8000000000002" a="66" y="0.5"/>
+        <child type="StaticObj_Train_Wagon_Flat_Industrial_Barrels_DE" deloot="1" lootmax="3" lootmin="2" x="137.929999999999" z="61.9250000000002" a="66" y="0.5"/>
+        <child type="StaticObj_Wreck_Trailer_Flat_DE" deloot="1" lootmax="3" lootmin="2" x="139.2" z="62.4499999999998" a="63" y="2.5"/>
+        <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="122.65" z="55" a="65" y="2.5"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="151" z="67.75" a="66" y="1.833"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="161.3" z="72.4000000000005" a="66" y="1.833"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="174.25" z="78.1999999999998" a="66" y="0.5"/>
+        <child type="Land_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="171.7" z="77.4300000000003" a="66" y="2.1"/>
+        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="174.2" z="78.3000000000002" a="66" y="2.6"/>
+        <child type="Land_Train_Wagon_Box_DE" deloot="1" lootmax="3" lootmin="2" x="187.599999999999" z="84.1500000000005" a="66" y="1.7"/>
+        <child type="Land_Train_Wagon_Box_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="198.58" z="89.0500000000002" a="66" y="1.7"/>
+        <child type="StaticObj_Wreck_Train_742_Blue_Mil_DE" deloot="1" lootmax="3" lootmin="2" x="210.099999999999" z="94.3699999999999" a="246" y="2.29"/>
+    </group>
+</eventgroupdef>
