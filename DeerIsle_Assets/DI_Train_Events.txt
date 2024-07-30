@@ -12,7 +12,7 @@
 // cfgeventspawns.xml :
 
   <event name="StaticTrain">
-    <zone smin="1" smax="1" dmin="1" dmax="1" r="0" />
+    <zone smin="2" smax="2" dmin="2" dmax="2" r="0" />
     <pos x="4234.33" y="8.12" z="10735.1" a="335" group="Train_Abandoned_Cherno" />
     <pos x="4706.3" y="20.5" z="6055.7" a="0" group="Train_Abandoned_DeerIsle" />
   </event>
@@ -24,7 +24,7 @@
         <min>2</min>
         <max>2</max>
         <lifetime>5400</lifetime>
-        <restock>300</restock>
+        <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>1000</distanceradius>
         <cleanupradius>1000</cleanupradius>
