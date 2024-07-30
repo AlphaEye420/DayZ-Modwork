@@ -4,8 +4,8 @@
 //  Like the ChernarusPlus map, they will dynamically spawn loot and zombies
 
 //  So far there two trains done, more will be added and this file will update then
-//  Train 1 is on the northeast side of the rail bridge NE of Sandy Bay (this is a cherno train edited to fit DeerIsle)
-//  Train 2 is in the middle of the map on the rails halfway between Sunset Cross and Westbrook (this one was made from scratch)
+//  Train 1 is on the northeast side of the rail bridge NE of Sandy Bay (this is a cherno train edited to fit DeerIsle, standard train loot)
+//  Train 2 is in the middle of the map on the rails halfway between Sunset Cross and Westbrook (this one was made from scratch, standard + mili train loot)
 
 // Copy/paste these into your files:
 
