@@ -1,5 +1,4 @@
 ## Train Dynamic Events For Deer Isle
-* Use these sections to setup the Dynamic Train Events for Deer Isle
 * Like the ChernarusPlus map, they will dynamically spawn loot and zombies
 * Copy/paste this folder's items into your files
 * Note, create cfgeventgroups.xml if you don't see it in the missions folder
