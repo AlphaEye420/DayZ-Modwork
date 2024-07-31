@@ -1,0 +1,6 @@
+  <event name="StaticTrain">
+    <zone smin="2" smax="2" dmin="2" dmax="2" r="0" />
+    <pos x="4234.33" y="8.12" z="10735.1" a="335" group="Train_Abandoned_Cherno" />
+    <pos x="4706.3" y="20.5" z="6055.7" a="0" group="Train_Abandoned_DeerIsle" />
+  </event>
+  
