@@ -19,7 +19,7 @@ So far there two trains done, more will be added and these files will update as 
   * _(x="4706.3" y="20.5" z="6055.7" a="0")_
   * In the middle of the map on the rails halfway between Sunset Cross and Westbrook
   * Made from scratch - set to look abandoned while still on course 
-  * Can be used in future locations for a long straight section rails
+  * Can be used in future locations for a long straight section of rails
   * Contains a mix of Standard, Industrial, and Military loot 
   * This is long train and the zombies only spanw near the west end, so you may want to spawn your own zombie area at the rear or middle
   
