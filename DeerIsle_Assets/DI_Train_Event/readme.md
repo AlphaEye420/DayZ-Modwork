@@ -18,4 +18,6 @@ So far there two trains done, more will be added and these files will update as 
   * Made from scratch - set to look abandoned while still on course 
   * Can be used in future locations for a long straight section rails
   * Contains a mix of Standard, Industrial, and Military loot 
+  
+ [Click for a Youtube Video Preview](https://youtu.be/kV_n8Wl58bk)
  
