@@ -5,7 +5,7 @@
 * Events & Cfgeventaspawns nominal/min smin/smax dmin/dmax should match 
   * _(default is 2min-2max, 0-2 or 1-2 is a possible change if you want to make it)_
   * DO NOT change the values inside the cfgeventgroups
-  * Instead for any new builds, rotate using the a="" in cfgeventspawns as that a rotates the whole train
+  * Instead for any new builds, rotate using the a="" in cfgeventspawns as that rotates the whole train
 
 
 So far there two trains done, more will be added and these files will update as I go.
