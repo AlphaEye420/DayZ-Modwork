@@ -79,7 +79,7 @@ modded class LoginQueueBase {
 		
 		int i = Math.RandomInt(0,20);
 		
-		if (i == 0) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_1.edds")};
+		if (i == 0) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_1.edds")};  // NOTICE THAT YOU CAN'T JUST COPY PASTE FROM ABOVE, YOU ALSO HAVE A DIFFERENT VARIABLE NAME HERE THAN ABOVE
 		if (i == 1) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_2.edds")};
 		if (i == 2) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_3.edds")};
 		if (i == 3) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_4.edds")};
@@ -114,7 +114,7 @@ modded class LoginTimeBase {
 		
 		int i = Math.RandomInt(0,20);
 		
-		if (i == 0) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_1.edds")};
+		if (i == 0) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_1.edds")};  // YOU CAN COPY AND PASTE THE SECTION DIRECTLY ABOVE TO HERE
 		if (i == 1) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_2.edds")};
 		if (i == 2) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_3.edds")};
 		if (i == 3) {imageWidgetBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_4.edds")};
