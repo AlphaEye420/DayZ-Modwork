@@ -6,7 +6,7 @@ modded class LoadingScreen {
 		m_ImageLogoMid.Show(false);
 		m_ImageLogoCorner.Show(false);
 		//m_ModdedWarning.Show( false ); // uncomment this call to remove modded server warning
-		int i = Math.RandomInt(0,20);
+		int i = Math.RandomInt(0,20); // THIS MAKES A RANDOM NUMBER AND WILL 'PICK' YOUR IMAGE FROM THE LIST BELOW, MAKE SURE X IS THE LAST IN LIST (0, X )
 		
 		if (i == 0) {m_ImageBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_1.edds")};
 		if (i == 1) {m_ImageBackground.LoadImageFile(0, "YourPBOName/Data/YOUR_PIC_2.edds")};
