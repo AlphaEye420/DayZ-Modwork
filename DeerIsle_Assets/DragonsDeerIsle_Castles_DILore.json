@@ -1,0 +1,93 @@
+{
+    "Interval": 15,
+    "SkinningItems": [
+        "rag_coin",
+        "rag_rune_firebolt",
+        "rag_rune_icewave",
+        "rag_rune_stormfist",
+        "rag_rune_rag_head",
+        "rag_viking_raven",
+        "rag_viking_idun"
+    ],
+    "SkinnedItemsAmount": 3,
+    "RaG_DragonLocations": [
+        {
+            "name": "KMUC Center",
+            "pos": [
+                "7213.09 588.505 11590.8"
+            ]
+        },
+        {
+            "name": "Crater Entrance",
+            "pos": [
+                "14134.5 136.435 2551"
+            ]
+        },
+        {
+            "name": "South Temple Entrance",
+            "pos": [
+                "367.576 48.607 719.146"
+            ]
+        },
+        {
+            "name": "Arctic Temple Entrance",
+            "pos": [
+                "15348.1 1.62928 15275.1"
+            ]			
+        },
+        {
+            "name": "Archipelago Castle",
+            "pos": [
+                "2600.75 40.7002 13900.6"
+            ]
+        },
+        {
+            "name": "Deep Water Obelisk",
+            "pos": [
+                "1227.65 80.3245 10558.4"
+            ]
+        },
+        {
+            "name": "Old Town Castle",
+            "pos": [
+                "2458 22 8816"
+            ]
+        },
+        {
+            "name": "East Castle",
+            "pos": [
+                "14417.1 83.1492 6027.59"
+            ]
+        },
+        {
+            "name": "Sunset Cross Ruins",
+            "pos": [
+                "6973.81 31.083 7320.67"
+            ]
+        },
+        {
+            "name": "Old Town Castle",
+            "pos": [
+                "2560.56 26.3876 8831.2"
+            ]
+        },
+        {
+            "name": "Devils Eye",
+            "pos": [
+                "6663.03 153.596 3456.77"
+            ]
+        },
+        {
+            "name": "Asheville Lake Castle",
+            "pos": [
+                "6764.34 33.4525 2885.34"
+            ]
+        },
+        {
+            "name": "Starks Castle",
+            "pos": [
+                "5721.01 108.883 2300.78"
+            ]
+        }
+    ]
+}
