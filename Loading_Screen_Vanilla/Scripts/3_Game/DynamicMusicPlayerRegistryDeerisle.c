@@ -38,16 +38,10 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		//RegisterTrackTime("YourPBOName_Music_4_SoundSet", DynamicMusicPlayerTimeOfDay.DUSK);
     }
 		
-	override protected void RegisterTracksLocationStatic()
+/* doesnt work 	override protected void RegisterTracksLocationStatic()
 	{
         m_TracksLocationStatic = new array<ref DynamicMusicTrackData>();
         m_TracksLocationStaticPrioritized = new array<ref DynamicMusicTrackData>();
-		/* 	
-  			This section is for having music play specific areas in the map.
-			Locations {} are rectangles - Upper Left, Lower Right coords
-     			Comment-out below any you don't want to play.
-			Leave this override in though, even if all commented-out
-  		*/
 		super.RegisterTracksLocationStatic();  // comment out if not using anything below
 
 		//===================================================================================DEER ISLE=============================================================
@@ -108,7 +102,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		//
 		// City Day/Night Timed music (default is NOT using custom music and using BI's music - change soundsets to yours if needed ~ comment out what you don't want)
 		//
-		/* NOTE: DAYZ HAS THIS SECTION TURNED OFF STILL */
+		// NOTE: DAYZ HAS THIS SECTION TURNED OFF STILL 
 
 		array<ref TVectorArray> cityGraveyard;
 		cityGraveyard = {
@@ -381,63 +375,12 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 		RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityHazelands, DynamicMusicPlayerTimeOfDay.DAY);
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityHazelands, DynamicMusicPlayerTimeOfDay.NIGHT);
 		//RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityHazelands, DynamicMusicPlayerTimeOfDay.NIGHT);
-
-		/*BI's example if you don't import your own music:
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_vybor_day1_SoundSet", militaryVybor, DynamicMusicPlayerTimeOfDay.DAY, true);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_vybor_day2_SoundSet", militaryVybor, DynamicMusicPlayerTimeOfDay.DAY, true);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_vybor_night_SoundSet", militaryVybor, DynamicMusicPlayerTimeOfDay.NIGHT, true);
-			They use this one: RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_SoundSet", militaryTisy, DynamicMusicPlayerTimeOfDay.ANY, true);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_day2_SoundSet", militaryTisy, DynamicMusicPlayerTimeOfDay.DAY, true);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_night1_SoundSet", militaryTisy, DynamicMusicPlayerTimeOfDay.NIGHT, true);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_tisy_night2_SoundSet", militaryTisy, DynamicMusicPlayerTimeOfDay.NIGHT, true);
-		
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityChernohorsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityChernohorsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityChernohorsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityChernohorsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityZelenogorsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityZelenogorsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityZelenogorsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityZelenogorsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityNovajaPetrovka, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityNovajaPetrovka, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityNovajaPetrovka, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityNovajaPetrovka, DynamicMusicPlayerTimeOfDay.NIGHT);
-			
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", citySeverograd, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", citySeverograd, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", citySeverograd, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", citySeverograd, DynamicMusicPlayerTimeOfDay.NIGHT);
-			
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityNovodmytrovsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityNovodmytrovsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityNovodmytrovsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityNovodmytrovsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-			
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", citySvetlojarsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", citySvetlojarsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", citySvetlojarsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", citySvetlojarsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityBerezeno, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityBerezeno, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityBerezeno, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityBerezeno, DynamicMusicPlayerTimeOfDay.NIGHT);
-			
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_1_SoundSet", cityElectrozavodsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_day_2_SoundSet", cityElectrozavodsk, DynamicMusicPlayerTimeOfDay.DAY);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_1_SoundSet", cityElectrozavodsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-			RegisterTrackLocationStaticMultiRectangle("Music_loc_city_night_2_SoundSet", cityElectrozavodsk, DynamicMusicPlayerTimeOfDay.NIGHT);
-		*/
 	}
-
+*/
     override void RegisterTracksLocationDynamic()
     {
         m_TracksLocationDynamic = new array<ref DynamicMusicTrackData>();
 		// Contaminated Areas Music (only needed if you want your own music to override otherwise comment out the Registers below)
-		RegisterTrackLocationDynamic("YourPBOName_Music_5_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.DAY);
-		RegisterTrackLocationDynamic("YourPBOName_Music_6_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.NIGHT);
+		RegisterTrackLocationDynamic("YourPBOName_Music_3_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.ANY);
     }
 }
