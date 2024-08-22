@@ -23,6 +23,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
   			This section is for having music play anywhere in the map.
      			Comment-out below any you don't want to play.
 			Leave this override in though, even if all commented-out
+			To use DayZ's default time of day music then don't include the RegisterTracksTime class in your mod
   		*/
 	    
 		//DAY
