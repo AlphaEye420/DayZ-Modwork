@@ -3,5 +3,6 @@
     <pos x="4234.33" y="8.12" z="10735.1" a="335" group="Train_Abandoned_Cherno" />
     <pos x="4706.3" y="20.5" z="6055.7" a="0" group="Train_Abandoned_DeerIsle" />
     <pos x="3604.24" y="14.27" z="7604.74" a="294" group="Train_Abandoned_DeerIsle2" />
+    <pos x="3670.81" y="3.25" z="3189.65" a="53" group="Train_Abandoned_DeerIsle3" />
+    <pos x="7969.08" y="6.5" z="13392.5" a="37" group="Train_Abandoned_DeerIsle4" />
   </event>
-  
