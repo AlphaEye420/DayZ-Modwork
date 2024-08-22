@@ -27,7 +27,7 @@ So far there two trains done, more will be added and these files will update as 
   * Contains a mix of Standard and Military loot 
 * `Train #4   Train_Abandoned_DeerIsle3`
   * _(x="3670.81" y="3.25" z="3189.65" a="53")_
-  * West of Stonington headed towards Paris
+  * West of Hazelands headed towards Paris
   * A version of Train #2 (shortened and rotated)
   * Contains a mix of Standard and Military loot 
 * `Train #5   Train_Abandoned_DeerIsle4`
