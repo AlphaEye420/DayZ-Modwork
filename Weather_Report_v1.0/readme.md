@@ -1,5 +1,5 @@
 # WEATHER REPORT by AlphaEye
-**CREDIT TO affenb3rt FOR [PRESET WEATHER](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808)**  - *WeatherReport.zip is 100% of PresetWeather mod with added code for reporting weather to chat*
+**CREDIT TO affenb3rt FOR @PRESETWEATHER**  - *WeatherReport.zip is 100% of PresetWeather mod with added code for reporting weather to chat*
 
 ### What does this mod do?
 * The **weather.json** file should automatically appear in your **missions folder** when you start the server after installing the mod
