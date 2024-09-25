@@ -1,5 +1,5 @@
 # WEATHER REPORT by AlphaEye
-**CREDIT TO affenb3rt FOR [PRESET WEATHER](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808)** ~ *WeatherReport is 100% of PresetWeather mod with added code*
+**CREDIT TO affenb3rt FOR [PRESET WEATHER](https://steamcommunity.com/sharedfiles/filedetails/?id=2844108808)**  - *WeatherReport.zip is 100% of PresetWeather mod with added code for reporting weather to chat*
 
 ### What does this mod do?
 * The **weather.json** file should automatically appear in your **missions folder** when you start the server after installing the mod
@@ -21,7 +21,9 @@
 * To have less rain, you can delete some of the rain conditions or duplicate the clear conditions in the json
 
 ## How to Install Mod
-!! **THIS IS A SERVER SIDE ONLY MOD** !!
+!! **THIS IS A SERVER SIDE ONLY MOD** !! - 
+
+_If you do not want reports in chat use the PresetWeather.zip ! **AND** Replace @WeatherReport with @PresetWeather in any of the text below_
 * Download the zip, unzip and copy the @WeatherReport folder into your server root directory next to your others.  
 * Copy the key from the @WeatherReport/keys folder into your server keys folder 
 * **!! USE _at least_ -servermod=@WeatherReport; IN YOUR START.BAT !!** (_If you were to put it after -mod= then your clients will not be able to login to the server_) ~ Note: GTX & other server hosts may have a different place for you to add `@WeatherReport;` to the server side only section of an entry form
