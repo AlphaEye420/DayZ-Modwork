@@ -4,7 +4,7 @@
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.25 and only supported as such !
 #### ATTENTION: DAYZ 1.25 MUSIC** 
 * Note that there are new files you need to have in order to have music work in a modded map
-* Also, the ambient music is being flaky and there will be some commits to this git to fix as people leave feedback on discord
+* Also, the ambient music is not working for location based triggers, only menu, contaminated areas, and time of day music works
 ~~~
 There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
 Your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
