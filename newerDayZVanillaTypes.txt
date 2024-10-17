@@ -1,5 +1,10 @@
 This is a list I compiled of things I didn't have in my vanilla types (v1.25-1.26 prolly)
-I removed all animals and z's from this query- so only spawnable loot, and I included all Static/Land/DE event objects the way 1.26 has them
+I removed all z's from this query- so only spawnable loot, and I included all Static/Land/DE event objects the way 1.26 has them
+
+Animal_LepusEuropaeus
+Animal_RangiferTarandus
+Animal_RangiferTarandusF
+Animal_VulpesVulpes
 
 AssaultBag_Winter
 Balaclava3Holes_White
