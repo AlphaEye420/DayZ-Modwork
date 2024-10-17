@@ -48,7 +48,6 @@ NBCPantsWhite
 NorseHelm
 OMKJacket_Navy
 OMKPants_Navy
-Pate_Opened
 PaydayMask_Chains
 PaydayMask_Dallas
 PaydayMask_Hoxton
