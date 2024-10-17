@@ -178,3 +178,4 @@ StaticObj_Wreck_Train_Wagon_Tanker_DE
 StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE
 StaticObj_Wreck_Uaz_DE
 StaticObj_Wreck_Ural_DE
+Static_FrozenScientist_DE
