@@ -1,4 +1,6 @@
-# WEATHER REPORT by AlphaEye
+This mod has been replaced by: [Dynamic Weather Plugin](https://steamcommunity.com/sharedfiles/filedetails/?id=3367360523)
+# legacy below
+## WEATHER REPORT by AlphaEye
 **CREDIT TO affenb3rt FOR @PRESETWEATHER**  - *WeatherReport.zip is 100% of PresetWeather mod with added code for reporting weather to chat*
 
 ### What does this mod do?
