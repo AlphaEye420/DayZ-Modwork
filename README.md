@@ -15,4 +15,4 @@ I'll continue to drop items here that I find benefit the DayZ modding community
 
 [APOCALYPSE ISLE SERVER WIKI](https://github.com/AlphaEye420/ApocalypseIsle/wiki)
 
-Note: I removed my types editing app, as superior app is now available online at [dzsa tools](https://dzsa.tools/)
+Note: I removed my types editing app, as a superior app is now available online at [dzsa tools](https://dzsa.tools/)
