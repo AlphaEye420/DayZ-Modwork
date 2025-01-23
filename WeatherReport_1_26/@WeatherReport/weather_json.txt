@@ -1,0 +1,91 @@
+This is a SERVER SIDE ONLY mod!
+Note that it takes 2-3 minutes for the first change to start
+
+weather.json EXPLAINED with some limits shown:
+
+    "report": 1, 
+		--> 0 or 1 or 2 (must be!)
+		--> 2 = notification message used upon a new weather condition activation
+		--> 1 = chat message used upon a new weather condition activation
+		--> 0 = no message (except in script log)
+		
+    "name": "CLEAR SKIES",
+		--> This name is in the json to help remember, but also it is the text used in messages
+		
+    "transition_min": 0.0,
+    "transition_max": 9999.0,
+		--> This is the amount of MINUTES it will take to reach a newly selected weather condition
+		--> This timer begins at the time of the chat message
+		
+    "duration_min": 0.0,
+    "duration_max": 9999.0,
+		--> The amount of MINUTES it will be until randomly selecting the next weather condition
+		--> This timer begins at the end of the transition time
+		
+    "overcast_min": 0.0,
+    "overcast_max": 1.0,
+		--> Sets the cloud cover; Note that 0.5 is fully covered and gets thicker > 0.5
+		--> Rain will not happen unless overcast setting roughly > 0.618 (slight variance)
+		--> Snowfall will not happen unless overcast setting roughly > 0.5 (slight variance)
+		--> The built in variance has the precipitation happen at random[0.8 to 1.2] times overcast setting
+		
+--> Fog
+	
+    "fog_min": 0.0,
+    "fog_max": 1.0,
+		--> Sets the fog amount where 0 is clear and 1 is as foggy as it gets
+		--> See the weatherGlobal.json about setting the global fog setting
+
+  --> Setting Fog's bias, height, distance:
+  --> Setting these to the constant value on every weather condition helps predict use of fog_max and fog_min setting
+  --> Setting bias to non-zero will greatly affect the other settings ranges' effect
+  --> Use a tool like Community Online Tools weather section for admins to play around with and learn these new fog settings
+
+    "fog_bias": 0.0,
+		--> [-1 to 1 decimal] sets the fog bias - (MUCH MORE SENSITIVE the lower your height setting)
+		--> DEFAULT on most provided weather conditions is 0.0 or no bias
+		--> When bias close to 1, intense fog at lower fog settings (fog-min/max), and extreme when higher fog
+		--> When bias close to -1, less fog at higher fog settings (fog-min/max), and almost clear when lower fog 
+		
+    "fog_height": 0.0,
+		--> [0 to 1 decimal] where 0 is the ground, and 1 is high in the sky
+		--> DEFAULT on most provided weather conditions is 0.0
+		--> Setting to 0.9 is a way to keep fog from being in the way of small arms range 
+		--> Setting to 0.5 is a way to keep fog from being in the way of melee range 
+		--> Setting to 0.0 allows players to fully feel like they are 'in the fog', especially if positive bias
+		--> Setting to near 0.0 also makes the fog_bias setting touchy!
+				
+    "fog_distance_min": 0.0,
+		--> [0 to 1 decimal] setting the constant minimum fog near the player
+		--> DEFAULT on most provided weather conditions is 0.0
+		--> When set to 0, this setting does nothing and can be ignored
+		--> When set close to 1, the server will have tons of fog without fading away at all
+		--> When set close to 0, the server will a bit of fog without fading away completely
+		--> Setting to constant value > 0 on all weather conditions will ensure you constantly have fog
+		
+--> End fog
+		
+    "windSpeed_min": 0.0,
+    "windSpeed_max": 1.0,
+		--> Sets the wind speed where 1 = 20mph (32.2kmph) and 0 = calm
+		
+    "windDirection_min": -1.0,
+    "windDirection_max": 1.0,
+		--> Direction [-1, 0 and 1 = blows out of the North] and [-0.5 and 0.5 is South]
+		--> Direction [-0.25 and 0.75 = blows out of the West] and [-0.75 and 0.25 is East]
+		--> The extra negative range allows for a selection range to straddle 0
+		
+    "rain_min": 0.0,
+    "rain_max": 1.0,
+		--> 1 = pouring; anything else > 0 will be light to medium rain
+		--> See the weatherGlobal.json about setting the 'clouds needed' threshold
+	
+    "snowfall_min": 0.0,
+    "snowfall_max": 1.0,
+		--> 1 = low visibility snow; anything else > 0 will be light to medium snow
+		--> See the weatherGlobal.json about setting the 'clouds needed' threshold
+		
+    "storm": 0,
+    "thunder_timeout": 28
+		--> If storm = 1, then every thunder_timeout worth of SECONDS lighting will strike
+		--> IF storm = 0, then thunder_timeout is not used
