@@ -154,7 +154,6 @@ class PresetWeatherPlugin extends PluginBase
 
         Print( "WeatherReport: Apply:" + preset.name );
         float duration = Math.RandomFloatInclusive( preset.duration_min, preset.duration_max ) * 60;	
-		float dtime = Math.Round(duration/60);
         float speedOfChange = duration * 0.4;
         if ( initialChange )
         {
@@ -244,14 +243,15 @@ class PresetWeatherPlugin extends PluginBase
 		else if (windDirection > 0.0625 && windDirection < 0.1875){ WindOutOfThe="NE"; }	
 		
 		string message = "";
+		//float dtime = Math.Round(duration/60); for " + dtime + "m
 		if (preset.report == 2)
 		{
-			message = preset.name + " for " + dtime + "m, Wind " + WindOutOfThe + "°" + Math.Round(degree) + " " + Math.Round(windSpeed*32.1869) + "km/h";
+			message = preset.name + " ~ Wind " + WindOutOfThe + "°" + Math.Round(degree) + " " + Math.Round(windSpeed*32.1869) + "km/h";
 			SendChatMessage(message, 2);
 		}
 		else if (preset.report == 1)
 		{
-			message = "Weather: " + preset.name + " for " + dtime + "m, Wind " + WindOutOfThe + "°" + Math.Round(degree) + " " + Math.Round(windSpeed*32.1869) + "km/h";
+			message = "Weather: " + preset.name + " ~ Wind " + WindOutOfThe + "°" + Math.Round(degree) + " " + Math.Round(windSpeed*32.1869) + "km/h";
 			SendChatMessage(message, 1);
 		}
 		Print(message);
