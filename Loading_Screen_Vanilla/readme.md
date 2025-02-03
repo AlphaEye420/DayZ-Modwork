@@ -2,7 +2,8 @@
 
 ### LOADING SCREEN & HINTS + MAINMENU CHAR SCENE & LAYOUT + MENU MUSIC & AMBIENT TRACKS
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.3 / DAYZ 1.25 and only supported as such !
-#### ATTENTION: DAYZ 1.25 MUSIC** 
+! IT WILL WORK WITH DAYZ 1.26 AND DEERISLE 5.9 - However, some people are having issues with menu music.  Others it is working fine. [shrug ?]
+#### ATTENTION: DAYZ 1.25+ MUSIC** 
 * Note that there are new files you need to have in order to have music work in a modded map
 * Also, the ambient music is not working for location based triggers, only menu, contaminated areas, and time of day music works
 ~~~
