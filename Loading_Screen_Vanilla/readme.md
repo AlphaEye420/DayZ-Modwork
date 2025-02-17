@@ -5,6 +5,7 @@
 #### ATTENTION: DAYZ 1.25+ MUSIC** 
 * Note that there are new files you need to have in order to have music work in a modded map
 * Also, the ambient music is not working for location based triggers, only menu, contaminated areas, and time of day music works
+### To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
 There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
 Your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
@@ -12,7 +13,6 @@ Your mod name and pbo name may or may not be the same, it is up to you.  Just be
 Note: You should set your DayZ Tools Addon Builder Options (top text field) to ensure a good pack: 
 *.emat;*.edds;*.ptc;*.c;*.imageset;*.layout;*.ogg;*.png;*.paa;*.rvmat;*.wrp;*.json
 ~~~
-#### To use this template follow all of these steps - match exactly correct or it will not work:
 
 Download the directory structure [from this link](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FAlphaEye420%2FDayZ-Modwork%2Ftree%2Fmain%2FLoading_Screen_Vanilla) and make a copy of the structure into YourPBOName directory
 * 1. Open into an editor ALL of the files you created _(files other than your ogg and edds)_
