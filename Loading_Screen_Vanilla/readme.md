@@ -7,7 +7,7 @@
 * Also, the ambient music is not working for location based triggers, only menu, contaminated areas, and time of day music works
 ### To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
-There is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
+First note there is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
 Your mod name and pbo name may or may not be the same, it is up to you.  Just be sure the pbo name is used in editing.
 
 Note: You should set your DayZ Tools Addon Builder Options (top text field) to ensure a good pack: 
