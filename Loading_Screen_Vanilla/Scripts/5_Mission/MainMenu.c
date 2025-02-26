@@ -124,4 +124,11 @@ modded class MainMenu
 			m_ScenePC.CharacterRotationStop();
 		return false;
 	}
+	
+	override void Refresh()
+	{
+		string name;
+		if (m_ScenePC && g_Game.GetGameState() == DayZGameState.MAIN_MENU)
+			OnChangeCharacter();
+	}
 }
