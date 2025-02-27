@@ -226,6 +226,17 @@ FrameWidgetClass main_menu_root {
     }
    }
   }
+  FrameWidgetClass hint_frame {
+   clipchildren 0
+   ignorepointer 1
+   position 80 173.75
+   size 400 460
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
 
   FrameWidgetClass settings_panel_root {
    ignorepointer 1

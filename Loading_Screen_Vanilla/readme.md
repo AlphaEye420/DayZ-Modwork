@@ -1,10 +1,14 @@
 ## CUSTOM LOADING SCREEN for Deer Isle
 
-### LOADING SCREEN & HINTS + MAINMENU CHAR SCENE & LAYOUT + MENU MUSIC & AMBIENT TRACKS
-! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / DAYZ 1.26 and only supported as such !
-#### ATTENTION: DAYZ 1.25+ MUSIC** 
-* Note that there are new files you need to have in order to have music work in a modded map
-* Also, the ambient music is not working for location based triggers, only menu, contaminated areas, and time of day music works
+### LOADING SCREEN & HINTS + MAINMENU CHAR SCENE & LAYOUT + InGameMENU + MENU MUSIC
+! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / works with DAYZ 1.27 and only supported as such !
+
+**ATTENTION: DAYZ 1.27 UPDATES:**
+* Added one function to the end of MainMenu.c _(removes 1.27 feedback and patreon)_
+* Added day_z_ingamemenu.layout and ingamemenu.c _(removes 1.27 feedback and ip header)_
+* Added Hints Scroll box in upper right for Lobby _(the one from ingamemenu)_
+* Removed an unneeded music menu file in 5_Mission
+
 ### To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
 First note there is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
@@ -36,6 +40,6 @@ Download the directory structure [from this link](https://download-directory.git
 * To remove the character scene location the delete the last cfg section in config.cpp
 * To remove the custom hints delete the hints.json in data folder +and+ within /Scripts/3_Game/ delete HintPage.c, UiHintPanal.c. and delete /Scripts/3_Game/gui folder
 
-BE SURE TO CHANGE YourPBOname in all of the files!!  Use an editor and search for them all. See the scripts folder readme too.
+**BE SURE TO CHANGE YourPBOname** in all of the files!!  Use an editor and search for them all. See the scripts folder readme too.
 
 You can contact me (AlphaEye) via my discord server general-chat channel https://discord.gg/BdkSUQENhM

@@ -2,6 +2,7 @@ modded class MainMenu
 {
 	protected Widget				custom_button1;
 	protected Widget				custom_button2;
+	protected ref UiHintPanel m_HintPanel;
 
 	override Widget Init()
 	{
@@ -11,6 +12,7 @@ modded class MainMenu
 		m_CustomizeCharacter		= layoutRoot.FindAnyWidget( "customize_character" );
 		m_SettingsButton			= layoutRoot.FindAnyWidget( "settings_button" );
 		m_Exit						= layoutRoot.FindAnyWidget( "exit_button" );
+		m_HintPanel					= new UiHintPanel(layoutRoot.FindAnyWidget("hint_frame"));
 
 		custom_button1				= layoutRoot.FindAnyWidget( "custom_button1" );
 		custom_button2				= layoutRoot.FindAnyWidget( "custom_button2" );
