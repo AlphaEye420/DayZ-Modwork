@@ -36,7 +36,8 @@ Download the directory structure [from this link](https://download-directory.git
 * To remove ALL music: delete the soundshaders & soundset functions in config.cpp & delete /Scripts/5_Mission/MainMenuMusic.c & /Scripts/3_game/DynamicMusicPlayerRegistryDeerisle.c
 * To remove only the ambient music and/or the contaminated area music, refer to the [readme.md](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/Loading_Screen_Vanilla/Scripts/readme.md) (ambient track section) in Scripts folder
 * To remove the loading screen pictures, remove your /Data edds files & delete /Scripts/3_Game/loading_screen.c
-* To remove the main menu layout, delete /Scripts/5_Mission/MainMenu.c & the "/Scripts/5_Mission/gui" folder
+* To remove the main menu layout, delete /Scripts/5_Mission/MainMenu.c & the "/Scripts/5_Mission/gui" mainmenu.layout
+* To remove the in game main menu layout, delete /Scripts/5_Mission/InGameMenu.c & the "/Scripts/5_Mission/gui" ingamemenu.layout
 * To remove the character scene location the delete the last cfg section in config.cpp
 * To remove the custom hints delete the hints.json in data folder +and+ within /Scripts/3_Game/ delete HintPage.c, UiHintPanal.c. and delete /Scripts/3_Game/gui folder
 
