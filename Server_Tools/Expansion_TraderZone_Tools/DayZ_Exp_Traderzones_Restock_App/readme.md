@@ -7,7 +7,7 @@
 ```
 Restock_Market\
 ├── Restock_Market.exe & its needed accompanying files
-├── README.md (this file)
+├── README.md (instructions for safe use)
 ├── NPP_Log_Language_Coloring.xml (import to Notepad++ Languages section for best look for the /USER/Restock.log)
 ├── Traderzones\
 │   └── (Your trader JSON files here)
