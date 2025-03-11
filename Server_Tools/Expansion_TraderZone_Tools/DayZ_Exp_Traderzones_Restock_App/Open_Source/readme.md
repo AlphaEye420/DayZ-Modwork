@@ -1,2 +1,2 @@
 ### Requires .NET 8 Framework !!
-### Requires Newtonsoft JSON & LINQ!!
+### Requires Newtonsoft JSON & LINQ !!
