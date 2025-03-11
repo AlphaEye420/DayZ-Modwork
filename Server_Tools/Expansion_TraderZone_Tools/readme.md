@@ -2,7 +2,7 @@
 _(For Managing your Inventory Stock)_
 ___
 ## Expansion TraderZone Restocking App
-**(Stand Alone - 3rd Party C# Console App)**  
+**(Stand Alone - 3rd Party C# Console App - DayZ_Exp_Traderzones_Restock_App Folder)**  
 * Restocks Traderzones in several ways you set yourself - can also reset inventories for wipe
 * See Readme(s) in folder for how this amazingly simple yet very powerful app works
 * Requires Windows .NET 8 framework
@@ -10,7 +10,7 @@ ___
 * Using FTP software like "WINSCP" is helpful to make seemless Market Restock Management happen in seconds
 ___
 ## Expansion TraderZone Reset Stock
-**(Batch File)**  
+**(Inventory_Reset_Batch Folder & 1 File)**  
   * Overwrites the dragged json(s) to have **ZERO ITEMS**
   * Expansion mod will repopulate your stock on the next server restart
   * Great for Admins performing server wipes
