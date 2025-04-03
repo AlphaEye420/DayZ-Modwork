@@ -8,8 +8,6 @@ No proprietary mod items here ~ Most of the items are used on my server
 
 I'll continue to drop items here that I find benefit the DayZ modding community
 
-Check out the automation batch files that I am adding to misc mods folder in 2025!
-
 [MY DAYZ WORKSHOP](https://steamcommunity.com/profiles/76561198139711826/myworkshopfiles/?appid=221100)
 
 [PATREON](https://patreon.com/AlphaEye)
