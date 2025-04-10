@@ -6,3 +6,5 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2525642572
 
 If you don't want the sound changes don't use the sound folder.
 The skinning folder is needed for all of the parts to be in English at your traders or mouse-over dead mutant.
+
+Simply add these files to your server pack.
