@@ -5,6 +5,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2525642572
 2. Lowers the sounds for many of the mutants closer to the volume of normal zombies. (due to many player feedback complaints)
 
 If you don't want the sound changes don't use the sound folder.
+
 The skinning folder is needed for all of the parts to be in English at traders or in inventory.
 
 Simply add these files to your server pack.
