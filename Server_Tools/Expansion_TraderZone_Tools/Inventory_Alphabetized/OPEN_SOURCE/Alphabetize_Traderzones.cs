@@ -14,22 +14,18 @@ class Program
         string traderzonesPath;
         string settingsFilePath = directoryPath + "USER\\traderzones_path.txt";
 
-
-        if (File.Exists(settingsFilePath))
+        try
         {
-            try
-            {
-                string Content = File.ReadAllText(settingsFilePath);
-                traderzonesPath = Content;
-                AlphabetizeTraderzoneStocks(traderzonesPath);
-            }
-            catch (Exception ex)
-            {
-                string message = $"[ERROR] Failed to load traderzones_path.txt, it may be corrupt or missing!\n";
-                Console.WriteLine(message);
-                Thread.Sleep(5000);
-                return;          
-            }
+            string Content = File.ReadAllText(settingsFilePath);
+            traderzonesPath = Content;
+            AlphabetizeTraderzoneStocks(traderzonesPath);
+        }
+        catch (Exception ex)
+        {
+            string message = $"[ERROR] Failed to load traderzones_path.txt, it may be corrupt or missing!\n";
+            Console.WriteLine(message);
+            Thread.Sleep(5000);
+            return;          
         }
     }
     public static void AlphabetizeTraderzoneStocks(string traderzonesFolder)
