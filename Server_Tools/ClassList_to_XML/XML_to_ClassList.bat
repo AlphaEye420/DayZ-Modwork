@@ -16,7 +16,7 @@ set "outputFile=%~dpn1.txt"
 echo. > "%outputFile%"
 
 :: Read the XML file line by line and extract type names
-for /f "tokens=2 delims=<>" %%A in ('findstr /R "<type name=" "%inputFile%"') do (
+for /f "tokens=2 delims=<>" %%A in ('findstr /C:"<type name=" "%inputFile%"') do (
     for /f "tokens=2 delims=="" " %%B in ("%%A") do (
         echo %%B >> "%outputFile%"
     )
