@@ -13,7 +13,7 @@ Note:
 TAKES INPUTS:
 * "pos" Event XMLs (x= z=) - can paste in whole line
 * "zone" Environment XMLs (x= z=) - can paste in whole line
-* "json" comma delineated coordinates (x,y,z) - coordinates only
+* "json" comma delineated coordinates (x, y, z) - coordinates only
 * "C/map" space delineated coordinates (x y z) - coordinates only
 ______
 * The Coordinate Converter provided is an easy to use event xml<->json map position conversion tool
