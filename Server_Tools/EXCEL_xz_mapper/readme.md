@@ -4,6 +4,7 @@ v 0.5 - A tool for simply visualizing your DayZ mapping from .xml .c .map and .j
 * Map's picture overlays with a transparency set to reveal the x/z grid behind it
 * You can save as (or duplicate sheets) to create your catalog of plots for quick view
 * You can make the table as many rows as you want
+* Maps included: Chernarus, Livonia, Deerisle
 
 Note:
 * There is no import export feature, yet.   You need to paste or type in the first column
