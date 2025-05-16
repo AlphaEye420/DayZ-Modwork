@@ -1,4 +1,4 @@
-## dAyZ XZ mapper 
+## DayZ XZ mapper 
 v 0.0 - A tool for simply visualizing your DayZ mapping from xml and json files
 * For now this simply plots a collection of `<pos x y z a />` or `<x, y, z> ` coords on a map instantly, and you can mix the two ways
 * Map's pic overlays with a transparency set to reveal the chart behind it
