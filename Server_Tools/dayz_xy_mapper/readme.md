@@ -8,6 +8,12 @@ v 0.0 - A tool for simply visualizing your DayZ mapping from xml and json files
 * Edit chart and table formats to suit your needs, _but careful you can mess up the look quickly!_
 * Y and A coords there for future plans
 
+TAKES INPUTS:
+* "pos" Event XMLs (x= z=)
+* "zone" Environment XMLs (x= z=)
+* "json" comma delineated coordinates (x,y,z)
+* "C/map" space delineated coordinates (x y z)
+______
 * The Coordinate Converter provided is an easy to use xml<->json map position conversion tool
 
 _This file has ZERO VBA or macro code involved and is super lightweight._
