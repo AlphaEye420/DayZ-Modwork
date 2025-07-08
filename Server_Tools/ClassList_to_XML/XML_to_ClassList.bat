@@ -1,5 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
+echo Working, please wait .. .. ..
 
 :: Check if a file was dragged onto the batch script
 if "%~1"=="" (
@@ -22,5 +23,5 @@ for /f "tokens=2 delims=<>" %%A in ('findstr /C:"<type name=" "%inputFile%"') do
     )
 )
 
-echo Extraction complete: "%outputFile%"
+echo Extracted: "%outputFile%"
 pause

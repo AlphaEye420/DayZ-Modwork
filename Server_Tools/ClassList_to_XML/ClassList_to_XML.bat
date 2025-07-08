@@ -5,6 +5,7 @@
 :: Copy from the created file to paste into your types file of your choosing
 
 setlocal enabledelayedexpansion
+echo Working, please wait .. .. ..
 
 :: Check if a file was dragged onto the batch script
 if "%~1"=="" (
@@ -40,5 +41,5 @@ set "outputFile=%~dpn1.xml"
     echo ^</types^>
 ) > "%outputFile%"
 
-echo XML file created: "%outputFile%"
+echo XML Created: "%outputFile%"
 pause
