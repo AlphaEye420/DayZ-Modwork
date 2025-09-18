@@ -1,6 +1,7 @@
 ## Tool: cfgspawnabletypes.xml to csv  & csv back to xml
 
-* DL to your directory with your cfgspawnabletypes.xml and right click the .ps1 file to export to csv
+* DOWNLOAD .ps1 files to your directory with your cfgspawnabletypes.xml *(or create .ps1 text files)*
+* Right click the .ps1 file to **export to csv file**
   *  Outputs a file you can open in spreadsheet apps
   *  Good for mass editing faster, and comparing lists to types.xml files
-* When completed with edits, right click the .ps1 to rebuild to a new .xml file *(does NOT overwrite original file)*
+* When completed with edits, right click the .ps1 to **rebuild to a new .xml file** *(does NOT overwrite original file)*
