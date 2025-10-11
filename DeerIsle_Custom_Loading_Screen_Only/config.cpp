@@ -1,7 +1,7 @@
 class CfgPatches
 {
 	//*** Change "YourPBOName" where ever you see it below in this and all files
-	class YourPBOName_LoadingScreen
+	class YourPBOName_LoadingScreenOnly
 	{
 		units[] = {}; 
 		weapons[] = {};
@@ -15,7 +15,7 @@ class CfgPatches
 
 class CfgMods
 {
-	class DZ_YourPBOName_LoadingScreen
+	class DZ_YourPBOName_LoadingScreenOnly
 	{
 	    dir = "YourPBOName"; 
 	    picture = "";
@@ -32,8 +32,7 @@ class CfgMods
 
 		dependencies[]= 
 		{
-			"Game",
-			"Mission"
+			"Game"
 		};
 		
 		class defs
