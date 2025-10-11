@@ -30,7 +30,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
 	override protected void RegisterTracksLocationStatic()
 	{
         m_TracksLocationStatic = new array<ref DynamicMusicTrackData>();
-        m_TracksLocationStaticPrioritized = new array<ref DynamicMusicTrackData>();
+        m_TracksLocationStaticPrioritized = new array<ref DynamicMusicTrackData>();  // This section removes location based music
 	}
 
     override void RegisterTracksLocationDynamic()
