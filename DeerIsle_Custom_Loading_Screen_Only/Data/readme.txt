@@ -1,0 +1,1 @@
+FYI: this is the data folder where you put ALL of the loading still pics edds file(s)
