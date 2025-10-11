@@ -8,7 +8,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
     override void RegisterTracksMenu()
     {
         m_TracksMenu = new array<ref DynamicMusicTrackData>();
-        RegisterTrackMenu("YOUR_Music_1_SoundSet");  //*** This name MUST match to config.cpp "class CfgSoundSets" entry
+        RegisterTrackMenu("YourPBOName_Music_1_SoundSet");  //*** This name MUST match to config.cpp "class CfgSoundSets" entry (change yourPBOname)
     }
 	
     override void RegisterTracksTime()
@@ -25,7 +25,7 @@ class DynamicMusicPlayerRegistryDeerisle : DynamicMusicPlayerRegistry
     override void RegisterTracksLocationDynamic()
     {
         m_TracksLocationDynamic = new array<ref DynamicMusicTrackData>();
-		RegisterTrackLocationDynamic("Your_Music_2_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.ANY); //Remove this line to have no toxic zone music
+		RegisterTrackLocationDynamic("YourPBOName_Music_2_SoundSet", DynamicMusicLocationTypes.CONTAMINATED_ZONE, DynamicMusicPlayerTimeOfDay.ANY); //Remove only this line to have no toxic zone music (change yourPBOname if keeping)
 		// Remove this entire override to keep default toxic zone music
     }
 }
