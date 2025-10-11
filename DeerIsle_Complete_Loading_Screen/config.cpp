@@ -9,11 +9,7 @@ class CfgPatches
 		requiredAddons[] = {
 			"DZ_Data",
 			"DZ_Scripts",
-			"DZ_Gear_Consumables",
-			"DZ_Vehicles_Wheeled",
-			"DZ_Structures_Residential",
-			"DZ_Sounds_Effects",
-			"DZ_Sounds_Weapons"
+			"DZ_Sounds_Effects"
 		};
 	};
 };
