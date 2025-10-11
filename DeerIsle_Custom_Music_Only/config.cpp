@@ -1,7 +1,7 @@
 class CfgPatches
 {
 	//*** Change "YourPBOName" & "YourMENUtrackName" where ever you see it below in this and all files
-	class YourPBOName
+	class YourPBOName_Music
 	{
 		units[] = {}; 
 		weapons[] = {};
@@ -16,7 +16,7 @@ class CfgPatches
 
 class CfgMods
 {
-	class DZ_YourPBOName
+	class DZ_YourPBOName_Music
 	{
 	    dir = "YourPBOName"; 
 	    picture = "";
