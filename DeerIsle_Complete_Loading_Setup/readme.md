@@ -32,6 +32,7 @@ Download the directory structure [from this link](https://download-directory.git
 * 11. Pack your loading screen pbo, then pack a mod with this pbo included
 
 ### SHOULD YOU WANT TO REMOVE A SECTION:
+**FIRST CHECK THE OTHER FOLDERS IN THIS GIT FOR 'ONLY' ATTACHED TO THE NAME**
 * if you need only one (1) pic, set the variable i to "int i = 0;" & only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of /Scripts/3_Game/loading_screen.c
 * To remove ALL music: delete the soundshaders & soundset functions in config.cpp & delete /Scripts/5_Mission/MainMenuMusic.c & /Scripts/3_game/DynamicMusicPlayerRegistryDeerisle.c
 * To remove only the ambient music and/or the contaminated area music, refer to the [readme.md](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/Loading_Screen_Vanilla/Scripts/readme.md) (ambient track section) in Scripts folder
