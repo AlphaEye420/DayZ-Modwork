@@ -33,7 +33,8 @@ class CfgMods
 
 		dependencies[]= 
 		{
-			"Game"
+			"Game",
+			"Mission"
 		};
 		
 		class defs
@@ -44,6 +45,15 @@ class CfgMods
 				files[]=
 				{
 					"YourPBOName/Scripts/3_Game" 
+				};
+			};
+		
+			class missionScriptModule
+			{
+				value="";
+				files[]=
+				{
+					"YourPBOName/Scripts/5_Mission"
 				};
 			};
 		};
