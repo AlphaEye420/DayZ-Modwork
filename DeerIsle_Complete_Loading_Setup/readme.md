@@ -1,7 +1,7 @@
 ## CUSTOM LOADING SCREEN for Deer Isle
 
 ### LOADING SCREEN & HINTS + MAINMENU CHAR SCENE & LAYOUT + InGameMENU + MENU MUSIC
-! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / works with DAYZ 1.27 and only supported as such !
+! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / works with DAYZ 1.28 and only supported as such !
 
 **ATTENTION: DAYZ 1.27 UPDATES:**
 * Added one function to the end of MainMenu.c _(removes 1.27 feedback and patreon)_
