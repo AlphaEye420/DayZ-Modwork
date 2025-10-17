@@ -3,12 +3,6 @@
 ### LOADING SCREEN & HINTS + MAINMENU CHAR SCENE & LAYOUT + InGameMENU + MENU MUSIC
 ! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / works with DAYZ 1.28 and only supported as such !
 
-**ATTENTION: DAYZ 1.27 UPDATES:**
-* Added one function to the end of MainMenu.c _(removes 1.27 feedback and patreon)_
-* Added day_z_ingamemenu.layout and ingamemenu.c _(removes 1.27 feedback and ip header)_
-* Added Hints Scroll box in upper right for Lobby _(the one from ingamemenu)_
-* Removed an unneeded music menu file in 5_Mission
-
 ### To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
 First note there is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
