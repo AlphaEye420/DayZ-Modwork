@@ -1,4 +1,4 @@
-## CUSTOM MENU MUSIC for DAYZ
+## CUSTOM MENU MUSIC for DAYZ - works on Deer Isle
 * CONFIG.CPP : you need to change the names of "YourPBOName" and your ogg file (add more shaders and matching soundsets if you wish)
 * DATA FOLDER : your ogg files go here
 * SCRIPTS/3_Game folder contains the call for your music
