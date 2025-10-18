@@ -9,5 +9,5 @@
   * UiHintPanel.c - name changes at top and bottom of file
   * LoadingScreens.c - change the pbo names AND the edds file names to match yours 
     * *(note that the first class has different syntax for calling the edds than the last two classes in the file)*
-* GUI folder has the two layouts for hints (on load, and in main menu lobby) 
-  * No need to edit, and careful if you decide to edit, challenging to fix syntax errors
+  * GUI folder has the two layouts for hints (on load, and in main menu lobby) 
+    * No need to edit, and careful if you decide to edit, challenging to fix syntax errors
