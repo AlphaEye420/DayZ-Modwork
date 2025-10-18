@@ -68,6 +68,11 @@ class CfgSoundShaders
 		samples[] = {{"YourPBOName\Data\YourMENUtrackName",1}};  //*** Change "YourMENUtrackName"
 		volume=0.786;
 	};
+	class YourPBOName_Music_2_SoundShader
+	{
+		samples[] = {{"YourPBOName\Data\YourOTHERtrackName",1}};  //*** Change "YourMENUtrackName"
+		volume=0.786;
+	};
 };
 
 class CfgSoundSets
@@ -78,6 +83,16 @@ class CfgSoundSets
 		soundShaders[]=
 		{
 			"YourPBOName_Music_1_SoundShader"
+		};
+		volumeFactor=1;
+		frequencyFactor=1;
+		spatial=0;
+	};
+	class YourPBOName_Music_2_SoundSet
+	{
+		soundShaders[]=
+		{
+			"YourPBOName_Music_2_SoundShader"
 		};
 		volumeFactor=1;
 		frequencyFactor=1;
