@@ -1,4 +1,4 @@
-## Deer Isle Custom Main Menu Layouts
+## Custom Main Menu Layouts for DayZ - works with Deer Isle
 **Change "YourPBOName" where ever you see it in all files**
 ### Files included and what to do with them:
 * config.cpp - name changes needed
