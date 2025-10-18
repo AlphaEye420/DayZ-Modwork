@@ -1,8 +1,6 @@
-## CUSTOM LOADING SCREEN for Deer Isle
-
+## FULL CUSTOM LOADING SETUP for Deer Isle
 ### LOADING SCREEN & HINTS + MAINMENU CHAR SCENE & LAYOUT + InGameMENU + MENU MUSIC
-! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / works with DAYZ 1.28 and only supported as such !
-
+*! THIS PACKABLE PBO WAS MADE FOR DEERISLE 5.9 / works with DAYZ 1.28 and only supported as such !*
 ### To use this template follow all of these steps - match exactly correct or it will not work:
 ~~~
 First note there is no pbo to download.  You add your pics and music to a directory, edit text and pack your own pbo.
@@ -25,16 +23,7 @@ Download the directory structure [from this link](https://download-directory.git
 * 10. In DynamicMusicPlayerRegistryDeerisle.c edit your menu music name, and then the military and city coordinates for ambient tracks; comment out with 2 slashes anything you don't need to register _(this is setup for DEER ISLE ONLY!)_
 * 11. Pack your loading screen pbo, then pack a mod with this pbo included
 
-### SHOULD YOU WANT TO REMOVE A SECTION:
-**FIRST CHECK THE OTHER FOLDERS IN THIS GIT FOR 'ONLY' ATTACHED TO THE NAME**
-* if you need only one (1) pic, set the variable i to "int i = 0;" & only have a "if (i==0)" line IN EACH OF THE 3 SECTIONS of /Scripts/3_Game/loading_screen.c
-* To remove ALL music: delete the soundshaders & soundset functions in config.cpp & delete /Scripts/5_Mission/MainMenuMusic.c & /Scripts/3_game/DynamicMusicPlayerRegistryDeerisle.c
-* To remove only the ambient music and/or the contaminated area music, refer to the [readme.md](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/Loading_Screen_Vanilla/Scripts/readme.md) (ambient track section) in Scripts folder
-* To remove the loading screen pictures, remove your /Data edds files & delete /Scripts/3_Game/loading_screen.c
-* To remove the main menu layout, delete /Scripts/5_Mission/MainMenu.c & the "/Scripts/5_Mission/gui" mainmenu.layout
-* To remove the in game main menu layout, delete /Scripts/5_Mission/InGameMenu.c & the "/Scripts/5_Mission/gui" ingamemenu.layout
-* To remove the character scene location the delete the last cfg section in config.cpp
-* To remove the custom hints delete the hints.json in data folder +and+ within /Scripts/3_Game/ delete HintPage.c, UiHintPanal.c. and delete /Scripts/3_Game/gui folder
+### SHOULD YOU WANT ONLY A PORTION: **LOOK IN THIS GIT FOR 'ONLY' ATTACHED TO THE FOLDER NAME**
 
 **BE SURE TO CHANGE YourPBOname** in all of the files!!  Use an editor and search for them all. See the scripts folder readme too.
 
