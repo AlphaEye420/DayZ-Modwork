@@ -3,6 +3,7 @@ modded class LoadingScreen {
 	void LoadingScreen(DayZGame game) {
 		Class.CastTo(m_ImageLogoMid, m_WidgetRoot.FindAnyWidget("ImageLogoMid"));
 		Class.CastTo(m_ImageLogoCorner, m_WidgetRoot.FindAnyWidget("ImageLogoCorner"));
+		Class.CastTo(m_ModdedWarning, m_WidgetRoot.FindAnyWidget("ModdedWarning"));
 		m_ImageLogoMid.Show(false);
 		m_ImageLogoCorner.Show(false);
 		//m_ModdedWarning.Show( false ); // uncomment this call to remove modded server warning
