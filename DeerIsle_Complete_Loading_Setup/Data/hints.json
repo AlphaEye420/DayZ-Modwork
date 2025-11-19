@@ -8,5 +8,10 @@
 		"m_Headline": "Enjoying Deer Isle Map",
 		"m_ImagePath": "",
 		"m_Description": "Click on the Deer Isle icon on the main menu screen which takes you to Deer Isle's DayZ map website"
+	},
+	{
+		"m_Headline": "Say More",
+		"m_ImagePath": "",
+		"m_Description": "Add as many hints as you like"
 	}
 ]

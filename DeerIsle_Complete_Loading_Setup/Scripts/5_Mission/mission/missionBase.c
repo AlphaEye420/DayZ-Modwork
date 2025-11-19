@@ -3,7 +3,7 @@
     override void InitialiseWorldData()
     {
 
-        m_WorldData = new ChernarusPlusData();
+        m_WorldData = new DeerisleData();
         m_DynamicMusicPlayerRegistry = new DynamicMusicPlayerRegistryDeerisle();
 
     }
