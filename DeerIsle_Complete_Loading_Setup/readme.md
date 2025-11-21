@@ -34,6 +34,7 @@ _____
 * Music not playing
   * Your ogg file failed _(try other music files, and make sure to use mp3s and convert using my provided link)_
   * Your config.cpp is setup incorrectly with either soundset/shaders or paths
+  * 5_Mission/mission/missionbase.c needs to point to DeerIsleData (not ChernarusPlus, you may have an old version of this file)
 * Logo missing
   * 5_mission/gui 2 main menu layouts have a path for your logo, 
     * Say data/ folder if you put it in there, or move or copy your edds file to the imagesets folder
