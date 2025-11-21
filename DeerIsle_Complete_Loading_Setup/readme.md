@@ -5,7 +5,7 @@
 
 [STEAM MOD REFERENCE](https://steamcommunity.com/sharedfiles/filedetails/?id=3608490988) Now included! 
 
-Download the directory structure [from this link](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/DeerIsle_Complete_Loading_Setup.zip) and make a copy of the structure into YourPBOName directory
+Download the directory structure [from this link](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/DeerIsle_Complete_Loading_Setup.zip) (click download raw file), and make a copy of the structure into YourPBOName directory
 * 1. Open into an editor ALL of the files you created _(files other than your ogg and edds)_
 * 2. Put all of your loading screen edds pictures files and ogg music files in the folder called 'data'
 * 3. Put all of your custom icons and logo files in the folder called '/Scripts/5_Mission/gui/imagesets' - some standard issue icons provided for you already
