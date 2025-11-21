@@ -1,7 +1,7 @@
 # DayZ-Modwork
 Drops containing tools & files for various DayZ mods and server administration
 
-### [Click for YoutTube LOADING SCREEN TUTORIAL for DEER ISLE 5.9](https://www.youtube.com/watch?v=4lco0PH3AAY)
+### [Click for YouTube LOADING SCREEN TUTORIAL for DEER ISLE 5.9](https://www.youtube.com/watch?v=4lco0PH3AAY)
 
 **I WORK WITH DEER ISLE MAP ON MY SERVER**
 
