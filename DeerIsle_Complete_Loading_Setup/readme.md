@@ -4,6 +4,7 @@
 ### To use this template follow all of these steps - match exactly correct or it will not work:
 
 [STEAM MOD REFERENCE](https://steamcommunity.com/sharedfiles/filedetails/?id=3608490988) Now included! 
+[YOUTUBE TUTORIAL LINK](https://www.youtube.com/watch?v=4lco0PH3AAY)
 
 Download the directory structure [from this link](https://github.com/AlphaEye420/DayZ-Modwork/blob/main/DeerIsle_Complete_Loading_Setup.zip) (click download raw file), and make a copy of the structure into YourPBOName directory
 * 1. Open into an editor ALL of the files you created _(files other than your ogg and edds)_
