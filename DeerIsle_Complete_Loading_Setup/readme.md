@@ -26,5 +26,23 @@ Download the directory structure [from this link](https://download-directory.git
 ### SHOULD YOU WANT ONLY A PORTION: **LOOK IN THIS GIT FOR 'ONLY' ATTACHED TO THE FOLDER NAME**
 
 **BE SURE TO CHANGE YourPBOname** in all of the files!!  Use an editor and search for them all. See the scripts folder readme too.
-
+_____
+*___Troubleshooting:___*
+* Loading Screen
+  * White Screen = corrupt edds file
+  * DI Screen = path in loadingscreen.c is wrong, or your logic for randomizing is incorrect
+* Music not playing
+  * Your ogg file failed _(try other music files, and make sure to use mp3s and convert using my provided link)_
+  * Your config.cpp is setup incorrectly with either soundset/shaders or paths
+* Logo missing
+  * 5_mission/gui 2 main menu layouts have a path for your logo, 
+    * Say data/ folder if you put it in there, or move or copy your edds file to the imagesets folder
+  * Your edds file is corrupt if you see a white box
+  * If stretched, then in the above layouts you may have misrepresented the size
+* Play button doesn't work = Set your IP in mainmenu.c
+* Discord button customization
+  * Icon links are set in mainmenu.c
+  * *_(Keep DeerIsle icon set to JMC's website so people don't come here trying to find the server admin!)_*
+* Expansion: general settings: set 3 settings for loading to 0, then set the path to your logo at bottom
+_____
 You can contact me (AlphaEye) via my discord server general-chat channel https://discord.gg/BdkSUQENhM
