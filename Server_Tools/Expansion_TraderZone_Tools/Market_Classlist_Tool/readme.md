@@ -1,6 +1,6 @@
 ## Market Classlist Maker
 
-1. DL or Make a MakeClassList.bat and MakeClassList.ps1 file out of these somewhere in your PC folders  (name 2 files exactly these names!)
+1. DL or Make: MakeClassList.bat and MakeClassList.ps1 files from the provided code somewhere in your PC folders  (name 2 files exactly these names!)
 2. In DayZ\Profiles\ExpansMod\Market, select all and drag them onto the .bat file
 
 You will get a class list of all of what you are selling on in your market.
