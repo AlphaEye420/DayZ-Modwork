@@ -9,9 +9,9 @@ by AlphaEye
 
 **Server Owners Repacking:** 
 
-This pbo was made prior to splitting up the mod into 1 pbo per skin.  DO NOT USE THIS PBO WITH ANY OTHER INSULATED CAMO PBO - THIS IS AN ALL-IN-ONE PBO!  The advantage to using this version is if you plan on using ALL skins, the admin tools list is more manageable
+This pbo was made prior to splitting up the mod into 1 pbo per skin.  DO NOT USE THIS PBO WITH ANY OTHER INSULATED CAMO PBO - THIS IS AN ALL-IN-ONE PBO!  The advantage to using this version is if you plan on using ALL skins, the admin tools list is more manageable.
 
-_On the steam page, skins are broken up into .pbo's so you can add only the skins you want in a repack.  You MUST have the base pbo (InsulatedCamo_base.pbo for any of the skin pbo's to work!_
+_On the steam page, skins are broken up into .pbo's so you can add only the skins you want in a repack.  You MUST have the base pbo (InsulatedCamo_base.pbo) for any of the skin pbo's to work!_
 
 Do what you want with this mod.  The .paa textiles are all pictures that are available in a Google Search, and all objects and meshes are vanilla.
 
@@ -76,6 +76,9 @@ ___
 * **Boots:** 
 	* _There are ONLY 3 colors of Insulated & Waterproof Boots - Jet Black, Brown, Green_
 	* Located in the pbo that has no '_skin' tag
+	
+### IMPORTANT:
+The original BlackOps mod inspired this one, and I have added a lot to the skins, changed some on screen names, but I kept the attributes. You can "upgrade" from that mod because I kept the names of the types.xml the same, so if you remove that mod and install this one before you start the server again, players won't lose any gear.
 
 ### Change Log
 * v1 Released up to Camo7 (built from a template)
