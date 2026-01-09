@@ -7,7 +7,13 @@ by AlphaEye
 * 14 Skins each with 32 items + bonus 3 skins of boots
 * As an extension of vanilla gear, this is an extremely small mod at 14MB
 
-**Server Owners Repacking:** Skins are broken up into .pbo's so you can add only the skins you want in a repack.  You MUST have the base pbo (InsulatedCamo.pbo which contains the boots) for any of the skin pbo's to work!  Do what you want with this mod.  The .paa textiles are all pictures that are available in a Google Search, and all objects and meshes are vanilla.
+**Server Owners Repacking:** 
+
+This pbo was made prior to splitting up the mod into 1 pbo per skin.  DO NOT USE THIS PBO WITH ANY OTHER INSULATED CAMO PBO - THIS IS AN ALL-IN-ONE PBO!  The advantage to using this version is if you plan on using ALL skins, the admin tools list is more manageable
+
+_On the steam page, skins are broken up into .pbo's so you can add only the skins you want in a repack.  You MUST have the base pbo (InsulatedCamo_base.pbo for any of the skin pbo's to work!_
+
+Do what you want with this mod.  The .paa textiles are all pictures that are available in a Google Search, and all objects and meshes are vanilla.
 
 ____
 ### Types Codes for Skins:  
@@ -70,9 +76,7 @@ ___
 * **Boots:** 
 	* _There are ONLY 3 colors of Insulated & Waterproof Boots - Jet Black, Brown, Green_
 	* Located in the pbo that has no '_skin' tag
-	
-NOTE: Due to using separated pbos for skins, the list of items will show up sorted by camo#.  Should you want to have them appear in admin list sorted by item type, AND you intend to use all of the skins, then you can find a better ALL in 1 pbo on my github.  If you repack the master list mod, do not use the individual pbos from this mod.
-	
+
 ### Change Log
 * v1 Released up to Camo7 (built from a template)
 * v2 Added camo8-13 (expanded template)
