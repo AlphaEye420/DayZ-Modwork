@@ -74,7 +74,7 @@ ____
 	* Hiking Pants
 ___
 * **Boots:** 
-	* _There are ONLY 3 colors of Insulated & Waterproof Boots - Jet Black, Brown, Green_
+	* _There are ONLY 4 colors of Insulated & Waterproof Boots - Jet Black, Brown, Green, Grey_
 	
 ### IMPORTANT:
 The original [BlackOps](https://steamcommunity.com/sharedfiles/filedetails/?id=2311093275) mod inspired this one, and I have added a lot to the skins, changed some on screen names, but I kept the attributes. You can "upgrade" from that mod because I kept the names of the types.xml the same, so if you remove that mod and install this one before you start the server again, players won't lose any gear.
