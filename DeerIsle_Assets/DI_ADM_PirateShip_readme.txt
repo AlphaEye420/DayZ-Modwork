@@ -65,7 +65,7 @@
 				</dispatch>
 		</group>
 		
-// CFGRANDOMPRESETS.XML  (suggested change to seachest)
+// CFGSPAWNABLETYPES.XML  (suggested change to seachest)
 	<type name="SeaChest">
 		<cargo preset="mixVillage" />
 		<cargo preset="mixHunter" />
@@ -95,3 +95,4 @@
 		<hoarder />
 
 	</type>
+
