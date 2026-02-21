@@ -1,3 +1,6 @@
+// Edit the missions folder files to add a dynamic pirate ship event to your server
+// You can place whatever you want - Default is seachest with random chance goods
+
 // TYPES.XML  
   <type name="ADM_Wreck_PirateShip">
     <nominal>0</nominal>
@@ -90,4 +93,5 @@
 		<cargo preset="toolsHunter" />
 		<cargo preset="toolsIndustrial" />
 		<hoarder />
+
 	</type>
