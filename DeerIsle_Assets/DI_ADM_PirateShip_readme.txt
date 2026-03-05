@@ -93,4 +93,6 @@
 		<cargo preset="toolsHunter" />
 		<cargo preset="toolsIndustrial" />
 		<hoarder />
+
 	</type>
+
