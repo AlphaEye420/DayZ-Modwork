@@ -1,5 +1,6 @@
 # Search-Files.ps1
 # Interactive search tool for *.json, *.xml, and *.map files
+# Right click this .ps1 file and select Run with PowerShell
 
 while ($true) {
     # Prompt for input
