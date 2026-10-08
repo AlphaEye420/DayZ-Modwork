@@ -1,3 +1,0 @@
-These trader files were AUTO-GENERATED using an app - not tuned!
-
-**YOU NEED TO SET UP YOUR OWN ECONOMY AS PRICES ARE ALL SAME STARTING VALUE**
