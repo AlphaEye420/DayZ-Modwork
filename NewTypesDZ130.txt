@@ -45,7 +45,6 @@
 "GhillieHood_Desert"
 "GhillieSuit_Desert"
 "GhillieTop_Desert"
-"Glock_Tan"
 "GunCaseKeys_Blue"
 "GunCaseKeys_Orange"
 "GunCaseKeys_Red"
