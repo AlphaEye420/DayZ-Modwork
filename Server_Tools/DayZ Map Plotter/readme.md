@@ -1,5 +1,5 @@
 # **DayZ Map Plotter** - version 1.01 BETA
-> **Developed by AlphaEye** ©2025/2026
+> **Developed by AlphaEye** ©2025/2026  
 > Coordinates are extracted and displayed as points over a map background of your choosing  
 > You can then edit, organize, analyze and/or export your 'map assembly' into several mission file formats  
 > *Supports DayZ 1.30 & DayZ Expansion Mod Files*
