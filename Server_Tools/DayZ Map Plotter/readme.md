@@ -7,6 +7,7 @@
 ### To Install:
 * You need both map.zip files and the v1_01 BETA zip file
 * Install by unzipping all 3 zip files into one folder *(naming of your choice)*
+* Ensure the \MAPS folder has the 12 jpgs from both zip folders in it, *otherwise you will see a black screen*
 * Simply double click the .exe file, and the rest of the settings files are created and app is ready to go!
 
 #### Share freely but only as is in its zip file!
