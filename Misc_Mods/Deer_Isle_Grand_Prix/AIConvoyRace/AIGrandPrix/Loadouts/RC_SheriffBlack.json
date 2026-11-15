@@ -1,0 +1,267 @@
+{
+    "ClassName": "",
+    "Include": "",
+    "Chance": 1.0,
+    "Quantity": {"Min": 0.0, "Max": 0.0},
+    "Health": [],
+    "InventoryAttachments": [
+        {
+            "SlotName": "Hands",
+            "Items": [
+                {
+                    "ClassName": "CZ527_Black",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0, "Max": 0},
+                    "Health": [],
+                    "InventoryAttachments": [
+                        {
+                            "SlotName": "",
+                            "Items": [
+                                {
+                                    "ClassName": "Mag_CZ527_5rnd",
+                                    "Include": "",
+                                    "Chance": 1,
+                                    "Quantity": {"Min": 0, "Max": 0},
+                                    "Health": [],
+                                    "InventoryAttachments": [],
+                                    "InventoryCargo": [],
+                                    "ConstructionPartsBuilt": [],
+                                    "Sets": []
+                                }
+                            ]
+                        }
+                    ],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Legs",
+            "Items": [
+                {
+                    "ClassName": "PolicePants",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [
+                        {
+                            "ClassName": "BandageDressing",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 1.0, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_CZ527_5rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 1.0, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Deagle",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 1.0, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Body",
+            "Items": [
+                {
+                    "ClassName": "BushlatPoliceJacket_Blue",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [
+                        {
+                            "ClassName": "Mag_CZ527_5rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.4, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_CZ527_5rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.4, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "CombatKnife",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.0, "Max": 0.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "SewingKit",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.0, "Max": 0.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_Deagle_9rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.25, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_Deagle_9rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.5, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_Deagle_9rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.75, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "EyeWear",
+            "Items": [
+                {
+                    "ClassName": "AviatorGlasses",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0, "Max": 0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Headgear",
+            "Items": [
+                {
+                    "ClassName": "DirtBikeHelmet_Police",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Gloves",
+            "Items": [
+                {
+                    "ClassName": "WorkingGloves_Black",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Feet",
+            "Items": [
+                {
+                    "ClassName": "JungleBoots_Black",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Vest",
+            "Items": [
+                {
+                    "ClassName": "PoliceVest",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        }
+    ],
+    "InventoryCargo": [],
+    "ConstructionPartsBuilt": []
+}

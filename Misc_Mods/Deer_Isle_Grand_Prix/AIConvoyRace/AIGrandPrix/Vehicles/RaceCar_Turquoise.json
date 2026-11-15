@@ -1,0 +1,35 @@
+{
+    "VehicleClassName": "MBM_ChevyImpala_Turquoise",
+    "VehicleAttachments": [
+        "HeadlightH7",
+        "HeadlightH7",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_doors_cargo2_Turquoise",
+        "MBM_ChevyImpala_doors_cargo1_Turquoise",
+        "MBM_ChevyImpala_doors_hood_Turquoise",
+        "MBM_ChevyImpala_doors_trunk_Turquoise",
+        "MBM_ChevyImpala_doors_driver_Turquoise",
+        "MBM_ChevyImpala_doors_codriver_Turquoise",
+        "carradiator",
+        "SparkPlug",
+        "CarBattery"
+    ],
+    "CargoItems": [
+    ],
+    "CargoPresets": [
+        "AIConvoy_Explosives",
+        "AIConvoy_Supplies",
+        "AIConvoy_Weapon",
+        "AIConvoy_Ammo",
+        "AIConvoy_Gear",
+        "AIConvoy_Medical",
+        "AIConvoy_Food"
+    ],
+    "VehicleDamageStopThreshold": 0.5,
+    "StopDamageTotal": 2000,
+    "RuinEngineOnStop": 1
+}

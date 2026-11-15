@@ -1,0 +1,35 @@
+{
+    "VehicleClassName": "MBM_ChevyImpala_Zagorky_RaceCar",
+    "VehicleAttachments": [
+        "HeadlightH7",
+        "HeadlightH7",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_Wheel_RaceCar",
+        "MBM_ChevyImpala_doors_cargo2_Zagorky_RaceCar",
+        "MBM_ChevyImpala_doors_cargo1_Zagorky_RaceCar",
+        "MBM_ChevyImpala_doors_codriver_Zagorky_RaceCar",
+        "MBM_ChevyImpala_doors_driver_Zagorky_RaceCar",
+        "MBM_ChevyImpala_doors_hood_Zagorky_RaceCar",
+        "MBM_ChevyImpala_doors_trunk_Zagorky_RaceCar",
+        "carradiator",
+        "SparkPlug",
+        "CarBattery"
+    ],
+    "CargoItems": [
+    ],
+    "CargoPresets": [
+        "AIConvoy_Explosives",
+        "AIConvoy_Supplies",
+        "AIConvoy_Weapon",
+        "AIConvoy_Ammo",
+        "AIConvoy_Gear",
+        "AIConvoy_Medical",
+        "AIConvoy_Food"
+    ],
+    "VehicleDamageStopThreshold": 0.5,
+    "StopDamageTotal": 2000,
+    "RuinEngineOnStop": 1
+}

@@ -1,0 +1,574 @@
+{
+    "ClassName": "",
+    "Include": "",
+    "Chance": 1.0,
+    "Quantity": {"Min": 0.0, "Max": 0.0},
+    "Health": [],
+    "InventoryAttachments": [
+        {
+            "SlotName": "Hands",
+            "Items": [
+                {
+                    "ClassName": "SawedoffFAMAS",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0, "Max": 0},
+                    "Health": [],
+                    "InventoryAttachments": [
+                        {
+                            "SlotName": "",
+                            "Items": [
+                                {
+                                    "ClassName": "Mag_FAMAS_25Rnd",
+                                    "Include": "",
+                                    "Chance": 1,
+                                    "Quantity": {"Min": 0, "Max": 0},
+                                    "Health": [],
+                                    "InventoryAttachments": [],
+                                    "InventoryCargo": [],
+                                    "ConstructionPartsBuilt": [],
+                                    "Sets": []
+                                }
+                            ]
+                        }
+                    ],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Legs",
+            "Items": [
+                {
+                    "ClassName": "PolicePantsOrel",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [
+                        {
+                            "ClassName": "BandageDressing",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 1.0, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_FAMAS_25Rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.5, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Glock19",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 1.0, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Body",
+            "Items": [
+                {
+                    "ClassName": "PoliceJacketOrel",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [
+                        {
+                            "ClassName": "RGD5Grenade",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.0, "Max": 0.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "M67Grenade",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.0, "Max": 0.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "CombatKnife",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.0, "Max": 0.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "M18SmokeGrenade_Red_Contaminated",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.0, "Max": 0.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_Glock_15Rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.25, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_Glock_15Rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.5, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        },
+                        {
+                            "ClassName": "Mag_Glock_15Rnd",
+                            "Include": "",
+                            "Chance": 1.0,
+                            "Quantity": {"Min": 0.75, "Max": 1.0},
+                            "Health": [],
+                            "InventoryAttachments": [],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "EyeWear",
+            "Items": [
+                {
+                    "ClassName": "AviatorGlasses",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0, "Max": 0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Headgear",
+            "Items": [
+                {
+                    "ClassName": "PoliceCap",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Gloves",
+            "Items": [
+                {
+                    "ClassName": "WorkingGloves_Black",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Feet",
+            "Items": [
+                {
+                    "ClassName": "JungleBoots_Black",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        },
+        {
+            "SlotName": "Vest",
+            "Items": [
+                {
+                    "ClassName": "PoliceVest",
+                    "Include": "",
+                    "Chance": 1.0,
+                    "Quantity": {"Min": 0.0, "Max": 0.0},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ]
+        }
+    ],
+    "InventoryCargo": [],
+    "ConstructionPartsBuilt": [],
+    "Sets": [
+        {
+            "ClassName": "WEAPON",
+            "Include": "",
+            "Chance": 0.5,
+            "Quantity": {"Min": 0, "Max": 0},
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "Saiga",
+                            "Include": "",
+                            "Chance": 1,
+                            "Quantity": {"Min": 0, "Max": 0},
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Saiga_Bttstck",
+                                            "Include": "",
+                                            "Chance": 1,
+                                            "Quantity": {"Min": 0, "Max": 0},
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        },
+                                        {
+                                            "ClassName": "Mag_Saiga_8Rnd",
+                                            "Include": "",
+                                            "Chance": 1,
+                                            "Quantity": {"Min": 1, "Max": 1},
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Mag_Saiga_8Rnd",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 1, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_12gaSlug",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0.6, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "WEAPON",
+            "Include": "",
+            "Chance": 0.5,
+            "Quantity": {"Min": 0, "Max": 0},
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "R12",
+                            "Include": "",
+                            "Chance": 1,
+                            "Quantity": {"Min": 0, "Max": 0},
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Ammo_12gaSlug",
+                                            "Include": "",
+                                            "Chance": 1,
+                                            "Quantity": {"Min": 0, "Max": 0},
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Ammo_12gaPellets",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0.2, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_12gaSlug",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0.2, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_12gaSlug",
+                    "Include": "",
+                    "Chance": 0.5,
+                    "Quantity": {"Min": 1, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "WEAPON",
+            "Include": "",
+            "Chance": 0.5,
+            "Quantity": {"Min": 0, "Max": 0},
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "Izh18Shotgun",
+                            "Include": "",
+                            "Chance": 1,
+                            "Quantity": {"Min": 0, "Max": 0},
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Ammo_12gaSlug",
+                                            "Include": "",
+                                            "Chance": 1,
+                                            "Quantity": {"Min": 0, "Max": 0},
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Ammo_12gaSlug",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 1, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        },
+        {
+            "ClassName": "WEAPON",
+            "Include": "",
+            "Chance": 0.5,
+            "Quantity": {"Min": 0, "Max": 0},
+            "Health": [],
+            "InventoryAttachments": [
+                {
+                    "SlotName": "Shoulder",
+                    "Items": [
+                        {
+                            "ClassName": "Izh43Shotgun",
+                            "Include": "",
+                            "Chance": 1,
+                            "Quantity": {"Min": 0, "Max": 0},
+                            "Health": [],
+                            "InventoryAttachments": [
+                                {
+                                    "SlotName": "",
+                                    "Items": [
+                                        {
+                                            "ClassName": "Ammo_12gaSlug",
+                                            "Include": "",
+                                            "Chance": 1,
+                                            "Quantity": {"Min": 0, "Max": 0},
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        },
+                                        {
+                                            "ClassName": "HuntingOptic",
+                                            "Include": "",
+                                            "Chance": 1,
+                                            "Quantity": {"Min": 0, "Max": 0},
+                                            "Health": [],
+                                            "InventoryAttachments": [],
+                                            "InventoryCargo": [],
+                                            "ConstructionPartsBuilt": [],
+                                            "Sets": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "InventoryCargo": [],
+                            "ConstructionPartsBuilt": [],
+                            "Sets": []
+                        }
+                    ]
+                }
+            ],
+            "InventoryCargo": [
+                {
+                    "ClassName": "Ammo_12gaSlug",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0.2, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_12gaPellets",
+                    "Include": "",
+                    "Chance": 1,
+                    "Quantity": {"Min": 0.2, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                },
+                {
+                    "ClassName": "Ammo_12gaPellets",
+                    "Include": "",
+                    "Chance": 0.5,
+                    "Quantity": {"Min": 1, "Max": 1},
+                    "Health": [],
+                    "InventoryAttachments": [],
+                    "InventoryCargo": [],
+                    "ConstructionPartsBuilt": [],
+                    "Sets": []
+                }
+            ],
+            "ConstructionPartsBuilt": [],
+            "Sets": []
+        }
+    ]
+}

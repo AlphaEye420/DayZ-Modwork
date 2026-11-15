@@ -1,0 +1,8 @@
+{
+    "NumberOfAI":  1,
+    "Units":  [],
+    "Faction":  "Convoy",
+    "Loadout":  "RC_Spite",
+    "LootableOnDeath":  1,
+    "BodyDespawnSeconds":  600
+}

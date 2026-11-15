@@ -1,0 +1,35 @@
+{
+    "VehicleClassName": "MBM_ChevyImpala_Fronta_RaceCar",
+    "VehicleAttachments": [
+        "HeadlightH7",
+        "HeadlightH7",
+        "MBM_ChevyImpala_Wheel_RaceCar_Orange",
+        "MBM_ChevyImpala_Wheel_RaceCar_Orange",
+        "MBM_ChevyImpala_Wheel_RaceCar_Orange",
+        "MBM_ChevyImpala_Wheel_RaceCar_Orange",
+        "MBM_ChevyImpala_Wheel_RaceCar_Orange",
+        "MBM_ChevyImpala_doors_cargo2_Fronta_RaceCar",
+        "MBM_ChevyImpala_doors_cargo1_Fronta_RaceCar",
+        "MBM_ChevyImpala_doors_codriver_Fronta_RaceCar",
+        "MBM_ChevyImpala_doors_driver_Fronta_RaceCar",
+        "MBM_ChevyImpala_doors_hood_Fronta_RaceCar",
+        "MBM_ChevyImpala_doors_trunk_Fronta_RaceCar",
+        "carradiator",
+        "SparkPlug",
+        "CarBattery"
+    ],
+    "CargoItems": [
+    ],
+    "CargoPresets": [
+        "AIConvoy_Explosives",
+        "AIConvoy_Supplies",
+        "AIConvoy_Weapon",
+        "AIConvoy_Ammo",
+        "AIConvoy_Gear",
+        "AIConvoy_Medical",
+        "AIConvoy_Food"
+    ],
+    "VehicleDamageStopThreshold": 0.5,
+    "StopDamageTotal": 2000,
+    "RuinEngineOnStop": 1
+}

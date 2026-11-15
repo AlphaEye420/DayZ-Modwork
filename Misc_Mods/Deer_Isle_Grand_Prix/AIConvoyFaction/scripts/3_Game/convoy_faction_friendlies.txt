@@ -1,0 +1,40 @@
+Based on how Expansion does their Factions:
+
+* Convoy Faction Members will be attacked by AI of every faction except Guards and other Convoy Members
+
+* Convoy Faction Members will NOT attack Guards, Passives, Civilians and Observers
+
+NOTICE: if you have a modded faction and the passing result of IsFriendly(other) is by default true (like civilians)
+	You will need to modify the Faction
+	
+	
+	
+	
+Example for making Convoys attack Civilian Faction
+	
+	modded class eAIFactionCivilian : eAIFaction
+	{
+		override bool IsFriendly(notnull eAIFaction other)
+		{
+			if (!super.IsFriendly(other)) return false; // <--- if convoys already attack this faction, then we're good
+
+			if (other.IsInherited(eAIFactionConvoy)) return false; // <--- makes convoys attack this faction
+
+			return true; // < -- Civilians, Guards, Passive, and Observers are the only factions that are true by default
+		}
+	};
+	
+	
+	
+	
+In the following case, nothing needs to be done as the false result is default:
+	
+	class eAIFactionShamans : eAIFaction
+	{
+		override bool IsFriendly(notnull eAIFaction other)
+		{
+			if (super.IsFriendly(other)) return true;
+
+			return false;
+		}
+	};
